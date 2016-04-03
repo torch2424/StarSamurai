@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class StateManager : MonoBehaviour {
 
@@ -91,7 +92,7 @@ public class StateManager : MonoBehaviour {
 
 		//Check if we need to restart the game
 		if(Input.GetKey(KeyCode.Return)) {
-			Application.LoadLevel ("GameMain");
+			SceneManager.LoadScene ("GameMain");
 		}
 
 		//Spawn enemies every frame
@@ -214,7 +215,7 @@ public class StateManager : MonoBehaviour {
 		++defeatedEnemies;
 
 		//Increase our score
-		score = (int) Math.Floor(score + defeatedEnemies + (1000 * Math.Abs(UnityEngine.Random.insideUnitCircle.x)));
+		score = (int) Math.Floor(score + defeatedEnemies + Math.Abs(1000 * Math.Abs(UnityEngine.Random.insideUnitCircle.x)));
 
 		//Show our score and things
 		hud.text = ("Enemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);

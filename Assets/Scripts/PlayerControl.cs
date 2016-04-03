@@ -68,6 +68,7 @@ public class PlayerControl : BaseCharacter {
 
 			//set health to 0
 			curHealth = 0;
+
 		} else {
 
 			//Call moving
@@ -208,19 +209,21 @@ public class PlayerControl : BaseCharacter {
 	void OnCollisionStay2D(Collision2D collision)
 	{
 
-		//Check if it is the floor
-		if (collision.gameObject.tag == "Floor" ||
-			collision.gameObject.tag == "EnemyChar") {
-			//Set Jumps to zero
-			jumps = 0;
-			jumping = false;
-			animator.SetBool ("Jump", false);
-		}
-
 		//Check if it is spikes
 		if (collision.gameObject.tag == "SpikeWall") {
 			//Kill the players
 			setHealth (0);
+		}
+
+		//Check if it is the floor
+		if (collision.gameObject.tag == "EnemyChar") {
+
+			//Set Jumps to zero
+			jumps = 0;
+			jumping = false;
+			animator.SetBool ("Jump", false);
+			actionCamera.impactPause();
+			actionCamera.startShake ();
 		}
 
 		//Check if it is an enemy
@@ -258,8 +261,6 @@ public class PlayerControl : BaseCharacter {
 					//Play the attack sound
 					if(attackHit.isPlaying) attackHit.Stop();
 					attackHit.Play ();
-
-					Debug.Log ("BossDamage");
 				}
 
 			}
