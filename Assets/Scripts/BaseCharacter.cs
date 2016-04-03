@@ -31,6 +31,9 @@ public class BaseCharacter : MonoBehaviour {
 	//Hurt Sound
 	private AudioSource hurt;
 
+	//Our current Direction
+	private int direction;
+
 	//Our last animation direction for idling
 	protected int lastDir;
 
@@ -54,7 +57,7 @@ public class BaseCharacter : MonoBehaviour {
 		canRegen = true;
 
 		//Default looking idle
-		animator.SetInteger("Direction", 0);
+		direction = 1;
 
 		//Get our gammaneger
 		gameManager = GameObject.Find("StateManager").GetComponent<StateManager>();
@@ -62,7 +65,7 @@ public class BaseCharacter : MonoBehaviour {
 		//Get our camera script
 		actionCamera = Camera.main.GetComponent<CameraFeel>();
 
-		hurt = GameObject.Find ("Hurt").GetComponent<AudioSource> ();
+		//hurt = GameObject.Find ("Hurt").GetComponent<AudioSource> ();
 	}
 
 	// Update is called once per frame
@@ -88,10 +91,10 @@ public class BaseCharacter : MonoBehaviour {
 
 
 	//Function to move our Character
-	public void Move (float direction, bool inAction)
+	public void Move (float inputDirection, bool inAction)
 	{
 		//Get our input
-		float h = direction;
+		float h = inputDirection;
 
 		//Force some camera Lerp
 		actionCamera.forceLerp(h / 200, 0);
@@ -108,10 +111,10 @@ public class BaseCharacter : MonoBehaviour {
 			 * */
 
 			if (h > 0) {
-				animator.SetInteger ("Direction", 1);
+				direction = 1;
 				lastDir = 1;
 			} else {
-				animator.SetInteger ("Direction", -1);
+				direction = -1;
 				lastDir = -1;
 			}
 
@@ -135,9 +138,12 @@ public class BaseCharacter : MonoBehaviour {
 			float superSpeed = moveSpeed / moveDec;
 
 			//Can't go above .5 though
-			if (superSpeed > .032f) {
-				superSpeed = .032f;
+			if (superSpeed > (.032f * moveSpeed)) {
+				superSpeed = (.032f * moveSpeed);
 			}
+
+			//Flip our sprite
+			setFlip();
 
 			//Move to that position
 			charBody.MovePosition (charBody.position + movement * superSpeed);
@@ -150,7 +156,7 @@ public class BaseCharacter : MonoBehaviour {
 			charBody.MovePosition (charBody.position);
 
 			//tell the animator we are no longer moving
-			animator.SetInteger ("Direction", 0);
+			direction = 0;
 		}
 	}
 
@@ -207,11 +213,27 @@ public class BaseCharacter : MonoBehaviour {
 
 	//Function to return our current direction
 	public int getDirection() {
-		return animator.GetInteger("Direction");
+		return direction;
 	}
 
 	//Function to return our last non idle direction
 	public int getLastDirection() {
 		return lastDir;
+	}
+
+	//function to flip the sprite
+	public void setFlip() {
+
+		//Get the direction
+		if (direction > 0) {
+
+			//Right
+			render.flipX = false;
+
+		} else if(direction < 0) {
+
+			//Left
+			render.flipX = true;
+		}
 	}
 }

@@ -100,11 +100,11 @@ public class StateManager : MonoBehaviour {
 			//hud.text = ("Health: " + user.getHealth () + "\tScore: " + score);
 
 			//start the music! if it is not playing
-			if(bgFight && !bgFight.isPlaying)
-			{
-				bgFight.Play();
-				bgFight.loop = true;
-			}
+			//if(!bgFight.isPlaying)
+			//{
+				//bgFight.Play();
+				//bgFight.loop = true;
+			//}
 		}
 		else
 		{
