@@ -264,7 +264,7 @@ public class StateManager : MonoBehaviour {
 		bgFight.Pause();
 
 		//wait a tiny bit
-		for(int i = 5; i > 0; i--) {
+		for(int i = 20; i > 0; i--) {
 			yield return new WaitForFixedUpdate();
 		}
 
