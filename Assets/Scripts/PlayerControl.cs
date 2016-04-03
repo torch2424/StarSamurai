@@ -76,7 +76,6 @@ public class PlayerControl : BaseCharacter {
 
 			//Attacks with our player (Check for a level up here as well), only attack if not jumping
 			if (Input.GetKey (KeyCode.Backspace) &&
-				!jumping &&
 				!gameManager.getGameStatus()) {
 
 				//Now since we are allowing holding space to punch we gotta count for it
@@ -131,6 +130,12 @@ public class PlayerControl : BaseCharacter {
 		attack.Play ();
 
 		//Knock Forward
+		float knockMove = 0.0025f;
+		//Get our directions
+		if (lastDir == 1)
+			gameObject.transform.position = new Vector3 (gameObject.transform.position.x + knockMove, gameObject.transform.position.y, 0);
+		else if (lastDir == -1)
+			gameObject.transform.position = new Vector3 (gameObject.transform.position.x - knockMove, gameObject.transform.position.y, 0);
 
 		//Let the frame finish
 		yield return new WaitForFixedUpdate();

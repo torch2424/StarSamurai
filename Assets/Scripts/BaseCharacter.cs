@@ -4,7 +4,7 @@ using System.Collections;
 public class BaseCharacter : MonoBehaviour {
 
 	//Our player sprite
-	protected Rigidbody2D charBody;
+	public Rigidbody2D charBody;
 
 	//Our player movepseed
 	public float moveSpeed;
@@ -50,7 +50,7 @@ public class BaseCharacter : MonoBehaviour {
 		//Set our default values
 		//maxHealth = 25; Max Health set by inspector
 		moveDec = 1;
-		lastDir = -1;
+		lastDir = 1;
 
 		//Set our health
 		curHealth = maxHealth;

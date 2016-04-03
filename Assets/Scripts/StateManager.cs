@@ -46,12 +46,20 @@ public class StateManager : MonoBehaviour {
 	//Our score
 	private int score;
 
+	//Our slowmom
+	private int currentSlowmo;
+	private int maxSlowmo;
+	private float slowmoRate;
+
 
 	//Our background music
 	public AudioSource bgFight;
 	//Our background music
 	public AudioSource deathSound;
 	private bool deathPlayed;
+
+	//Our select sound
+	public AudioSource select;
 
 	//Array pf things to say once you die
 	String[] epitaph = {"See you space samurai..."};
@@ -94,8 +102,13 @@ public class StateManager : MonoBehaviour {
 		hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
 
 		//Spawn an enemies
-		totalFrames = 100;
+		totalFrames = 500;
 		updateFrames = totalFrames;
+
+		//All of our slow mo stats
+		maxSlowmo = 60;
+		currentSlowmo = maxSlowmo;
+		slowmoRate = 0.025f;
 	}
 
 	// Update is called once per frame
@@ -103,7 +116,8 @@ public class StateManager : MonoBehaviour {
 
 		//Check if we need to restart the game
 		if(Input.GetKey(KeyCode.Return)) {
-			SceneManager.LoadScene ("GameMain");
+
+			StartCoroutine ("resetScene");
 		}
 
 		if (gameWin) {
@@ -117,23 +131,7 @@ public class StateManager : MonoBehaviour {
 				StartCoroutine ("creditsFade");
 			}
 		}
-		//Spawn enemies every frame
-		else if (!gameOver) {
-
-			//Get the score for the player
-			//Going to calculate by enemies defeated, level, and minutes passed
-			score = (int)(defeatedEnemies * 100) + defeatedEnemies;
-
-			//Show our score and things
-			hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
-
-			//start the music! if it is not playing
-			if (!bgFight.isPlaying) {
-				bgFight.Play ();
-				bgFight.loop = true;
-			}
-		}
-		else
+		else if(gameOver)
 		{
 			//First get our epitaph index
 			int epitaphIndex = 0;
@@ -166,35 +164,77 @@ public class StateManager : MonoBehaviour {
 			//Slow down the game Time
 			Time.timeScale = 0.45f;
 		}
+		else {
 
+			//Do normal stuff
 
-		//Spawn an enemy every 500 frames
-		if(updateFrames == 0) {
+			//Get the score for the player
+			//Going to calculate by enemies defeated, level, and minutes passed
+			score = (int)(defeatedEnemies * 100) + defeatedEnemies;
 
-			//Spawn an enemy 
-			if(numEnemies < maxEnemies) {
+			//Show our score and things
+			hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
 
-				//Spawn the enemy
-				//StartCoroutine("spawnEnemy");
-
-				if (totalFrames - spawnRateFrames > 0) {
-
-					totalFrames = (int)(totalFrames - spawnRateFrames);
-					updateFrames = totalFrames;
-				} else
-					updateFrames = 0;
+			//start the music! if it is not playing
+			if (!bgFight.isPlaying) {
+				bgFight.Play ();
+				bgFight.loop = true;
 			}
+				
+
+			//Do some slowmo
+			//Attacks with our player (Check for a level up here as well), only attack if not jumping
+			if (Input.GetKeyDown (KeyCode.P) &&
+				!gameOver && 
+				Time.timeScale >= 1.0f) {
+
+				//Now since we are allowing holding space to punch we gotta count for it
+				if (currentSlowmo >= maxSlowmo) {
+
+					//Time
+					Time.timeScale = 0.25f;
+
+					currentSlowmo = 0;
+				}
+
+			} else if (currentSlowmo < maxSlowmo) {
+
+				currentSlowmo++;
+
+				//Time
+				if (Time.timeScale < 1.0f)
+					Time.timeScale = Time.timeScale + slowmoRate;
+				else
+					Time.timeScale = 1.0f;
+			}
+
+
+			//Spawn an enemy every 500 frames
+			if(updateFrames == 0) {
+
+				//Spawn an enemy 
+				if(numEnemies < maxEnemies) {
+
+					//Spawn the enemy
+					//StartCoroutine("spawnEnemy");
+
+					if (totalFrames - spawnRateFrames > 0) {
+
+						totalFrames = (int)(totalFrames - spawnRateFrames);
+						updateFrames = totalFrames;
+					} else
+						updateFrames = 0;
+				}
+			}
+			else updateFrames--;
 		}
-		else updateFrames--;
 
 	}
 
 	//Function to spawn and enemy
 	IEnumerator spawnEnemy() {
 		
-		Vector2 spawnPos = Vector2.zero;
-
-		spawnPos.x = 1.0f;
+		Vector2 spawnPos = new Vector2 (user.transform.position.x + 2.0f, user.transform.position.y + 2.0f);
 
 
 		//Spawn our enemy
@@ -241,13 +281,31 @@ public class StateManager : MonoBehaviour {
 		hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
 
 		//Remove the block if we have defeated all the enemies
-		if(defeatedEnemies >= 29) {
+		if(defeatedEnemies >= 19) {
 
 			//Destroy the block
 			Destroy (GameObject.Find ("KeyBlock"));
 
+			//As well asremove the text
+			GameObject.Find("KeyText").GetComponent<UnityEngine.UI.Text>().enabled = false;
+
 			//As well as play a special sound
 		}
+	}
+
+	//Function to reset the scene
+	public IEnumerator resetScene() {
+
+		//Play Selectect
+		select.Play();
+
+		//wait a tiny bit
+		for(int i = 5; i > 0; i--) {
+			yield return new WaitForFixedUpdate();
+		}
+
+		//Load the scene
+		SceneManager.LoadScene ("GameMain");
 	}
 
 
