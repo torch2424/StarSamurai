@@ -28,9 +28,6 @@ public class BaseCharacter : MonoBehaviour {
 	//our camera Script
 	protected CameraFeel actionCamera;
 
-	//Hurt Sound
-	private AudioSource hurt;
-
 	//Our current Direction
 	protected int direction;
 
@@ -64,8 +61,6 @@ public class BaseCharacter : MonoBehaviour {
 
 		//Get our camera script
 		actionCamera = Camera.main.GetComponent<CameraFeel>();
-
-		//hurt = GameObject.Find ("Hurt").GetComponent<AudioSource> ();
 	}
 
 	// Update is called once per frame
