@@ -186,7 +186,8 @@ public class PlayerControl : BaseCharacter {
 		}
 
 		//Check if it is the floor
-		if (collision.gameObject.tag == "Floor") {
+		if (collision.gameObject.tag == "Floor" ||
+			collision.gameObject.tag == "EnemyChar") {
 			
 			//Set Jumps to zero
 			jumps = 0;
@@ -208,7 +209,8 @@ public class PlayerControl : BaseCharacter {
 	{
 
 		//Check if it is the floor
-		if (collision.gameObject.tag == "Floor") {
+		if (collision.gameObject.tag == "Floor" ||
+			collision.gameObject.tag == "EnemyChar") {
 			//Set Jumps to zero
 			jumps = 0;
 			jumping = false;
@@ -256,6 +258,8 @@ public class PlayerControl : BaseCharacter {
 					//Play the attack sound
 					if(attackHit.isPlaying) attackHit.Stop();
 					attackHit.Play ();
+
+					Debug.Log ("BossDamage");
 				}
 
 			}

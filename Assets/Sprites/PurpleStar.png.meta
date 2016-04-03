@@ -1,9 +1,135 @@
 fileFormatVersion: 2
 guid: c3b6b0a3f2f451845ab3bd0bff6c257e
-timeCreated: 1459677862
+timeCreated: 1459692018
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: PurpleStar_0
+    21300002: PurpleStar_1
+    21300004: PurpleStar_2
+    21300006: PurpleStar_3
+    21300008: PurpleStar_4
+    21300010: PurpleStar_5
+    21300012: PurpleStar_6
+    21300014: PurpleStar_7
+    21300016: PurpleStar_8
+    21300018: PurpleStar_9
+    21300020: PurpleStar_10
+    21300022: PurpleStar_11
+    21300024: PurpleStar_12
+    21300026: PurpleStar_13
+    21300028: PurpleStar_14
+    21300030: PurpleStar_15
+    21300032: PurpleStar_16
+    21300034: PurpleStar_17
+    21300036: PurpleStar_18
+    21300038: PurpleStar_19
+    21300040: PurpleStar_20
+    21300042: PurpleStar_21
+    21300044: PurpleStar_22
+    21300046: PurpleStar_23
+    21300048: PurpleStar_24
+    21300050: PurpleStar_25
+    21300052: PurpleStar_26
+    21300054: PurpleStar_27
+    21300056: PurpleStar_28
+    21300058: PurpleStar_29
+    21300060: PurpleStar_30
+    21300062: PurpleStar_31
+    21300064: PurpleStar_32
+    21300066: PurpleStar_33
+    21300068: PurpleStar_34
+    21300070: PurpleStar_35
+    21300072: PurpleStar_36
+    21300074: PurpleStar_37
+    21300076: PurpleStar_38
+    21300078: PurpleStar_39
+    21300080: PurpleStar_40
+    21300082: PurpleStar_41
+    21300084: PurpleStar_42
+    21300086: PurpleStar_43
+    21300088: PurpleStar_44
+    21300090: PurpleStar_45
+    21300092: PurpleStar_46
+    21300094: PurpleStar_47
+    21300096: PurpleStar_48
+    21300098: PurpleStar_49
+    21300100: PurpleStar_50
+    21300102: PurpleStar_51
+    21300104: PurpleStar_52
+    21300106: PurpleStar_53
+    21300108: PurpleStar_54
+    21300110: PurpleStar_55
+    21300112: PurpleStar_56
+    21300114: PurpleStar_57
+    21300116: PurpleStar_58
+    21300118: PurpleStar_59
+    21300120: PurpleStar_60
+    21300122: PurpleStar_61
+    21300124: PurpleStar_62
+    21300126: PurpleStar_63
+    21300128: PurpleStar_64
+    21300130: PurpleStar_65
+    21300132: PurpleStar_66
+    21300134: PurpleStar_67
+    21300136: PurpleStar_68
+    21300138: PurpleStar_69
+    21300140: PurpleStar_70
+    21300142: PurpleStar_71
+    21300144: PurpleStar_72
+    21300146: PurpleStar_73
+    21300148: PurpleStar_74
+    21300150: PurpleStar_75
+    21300152: PurpleStar_76
+    21300154: PurpleStar_77
+    21300156: PurpleStar_78
+    21300158: PurpleStar_79
+    21300160: PurpleStar_80
+    21300162: PurpleStar_81
+    21300164: PurpleStar_82
+    21300166: PurpleStar_83
+    21300168: PurpleStar_84
+    21300170: PurpleStar_85
+    21300172: PurpleStar_86
+    21300174: PurpleStar_87
+    21300176: PurpleStar_88
+    21300178: PurpleStar_89
+    21300180: PurpleStar_90
+    21300182: PurpleStar_91
+    21300184: PurpleStar_92
+    21300186: PurpleStar_93
+    21300188: PurpleStar_94
+    21300190: PurpleStar_95
+    21300192: PurpleStar_96
+    21300194: PurpleStar_97
+    21300196: PurpleStar_98
+    21300198: PurpleStar_99
+    21300200: PurpleStar_100
+    21300202: PurpleStar_101
+    21300204: PurpleStar_102
+    21300206: PurpleStar_103
+    21300208: PurpleStar_104
+    21300210: PurpleStar_105
+    21300212: PurpleStar_106
+    21300214: PurpleStar_107
+    21300216: PurpleStar_108
+    21300218: PurpleStar_109
+    21300220: PurpleStar_110
+    21300222: PurpleStar_111
+    21300224: PurpleStar_112
+    21300226: PurpleStar_113
+    21300228: PurpleStar_114
+    21300230: PurpleStar_115
+    21300232: PurpleStar_116
+    21300234: PurpleStar_117
+    21300236: PurpleStar_118
+    21300238: PurpleStar_119
+    21300240: PurpleStar_120
+    21300242: PurpleStar_121
+    21300244: PurpleStar_122
+    21300246: PurpleStar_123
+    21300248: PurpleStar_124
+    21300250: PurpleStar_125
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -27,10 +153,10 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 4096
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +164,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +175,1955 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: PurpleStar_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 92}
+        - {x: -92, y: 30}
+        - {x: -92, y: -34}
+        - {x: -60, y: -34}
+        - {x: -58, y: -32}
+        - {x: -58, y: -16}
+        - {x: -60, y: -14}
+        - {x: -58, y: -14}
+        - {x: -58, y: -16}
+        - {x: -55, y: -21}
+        - {x: -58, y: -36}
+        - {x: -66, y: -72}
+        - {x: -66, y: -92}
+        - {x: 92, y: -92}
+        - {x: 92, y: 34}
+        - {x: 38, y: 92}
+      - - {x: -54, y: 38}
+        - {x: -54, y: 30}
+        - {x: -47, y: 30}
+        - {x: -46, y: 32}
+        - {x: -46, y: 38}
+    - name: PurpleStar_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 92}
+        - {x: -92, y: 44}
+        - {x: -92, y: -92}
+        - {x: 92, y: -92}
+        - {x: 92, y: 34}
+        - {x: 38, y: 92}
+      - - {x: -54, y: 38}
+        - {x: -54, y: 30}
+        - {x: -47, y: 30}
+        - {x: -46, y: 32}
+        - {x: -46, y: 38}
+    - name: PurpleStar_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 92}
+        - {x: -92, y: 44}
+        - {x: -92, y: -92}
+        - {x: 92, y: -92}
+        - {x: 92, y: 34}
+        - {x: 38, y: 92}
+      - - {x: -54, y: 38}
+        - {x: -54, y: 30}
+        - {x: -47, y: 30}
+        - {x: -46, y: 32}
+        - {x: -46, y: 38}
+    - name: PurpleStar_3
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 92}
+        - {x: -92, y: 30}
+        - {x: -92, y: -34}
+        - {x: -60, y: -34}
+        - {x: -58, y: -32}
+        - {x: -58, y: -16}
+        - {x: -60, y: -14}
+        - {x: -58, y: -14}
+        - {x: -58, y: -16}
+        - {x: -55, y: -21}
+        - {x: -58, y: -36}
+        - {x: -66, y: -72}
+        - {x: -66, y: -92}
+        - {x: 92, y: -92}
+        - {x: 92, y: 34}
+        - {x: 38, y: 92}
+      - - {x: -54, y: 38}
+        - {x: -54, y: 30}
+        - {x: -47, y: 30}
+        - {x: -46, y: 32}
+        - {x: -46, y: 38}
+    - name: PurpleStar_4
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 92}
+        - {x: -92, y: 30}
+        - {x: -92, y: -34}
+        - {x: -60, y: -34}
+        - {x: -58, y: -32}
+        - {x: -58, y: -16}
+        - {x: -60, y: -14}
+        - {x: -58, y: -14}
+        - {x: -58, y: -16}
+        - {x: -55, y: -21}
+        - {x: -58, y: -36}
+        - {x: -66, y: -72}
+        - {x: -66, y: -92}
+        - {x: 92, y: -92}
+        - {x: 92, y: 34}
+        - {x: 38, y: 92}
+      - - {x: -54, y: 38}
+        - {x: -54, y: 30}
+        - {x: -47, y: 30}
+        - {x: -46, y: 32}
+        - {x: -46, y: 38}
+    - name: PurpleStar_5
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 92}
+        - {x: -92, y: 30}
+        - {x: -92, y: -34}
+        - {x: -60, y: -34}
+        - {x: -58, y: -32}
+        - {x: -58, y: -16}
+        - {x: -60, y: -14}
+        - {x: -58, y: -14}
+        - {x: -58, y: -16}
+        - {x: -55, y: -21}
+        - {x: -58, y: -36}
+        - {x: -66, y: -72}
+        - {x: -66, y: -92}
+        - {x: -22, y: -92}
+        - {x: 92, y: -83}
+        - {x: 92, y: 47}
+        - {x: 39, y: 92}
+      - - {x: -54, y: 38}
+        - {x: -54, y: 30}
+        - {x: -47, y: 30}
+        - {x: -46, y: 32}
+        - {x: -46, y: 38}
+    - name: PurpleStar_6
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 92}
+        - {x: -92, y: 30}
+        - {x: -92, y: -34}
+        - {x: -60, y: -34}
+        - {x: -58, y: -32}
+        - {x: -58, y: -16}
+        - {x: -60, y: -14}
+        - {x: -58, y: -14}
+        - {x: -58, y: -16}
+        - {x: -55, y: -21}
+        - {x: -58, y: -36}
+        - {x: -66, y: -72}
+        - {x: -66, y: -92}
+        - {x: -22, y: -92}
+        - {x: 92, y: -83}
+        - {x: 92, y: 47}
+        - {x: 39, y: 92}
+      - - {x: -54, y: 38}
+        - {x: -54, y: 30}
+        - {x: -47, y: 30}
+        - {x: -46, y: 32}
+        - {x: -46, y: 38}
+    - name: PurpleStar_7
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 92}
+        - {x: -92, y: 30}
+        - {x: -92, y: -34}
+        - {x: -60, y: -34}
+        - {x: -58, y: -32}
+        - {x: -58, y: -16}
+        - {x: -60, y: -14}
+        - {x: -58, y: -14}
+        - {x: -58, y: -16}
+        - {x: -55, y: -21}
+        - {x: -58, y: -36}
+        - {x: -66, y: -72}
+        - {x: -66, y: -92}
+        - {x: 92, y: -92}
+        - {x: 92, y: 34}
+        - {x: 38, y: 92}
+      - - {x: -54, y: 38}
+        - {x: -54, y: 30}
+        - {x: -47, y: 30}
+        - {x: -46, y: 32}
+        - {x: -46, y: 38}
+    - name: PurpleStar_8
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 44
+        width: 236
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80, y: -92}
+        - {x: 80, y: -64}
+        - {x: 78, y: -62}
+        - {x: 118, y: -30}
+        - {x: 118, y: 3}
+        - {x: 111, y: 11}
+        - {x: 83, y: 45}
+        - {x: 31, y: 92}
+        - {x: -31, y: 92}
+        - {x: -118, y: 38}
+        - {x: -118, y: -45}
+        - {x: -72, y: -92}
+        - {x: -32, y: -92}
+        - {x: -28, y: -88}
+        - {x: -17, y: -76}
+        - {x: 42, y: -92}
+      - - {x: -56, y: 38}
+        - {x: -56, y: 30}
+        - {x: -49, y: 30}
+        - {x: -48, y: 32}
+        - {x: -48, y: 38}
+    - name: PurpleStar_9
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 44
+        width: 236
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80, y: -92}
+        - {x: 80, y: -64}
+        - {x: 78, y: -62}
+        - {x: 118, y: -30}
+        - {x: 118, y: 3}
+        - {x: 111, y: 11}
+        - {x: 83, y: 45}
+        - {x: 31, y: 92}
+        - {x: -31, y: 92}
+        - {x: -118, y: 38}
+        - {x: -118, y: -45}
+        - {x: -72, y: -92}
+        - {x: -32, y: -92}
+        - {x: -28, y: -88}
+        - {x: -17, y: -76}
+        - {x: 42, y: -92}
+      - - {x: -56, y: 38}
+        - {x: -56, y: 30}
+        - {x: -49, y: 30}
+        - {x: -48, y: 32}
+        - {x: -48, y: 38}
+    - name: PurpleStar_10
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 44
+        width: 236
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 118, y: 7}
+        - {x: 116, y: 12}
+        - {x: 95, y: 23}
+        - {x: 35, y: 84}
+        - {x: 8, y: 88}
+        - {x: -36, y: 88}
+        - {x: -118, y: 64}
+        - {x: -118, y: -86}
+        - {x: -117, y: -88}
+        - {x: 80, y: -88}
+        - {x: 80, y: -60}
+        - {x: 78, y: -58}
+        - {x: 118, y: -26}
+    - name: PurpleStar_11
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_12
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 196
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_13
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_14
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 196
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_15
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 204
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_16
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 200
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_17
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 196
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_18
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 44
+        width: 148
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: -68}
+        - {x: -46, y: -70}
+        - {x: -50, y: -70}
+        - {x: -52, y: -72}
+        - {x: -52, y: -76}
+        - {x: -32, y: -76}
+        - {x: -28, y: -72}
+        - {x: -24, y: -60}
+        - {x: -24, y: -56}
+        - {x: -26, y: -54}
+        - {x: -28, y: -54}
+        - {x: -28, y: -52}
+        - {x: -29, y: -49}
+        - {x: -37, y: -41}
+        - {x: -32, y: -36}
+        - {x: -33, y: -41}
+        - {x: -29, y: -43}
+        - {x: -28, y: -52}
+        - {x: -26, y: -54}
+        - {x: -24, y: -54}
+        - {x: -24, y: -56}
+        - {x: -22, y: -58}
+        - {x: -18, y: -58}
+        - {x: -13, y: -55}
+        - {x: -7, y: -49}
+        - {x: -8, y: -44}
+        - {x: -10, y: -42}
+        - {x: -8, y: -42}
+        - {x: -8, y: -44}
+        - {x: -6, y: -46}
+        - {x: 48, y: -72}
+        - {x: 68, y: -52}
+        - {x: 68, y: -44}
+        - {x: 66, y: -42}
+        - {x: 54, y: -42}
+        - {x: 52, y: -44}
+        - {x: 48, y: -46}
+        - {x: 48, y: -40}
+        - {x: 46, y: -38}
+        - {x: 48, y: -38}
+        - {x: 48, y: -40}
+        - {x: 50, y: -42}
+        - {x: 62, y: -42}
+        - {x: 74, y: -39}
+        - {x: 74, y: 59}
+        - {x: 31, y: 74}
+        - {x: 6, y: 74}
+        - {x: 4, y: 72}
+        - {x: 4, y: 64}
+        - {x: 6, y: 62}
+        - {x: 3, y: 64}
+        - {x: -5, y: 61}
+        - {x: -4, y: 56}
+        - {x: -4, y: 48}
+        - {x: -2, y: 46}
+        - {x: 0, y: 46}
+        - {x: 0, y: 42}
+        - {x: -1, y: 46}
+        - {x: -4, y: 46}
+        - {x: -4, y: 52}
+        - {x: -6, y: 54}
+        - {x: -10, y: 54}
+        - {x: -12, y: 52}
+        - {x: -12, y: 44}
+        - {x: -10, y: 42}
+        - {x: -12, y: 38}
+        - {x: -12, y: 52}
+        - {x: -14, y: 54}
+        - {x: -18, y: 54}
+        - {x: -20, y: 52}
+        - {x: -22, y: 54}
+        - {x: -18, y: 54}
+        - {x: -16, y: 55}
+        - {x: -8, y: 72}
+        - {x: -8, y: 76}
+        - {x: -21, y: 76}
+        - {x: -74, y: 42}
+        - {x: -74, y: -6}
+        - {x: -54, y: -54}
+        - {x: -46, y: -54}
+        - {x: -44, y: -52}
+        - {x: -44, y: -50}
+        - {x: -40, y: -50}
+        - {x: -44, y: -51}
+        - {x: -44, y: -56}
+        - {x: -42, y: -58}
+        - {x: -44, y: -58}
+        - {x: -44, y: -56}
+        - {x: -46, y: -54}
+        - {x: -50, y: -54}
+        - {x: -56, y: -60}
+        - {x: -56, y: -62}
+        - {x: -58, y: -62}
+        - {x: -60, y: -64}
+        - {x: -60, y: -62}
+        - {x: -58, y: -62}
+        - {x: -56, y: -60}
+        - {x: -56, y: -56}
+        - {x: -58, y: -54}
+        - {x: -66, y: -54}
+        - {x: -68, y: -56}
+        - {x: -69, y: -69}
+        - {x: -64, y: -76}
+        - {x: -52, y: -76}
+        - {x: -52, y: -72}
+        - {x: -54, y: -70}
+        - {x: -50, y: -70}
+      - - {x: 65, y: -65}
+        - {x: 46, y: -66}
+        - {x: 44, y: -68}
+        - {x: 44, y: -76}
+        - {x: 74, y: -76}
+        - {x: 74, y: -62}
+        - {x: 70, y: -62}
+      - - {x: 64, y: -54}
+        - {x: 56, y: -54}
+        - {x: 56, y: -66}
+        - {x: 67, y: -66}
+        - {x: 68, y: -64}
+        - {x: 68, y: -58}
+      - - {x: 68, y: -56}
+        - {x: 68, y: -60}
+        - {x: 70, y: -62}
+        - {x: 74, y: -62}
+        - {x: 74, y: -54}
+        - {x: 70, y: -54}
+      - - {x: 68, y: -48}
+        - {x: 68, y: -52}
+        - {x: 70, y: -54}
+        - {x: 74, y: -54}
+        - {x: 74, y: -46}
+        - {x: 70, y: -46}
+      - - {x: -60, y: -46}
+        - {x: -54, y: -46}
+        - {x: -52, y: -45}
+        - {x: -52, y: -38}
+        - {x: -60, y: -38}
+      - - {x: -59, y: -38}
+        - {x: -52, y: -38}
+        - {x: -52, y: -30}
+        - {x: -60, y: -30}
+        - {x: -60, y: -36}
+      - - {x: 68, y: 4}
+        - {x: 68, y: 0}
+        - {x: 70, y: -2}
+        - {x: 74, y: -2}
+        - {x: 74, y: 6}
+        - {x: 70, y: 6}
+      - - {x: -12, y: 62}
+        - {x: -12, y: 54}
+        - {x: -5, y: 54}
+        - {x: -4, y: 56}
+        - {x: -4, y: 62}
+      - - {x: -8, y: 74}
+        - {x: -12, y: 70}
+        - {x: -12, y: 62}
+        - {x: 0, y: 62}
+        - {x: 0, y: 73}
+        - {x: -2, y: 74}
+    - name: PurpleStar_19
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 192
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_20
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 60
+        width: 108
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -42}
+        - {x: -28, y: -38}
+        - {x: -30, y: -36}
+        - {x: -32, y: -36}
+        - {x: -32, y: -34}
+        - {x: -34, y: -32}
+        - {x: -40, y: -32}
+        - {x: -36, y: -31}
+        - {x: -36, y: -24}
+        - {x: -34, y: -24}
+        - {x: -32, y: -22}
+        - {x: -32, y: -24}
+        - {x: -34, y: -24}
+        - {x: -36, y: -26}
+        - {x: -36, y: -30}
+        - {x: -34, y: -32}
+        - {x: -32, y: -32}
+        - {x: -32, y: -34}
+        - {x: -30, y: -36}
+        - {x: -28, y: -36}
+        - {x: -28, y: -38}
+        - {x: -26, y: -40}
+        - {x: -18, y: -40}
+        - {x: -16, y: -38}
+        - {x: -16, y: -32}
+        - {x: -16, y: -40}
+        - {x: -26, y: -40}
+        - {x: -28, y: -42}
+        - {x: -29, y: -47}
+        - {x: -25, y: -51}
+        - {x: -21, y: -63}
+        - {x: -18, y: -64}
+        - {x: -13, y: -64}
+        - {x: -5, y: -57}
+        - {x: -4, y: -54}
+        - {x: -4, y: -50}
+        - {x: -6, y: -48}
+        - {x: -4, y: -48}
+        - {x: -4, y: -50}
+        - {x: -2, y: -52}
+        - {x: 3, y: -54}
+        - {x: 19, y: -44}
+        - {x: 16, y: -38}
+        - {x: 16, y: -30}
+        - {x: 14, y: -28}
+        - {x: 16, y: -22}
+        - {x: 16, y: -30}
+        - {x: 24, y: -44}
+        - {x: 45, y: -32}
+        - {x: 41, y: -9}
+        - {x: 38, y: -8}
+        - {x: 46, y: -8}
+        - {x: 48, y: -6}
+        - {x: 48, y: 10}
+        - {x: 46, y: 12}
+        - {x: 48, y: 12}
+        - {x: 48, y: 10}
+        - {x: 50, y: 8}
+        - {x: 54, y: 8}
+        - {x: 54, y: 29}
+        - {x: 43, y: 46}
+        - {x: 38, y: 44}
+        - {x: 36, y: 42}
+        - {x: 36, y: 48}
+        - {x: 43, y: 47}
+        - {x: 46, y: 55}
+        - {x: 36, y: 66}
+        - {x: 8, y: 66}
+        - {x: 0, y: 54}
+        - {x: 0, y: 42}
+        - {x: 2, y: 40}
+        - {x: 4, y: 40}
+        - {x: 4, y: 36}
+        - {x: 3, y: 40}
+        - {x: 0, y: 40}
+        - {x: 0, y: 46}
+        - {x: -2, y: 48}
+        - {x: -6, y: 48}
+        - {x: -8, y: 46}
+        - {x: -8, y: 38}
+        - {x: -6, y: 36}
+        - {x: -8, y: 32}
+        - {x: -8, y: 46}
+        - {x: -10, y: 48}
+        - {x: -14, y: 48}
+        - {x: -16, y: 46}
+        - {x: -18, y: 48}
+        - {x: -14, y: 48}
+        - {x: -12, y: 50}
+        - {x: -8, y: 58}
+        - {x: -7, y: 63}
+        - {x: -15, y: 66}
+        - {x: -45, y: 61}
+        - {x: -54, y: 39}
+        - {x: -54, y: -56}
+        - {x: -48, y: -63}
+        - {x: -42, y: -60}
+        - {x: -40, y: -58}
+        - {x: -40, y: -56}
+        - {x: -36, y: -56}
+        - {x: -40, y: -57}
+        - {x: -41, y: -63}
+        - {x: -38, y: -66}
+        - {x: -27, y: -66}
+        - {x: -26, y: -53}
+        - {x: -33, y: -47}
+      - - {x: -28, y: -62}
+        - {x: -28, y: -66}
+        - {x: -20, y: -66}
+        - {x: -20, y: -62}
+        - {x: -22, y: -60}
+        - {x: -26, y: -60}
+      - - {x: 37, y: -44}
+        - {x: 36, y: -45}
+        - {x: 36, y: -66}
+        - {x: 49, y: -66}
+        - {x: 52, y: -55}
+        - {x: 52, y: -44}
+      - - {x: 48, y: -54}
+        - {x: 48, y: -66}
+        - {x: 54, y: -66}
+        - {x: 54, y: -52}
+        - {x: 50, y: -52}
+      - - {x: 16, y: -44}
+        - {x: 16, y: -50}
+        - {x: 18, y: -52}
+        - {x: 30, y: -52}
+        - {x: 32, y: -50}
+        - {x: 32, y: -44}
+      - - {x: 48, y: -18}
+        - {x: 48, y: -16}
+        - {x: 50, y: -16}
+        - {x: 52, y: -14}
+        - {x: 54, y: -9}
+        - {x: 52, y: -8}
+        - {x: 40, y: -8}
+        - {x: 40, y: -44}
+        - {x: 54, y: -44}
+        - {x: 54, y: -16}
+        - {x: 50, y: -16}
+      - - {x: 18, y: -32}
+        - {x: 16, y: -34}
+        - {x: 16, y: -38}
+        - {x: 18, y: -40}
+        - {x: 22, y: -40}
+        - {x: 24, y: -38}
+        - {x: 24, y: -34}
+        - {x: 22, y: -32}
+      - - {x: -54, y: 8}
+        - {x: -54, y: 0}
+        - {x: -50, y: 0}
+        - {x: -48, y: 2}
+        - {x: -48, y: 6}
+        - {x: -50, y: 8}
+      - - {x: 48, y: 6}
+        - {x: 48, y: 2}
+        - {x: 50, y: 0}
+        - {x: 54, y: 0}
+        - {x: 54, y: 8}
+        - {x: 50, y: 8}
+      - - {x: -4, y: 64}
+        - {x: -4, y: 56}
+        - {x: 3, y: 56}
+        - {x: 4, y: 58}
+        - {x: 4, y: 64}
+    - name: PurpleStar_21
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 188
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_22
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 184
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_23
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 172
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_24
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 176
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_25
+      rect:
+        serializedVersion: 2
+        x: 3676
+        y: 172
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_26
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 168
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_27
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 168
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_28
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 168
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_29
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 168
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_30
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 168
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_31
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 168
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_32
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 160
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_33
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 164
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_34
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 160
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_35
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_36
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 160
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_37
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_38
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 160
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_39
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 140
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_40
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 156
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_41
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 156
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_42
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 156
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_43
+      rect:
+        serializedVersion: 2
+        x: 2820
+        y: 112
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 22}
+        - {x: -2, y: 6}
+        - {x: 0, y: 4}
+        - {x: 4, y: 4}
+        - {x: 6, y: 6}
+        - {x: 5, y: 4}
+        - {x: -12, y: 4}
+        - {x: -16, y: -7}
+        - {x: -16, y: -22}
+        - {x: 9, y: -22}
+        - {x: 16, y: -20}
+        - {x: 16, y: 22}
+    - name: PurpleStar_44
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_45
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 152
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_46
+      rect:
+        serializedVersion: 2
+        x: 3656
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_47
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 144
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_48
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 116
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 18}
+        - {x: -22, y: 11}
+        - {x: -22, y: -15}
+        - {x: -9, y: -18}
+        - {x: 22, y: -18}
+        - {x: 22, y: 4}
+        - {x: 17, y: 18}
+      - - {x: 14, y: 8}
+        - {x: 12, y: 6}
+        - {x: 12, y: 2}
+        - {x: 14, y: 0}
+        - {x: 18, y: 0}
+        - {x: 20, y: 2}
+        - {x: 20, y: 6}
+        - {x: 18, y: 8}
+      - - {x: -20, y: 18}
+        - {x: -20, y: 14}
+        - {x: -18, y: 12}
+        - {x: -14, y: 12}
+        - {x: -12, y: 14}
+        - {x: -12, y: 18}
+    - name: PurpleStar_49
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 144
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_50
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 148
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_51
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 140
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_52
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 148
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_53
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 148
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_54
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 140
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_55
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 148
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_56
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 140
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_57
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 128
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_58
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 144
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_59
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 140
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_60
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_61
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 124
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_62
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 136
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_63
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 136
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_64
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 136
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_65
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 136
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_66
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 136
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_67
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 136
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_68
+      rect:
+        serializedVersion: 2
+        x: 3728
+        y: 136
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_69
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_70
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_71
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 128
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_72
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 128
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_73
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_74
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_75
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_76
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_77
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 128
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_78
+      rect:
+        serializedVersion: 2
+        x: 3704
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_79
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 132
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_80
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 128
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_81
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 128
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_82
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_83
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 128
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_84
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 124
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_85
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 124
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_86
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_87
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_88
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_89
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_90
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_91
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_92
+      rect:
+        serializedVersion: 2
+        x: 3704
+        y: 120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_93
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 120
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_94
+      rect:
+        serializedVersion: 2
+        x: 3244
+        y: 116
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_95
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 116
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_96
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 112
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_97
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 116
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_98
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 112
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_99
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 84
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_100
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 112
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_101
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 112
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_102
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 112
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_103
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_104
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 100
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_105
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_106
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_107
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_108
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 108
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_109
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 100
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_110
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 96
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_111
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 92
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_112
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 88
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_113
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 92
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_114
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 80
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_115
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 88
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_116
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 84
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_117
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 80
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_118
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 56
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_119
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_120
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 68
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_121
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 64
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_122
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 64
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_123
+      rect:
+        serializedVersion: 2
+        x: 2984
+        y: 44
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_124
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 60
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PurpleStar_125
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 44
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 

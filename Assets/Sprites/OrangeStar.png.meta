@@ -1,9 +1,77 @@
 fileFormatVersion: 2
 guid: bbbe80fae593f3a4b968e39e0712acbb
-timeCreated: 1459677861
+timeCreated: 1459691859
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: OrangeStar_0
+    21300002: OrangeStar_1
+    21300004: OrangeStar_2
+    21300006: OrangeStar_3
+    21300008: OrangeStar_4
+    21300010: OrangeStar_5
+    21300012: OrangeStar_6
+    21300014: OrangeStar_7
+    21300016: OrangeStar_8
+    21300018: OrangeStar_9
+    21300020: OrangeStar_10
+    21300022: OrangeStar_11
+    21300024: OrangeStar_12
+    21300026: OrangeStar_13
+    21300028: OrangeStar_14
+    21300030: OrangeStar_15
+    21300032: OrangeStar_16
+    21300034: OrangeStar_17
+    21300036: OrangeStar_18
+    21300038: OrangeStar_19
+    21300040: OrangeStar_20
+    21300042: OrangeStar_21
+    21300044: OrangeStar_22
+    21300046: OrangeStar_23
+    21300048: OrangeStar_24
+    21300050: OrangeStar_25
+    21300052: OrangeStar_26
+    21300054: OrangeStar_27
+    21300056: OrangeStar_28
+    21300058: OrangeStar_29
+    21300060: OrangeStar_30
+    21300062: OrangeStar_31
+    21300064: OrangeStar_32
+    21300066: OrangeStar_33
+    21300068: OrangeStar_34
+    21300070: OrangeStar_35
+    21300072: OrangeStar_36
+    21300074: OrangeStar_37
+    21300076: OrangeStar_38
+    21300078: OrangeStar_39
+    21300080: OrangeStar_40
+    21300082: OrangeStar_41
+    21300084: OrangeStar_42
+    21300086: OrangeStar_43
+    21300088: OrangeStar_44
+    21300090: OrangeStar_45
+    21300092: OrangeStar_46
+    21300094: OrangeStar_47
+    21300096: OrangeStar_48
+    21300098: OrangeStar_49
+    21300100: OrangeStar_50
+    21300102: OrangeStar_51
+    21300104: OrangeStar_52
+    21300106: OrangeStar_53
+    21300108: OrangeStar_54
+    21300110: OrangeStar_55
+    21300112: OrangeStar_56
+    21300114: OrangeStar_57
+    21300116: OrangeStar_58
+    21300118: OrangeStar_59
+    21300120: OrangeStar_60
+    21300122: OrangeStar_61
+    21300124: OrangeStar_62
+    21300126: OrangeStar_63
+    21300128: OrangeStar_64
+    21300130: OrangeStar_65
+    21300132: OrangeStar_66
+    21300134: OrangeStar_67
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -27,10 +95,10 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 4096
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +106,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +117,932 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: OrangeStar_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 44
+        width: 186
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 82.611115}
+        - {x: -30, y: 82.611115}
+        - {x: -83, y: 16.611115}
+        - {x: -83, y: -31.388885}
+        - {x: -53, y: -31.388885}
+        - {x: -51, y: -29.388885}
+        - {x: -53, y: -32.388885}
+        - {x: -60, y: -64.388885}
+        - {x: -60, y: -82.388885}
+        - {x: 78, y: -82.388885}
+        - {x: 83, y: -75.388885}
+        - {x: 83, y: 40.611115}
+    - name: OrangeStar_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.944443, y: 82.611115}
+        - {x: -81.94444, y: 36.611115}
+        - {x: -81.94444, y: -82.388885}
+        - {x: 83.05556, y: -82.388885}
+        - {x: 83.05556, y: 46.611115}
+        - {x: 43.055557, y: 82.611115}
+    - name: OrangeStar_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 44
+        width: 184
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53, y: 82.611115}
+        - {x: -82, y: 27.611115}
+        - {x: -82, y: -36.388885}
+        - {x: -76, y: -82.388885}
+        - {x: 82, y: -82.388885}
+        - {x: 82, y: 58.611115}
+        - {x: 35, y: 82.611115}
+    - name: OrangeStar_3
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 44
+        width: 186
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.333313, y: 82.611115}
+        - {x: -82.33331, y: 22.611115}
+        - {x: -82.33331, y: -31.388885}
+        - {x: -52.333313, y: -31.388885}
+        - {x: -50.333313, y: -29.388885}
+        - {x: -51.333313, y: -31.388885}
+        - {x: -58.333313, y: -64.388885}
+        - {x: -58.333313, y: -82.388885}
+        - {x: 83.66669, y: -82.388885}
+        - {x: 83.66669, y: 54.611115}
+        - {x: 52.666687, y: 82.611115}
+    - name: OrangeStar_4
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 44
+        width: 184
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.888855, y: 82.611115}
+        - {x: -81.888855, y: 13.6111145}
+        - {x: -81.888855, y: -31.388885}
+        - {x: -52.888855, y: -31.388885}
+        - {x: -50.888855, y: -29.388885}
+        - {x: -51.888855, y: -31.388885}
+        - {x: -65.888855, y: -82.388885}
+        - {x: 82.111145, y: -82.388885}
+        - {x: 82.111145, y: 59.611115}
+        - {x: 27.111145, y: 82.611115}
+    - name: OrangeStar_5
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 44
+        width: 186
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.277832, y: 82.611115}
+        - {x: -29.722168, y: 82.611115}
+        - {x: -82.72217, y: 14.6111145}
+        - {x: -82.72217, y: -30.388885}
+        - {x: -81.72217, y: -31.388885}
+        - {x: -51.722168, y: -31.388885}
+        - {x: -49.722168, y: -29.388885}
+        - {x: -44.722168, y: -20.388885}
+        - {x: -44.722168, y: -25.388885}
+        - {x: -47.722168, y: -27.388885}
+        - {x: -51.722168, y: -32.388885}
+        - {x: -58.722168, y: -64.388885}
+        - {x: -58.722168, y: -82.388885}
+        - {x: 9.277832, y: -82.388885}
+        - {x: 77.27783, y: -79.388885}
+        - {x: 84.27783, y: -68.388885}
+        - {x: 84.27783, y: 26.611115}
+    - name: OrangeStar_6
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 44
+        width: 184
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.77771, y: 82.611115}
+        - {x: -81.77771, y: 44.611115}
+        - {x: -81.77771, y: -31.388885}
+        - {x: -52.77771, y: -31.388885}
+        - {x: -50.77771, y: -29.388885}
+        - {x: -51.77771, y: -31.388885}
+        - {x: -65.77771, y: -82.388885}
+        - {x: 82.22229, y: -82.388885}
+        - {x: 82.22229, y: 37.611115}
+        - {x: 60.22229, y: 82.611115}
+    - name: OrangeStar_7
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 44
+        width: 186
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.388916, y: 82.611115}
+        - {x: -42.611084, y: 82.611115}
+        - {x: -50.611084, y: 79.611115}
+        - {x: -82.611084, y: 13.6111145}
+        - {x: -82.611084, y: -36.388885}
+        - {x: -51.611084, y: -31.388885}
+        - {x: -49.611084, y: -29.388885}
+        - {x: -44.611084, y: -20.388885}
+        - {x: -44.611084, y: -25.388885}
+        - {x: -47.611084, y: -27.388885}
+        - {x: -51.611084, y: -32.388885}
+        - {x: -58.611084, y: -64.388885}
+        - {x: -58.611084, y: -82.388885}
+        - {x: 84.388916, y: -82.388885}
+        - {x: 84.388916, y: 66.611115}
+        - {x: 32.388916, y: 80.611115}
+    - name: OrangeStar_8
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 44
+        width: 184
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 70.333374, y: 82.611115}
+        - {x: -30.666626, y: 82.611115}
+        - {x: -81.666626, y: 38.611115}
+        - {x: -81.666626, y: -31.388885}
+        - {x: -52.666626, y: -31.388885}
+        - {x: -50.666626, y: -29.388885}
+        - {x: -51.666626, y: -31.388885}
+        - {x: -58.666626, y: -64.388885}
+        - {x: -58.666626, y: -82.388885}
+        - {x: 74.333374, y: -82.388885}
+        - {x: 82.333374, y: -75.388885}
+        - {x: 82.333374, y: 56.611115}
+    - name: OrangeStar_9
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 64
+        width: 186
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 74.888885}
+        - {x: -30, y: 74.888885}
+        - {x: -83, y: 8.8888855}
+        - {x: -83, y: -39.111115}
+        - {x: -53, y: -39.111115}
+        - {x: -58, y: -73.111115}
+        - {x: 83, y: -73.111115}
+        - {x: 83, y: 19.888885}
+        - {x: 31, y: 71.888885}
+    - name: OrangeStar_10
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 80
+        width: 185
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.055664, y: 66.611115}
+        - {x: -21.944336, y: 66.611115}
+        - {x: -81.944336, y: -4.3888855}
+        - {x: -81.944336, y: -46.388885}
+        - {x: -80.944336, y: -47.388885}
+        - {x: -51.944336, y: -47.388885}
+        - {x: -49.944336, y: -45.388885}
+        - {x: -50.944336, y: -47.388885}
+        - {x: -50.944336, y: -66.388885}
+        - {x: 47.055664, y: -66.388885}
+        - {x: 58.055664, y: -64.388885}
+        - {x: 83.055664, y: -52.388885}
+        - {x: 83.055664, y: 33.611115}
+      - - {x: 38.055664, y: -62.388885}
+        - {x: 38.055664, y: -66.388885}
+        - {x: 64.055664, y: -66.388885}
+        - {x: 64.055664, y: -62.388885}
+        - {x: 62.055664, y: -60.388885}
+        - {x: 40.055664, y: -60.388885}
+    - name: OrangeStar_11
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 95
+        width: 184
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 57.444443}
+        - {x: 18, y: 60.444443}
+        - {x: -33, y: 60.444443}
+        - {x: -82, y: -5.5555573}
+        - {x: -82, y: -53.555557}
+        - {x: -53, y: -53.555557}
+        - {x: -51, y: -51.555557}
+        - {x: -52, y: -53.555557}
+        - {x: -52, y: -59.555557}
+        - {x: 67, y: -59.555557}
+        - {x: 76, y: -57.555557}
+        - {x: 82, y: -52.555557}
+        - {x: 82, y: 14.444443}
+    - name: OrangeStar_12
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 111
+        width: 186
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.666748, y: -37.333336}
+        - {x: 31.666748, y: -44.333336}
+        - {x: 28.666748, y: -52.333336}
+        - {x: 83.66675, y: -52.333336}
+        - {x: 83.66675, y: 32.666664}
+        - {x: 36.666748, y: 52.666664}
+        - {x: 27.666748, y: 53.666664}
+        - {x: -29.333252, y: 53.666664}
+        - {x: -82.33325, y: -6.333336}
+        - {x: -82.33325, y: -52.333336}
+        - {x: 27.666748, y: -52.333336}
+        - {x: 30.666748, y: -38.333336}
+        - {x: 26.666748, y: -37.333336}
+    - name: OrangeStar_13
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 128
+        width: 181
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.611084, y: -7.7222214}
+        - {x: 37.611084, y: 46.27778}
+        - {x: -20.388916, y: 46.27778}
+        - {x: -22.388916, y: 38.27778}
+        - {x: -80.388916, y: -23.722221}
+        - {x: -80.388916, y: -44.72222}
+        - {x: 80.611084, y: -44.72222}
+        - {x: 80.611084, y: -12.722221}
+        - {x: 74.611084, y: -11.722221}
+      - - {x: -38.388916, y: -44.72222}
+        - {x: -39.388916, y: -41.72222}
+        - {x: -60.388916, y: -41.72222}
+        - {x: -61.388916, y: -44.72222}
+    - name: OrangeStar_14
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 172
+        width: 81
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 26.888885}
+        - {x: -32, y: 19.888885}
+        - {x: -36, y: -1.1111145}
+        - {x: -36, y: -25.111115}
+        - {x: 36, y: -25.111115}
+        - {x: 36, y: -5.1111145}
+        - {x: 35, y: 3.8888855}
+        - {x: 22, y: 24.888885}
+        - {x: -2, y: 26.888885}
+    - name: OrangeStar_15
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 195
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_16
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 216
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_17
+      rect:
+        serializedVersion: 2
+        x: 4215
+        y: 211
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_18
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 208
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_19
+      rect:
+        serializedVersion: 2
+        x: 4236
+        y: 208
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_20
+      rect:
+        serializedVersion: 2
+        x: 3932
+        y: 180
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_21
+      rect:
+        serializedVersion: 2
+        x: 3987
+        y: 188
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_22
+      rect:
+        serializedVersion: 2
+        x: 3639
+        y: 164
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_23
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 167
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_24
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 159
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_25
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 159
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_26
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 159
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_27
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 159
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_28
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 159
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_29
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 152
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_30
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 152
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_31
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 147
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_32
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 144
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_33
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 139
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_34
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 136
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_35
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 119
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_36
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 124
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_37
+      rect:
+        serializedVersion: 2
+        x: 3487
+        y: 119
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_38
+      rect:
+        serializedVersion: 2
+        x: 3516
+        y: 119
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_39
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 108
+        width: 53
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_40
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 108
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_41
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 108
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_42
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 116
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_43
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_44
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 103
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_45
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 103
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_46
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_47
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 108
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_48
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_49
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 100
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_50
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 83
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_51
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 88
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_52
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 83
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_53
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 91
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_54
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 72
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_55
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 75
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_56
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 80
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_57
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 67
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_58
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 72
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_59
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 67
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_60
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 64
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_61
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 64
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_62
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 55
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_63
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 60
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_64
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 60
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_65
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 44
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_66
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 44
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: OrangeStar_67
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 44
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 

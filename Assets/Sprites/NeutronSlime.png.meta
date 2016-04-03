@@ -1,9 +1,25 @@
 fileFormatVersion: 2
 guid: 7e227c2bcb4238c4490cc5f955e53966
-timeCreated: 1459677861
+timeCreated: 1459691705
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: NeutronSlime_0
+    21300002: NeutronSlime_1
+    21300004: NeutronSlime_2
+    21300006: NeutronSlime_3
+    21300008: NeutronSlime_4
+    21300010: NeutronSlime_5
+    21300012: NeutronSlime_6
+    21300014: NeutronSlime_7
+    21300016: NeutronSlime_8
+    21300018: NeutronSlime_9
+    21300020: NeutronSlime_10
+    21300022: NeutronSlime_11
+    21300024: NeutronSlime_12
+    21300026: NeutronSlime_13
+    21300028: NeutronSlime_14
+    21300030: NeutronSlime_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -27,10 +43,10 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 4096
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +54,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +65,426 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: NeutronSlime_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 116
+        width: 152
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -25}
+        - {x: 63, y: 48}
+        - {x: 19, y: 48}
+        - {x: 17, y: 47}
+        - {x: 20, y: 27}
+        - {x: 2, y: 48}
+        - {x: -34, y: 48}
+        - {x: -38, y: 28}
+        - {x: -76, y: -27}
+        - {x: -76, y: -48}
+        - {x: 76, y: -48}
+    - name: NeutronSlime_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 116
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80, y: -26}
+        - {x: 69, y: 32}
+        - {x: 59, y: 48}
+        - {x: -63, y: 48}
+        - {x: -80, y: 32}
+        - {x: -80, y: -42}
+        - {x: -72, y: -46}
+        - {x: -67, y: -48}
+        - {x: 80, y: -48}
+    - name: NeutronSlime_2
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 116
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 48}
+        - {x: 13, y: 47}
+        - {x: 16, y: 27}
+        - {x: -2, y: 48}
+        - {x: -38, y: 48}
+        - {x: -42, y: 28}
+        - {x: -80, y: -27}
+        - {x: -80, y: -48}
+        - {x: 80, y: -48}
+        - {x: 80, y: 3}
+        - {x: 62, y: 48}
+    - name: NeutronSlime_3
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 116
+        width: 152
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -25}
+        - {x: 63, y: 48}
+        - {x: 19, y: 48}
+        - {x: 17, y: 47}
+        - {x: 20, y: 27}
+        - {x: 2, y: 48}
+        - {x: -34, y: 48}
+        - {x: -38, y: 28}
+        - {x: -76, y: -27}
+        - {x: -76, y: -48}
+        - {x: 76, y: -48}
+    - name: NeutronSlime_4
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 116
+        width: 152
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -25}
+        - {x: 63, y: 48}
+        - {x: 19, y: 48}
+        - {x: 17, y: 47}
+        - {x: 20, y: 27}
+        - {x: 2, y: 48}
+        - {x: -34, y: 48}
+        - {x: -39, y: 28}
+        - {x: -76, y: -35}
+        - {x: -76, y: -48}
+        - {x: 76, y: -48}
+    - name: NeutronSlime_5
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 116
+        width: 152
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -25}
+        - {x: 63, y: 48}
+        - {x: 19, y: 48}
+        - {x: 17, y: 47}
+        - {x: 20, y: 27}
+        - {x: 2, y: 48}
+        - {x: -34, y: 48}
+        - {x: -39, y: 28}
+        - {x: -76, y: -35}
+        - {x: -76, y: -48}
+        - {x: 76, y: -48}
+    - name: NeutronSlime_6
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 116
+        width: 152
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -25}
+        - {x: 63, y: 48}
+        - {x: 19, y: 48}
+        - {x: 17, y: 47}
+        - {x: 20, y: 27}
+        - {x: 2, y: 48}
+        - {x: -34, y: 48}
+        - {x: -38, y: 28}
+        - {x: -76, y: -27}
+        - {x: -76, y: -48}
+        - {x: 76, y: -48}
+    - name: NeutronSlime_7
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 116
+        width: 152
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -40}
+        - {x: 69, y: -33}
+        - {x: 51, y: 56}
+        - {x: -39, y: 56}
+        - {x: -38, y: 36}
+        - {x: -36, y: 34}
+        - {x: -76, y: -43}
+        - {x: -76, y: -56}
+        - {x: 76, y: -56}
+    - name: NeutronSlime_8
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 116
+        width: 152
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -40}
+        - {x: 69, y: -33}
+        - {x: 51, y: 56}
+        - {x: -39, y: 56}
+        - {x: -38, y: 36}
+        - {x: -36, y: 34}
+        - {x: -76, y: -43}
+        - {x: -76, y: -56}
+        - {x: 76, y: -56}
+    - name: NeutronSlime_9
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 116
+        width: 152
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -28}
+        - {x: 69, y: -21}
+        - {x: 60, y: -18}
+        - {x: 36, y: -2}
+        - {x: 34, y: -2}
+        - {x: 34, y: 4}
+        - {x: 32, y: 6}
+        - {x: 34, y: 16}
+        - {x: 34, y: 0}
+        - {x: 36, y: -2}
+        - {x: 62, y: -6}
+        - {x: 74, y: 18}
+        - {x: 63, y: 44}
+        - {x: -50, y: 44}
+        - {x: -76, y: 32}
+        - {x: -76, y: 2}
+        - {x: -40, y: 2}
+        - {x: -38, y: 4}
+        - {x: -37, y: 17}
+        - {x: -38, y: 0}
+        - {x: -74, y: -29}
+        - {x: -76, y: -32}
+        - {x: -76, y: -44}
+        - {x: 76, y: -44}
+    - name: NeutronSlime_10
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 116
+        width: 152
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -28}
+        - {x: 69, y: -21}
+        - {x: 60, y: -18}
+        - {x: 36, y: -2}
+        - {x: 34, y: -2}
+        - {x: 34, y: 4}
+        - {x: 32, y: 6}
+        - {x: 34, y: 16}
+        - {x: 34, y: 0}
+        - {x: 36, y: -2}
+        - {x: 62, y: -6}
+        - {x: 74, y: 18}
+        - {x: 63, y: 44}
+        - {x: -50, y: 44}
+        - {x: -76, y: 32}
+        - {x: -76, y: 2}
+        - {x: -39, y: 0}
+        - {x: -74, y: -29}
+        - {x: -76, y: -32}
+        - {x: -76, y: -44}
+        - {x: 76, y: -44}
+    - name: NeutronSlime_11
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 116
+        width: 152
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -28}
+        - {x: 69, y: -21}
+        - {x: 60, y: -18}
+        - {x: 36, y: -2}
+        - {x: 34, y: -2}
+        - {x: 34, y: 4}
+        - {x: 32, y: 6}
+        - {x: 34, y: 16}
+        - {x: 34, y: 0}
+        - {x: 36, y: -2}
+        - {x: 62, y: -6}
+        - {x: 74, y: 18}
+        - {x: 63, y: 44}
+        - {x: -50, y: 44}
+        - {x: -76, y: 32}
+        - {x: -76, y: 2}
+        - {x: -39, y: 0}
+        - {x: -74, y: -29}
+        - {x: -76, y: -32}
+        - {x: -76, y: -44}
+        - {x: 76, y: -44}
+    - name: NeutronSlime_12
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 116
+        width: 152
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -28}
+        - {x: 69, y: -21}
+        - {x: 60, y: -18}
+        - {x: 36, y: -2}
+        - {x: 34, y: -2}
+        - {x: 34, y: 4}
+        - {x: 32, y: 6}
+        - {x: 34, y: 16}
+        - {x: 34, y: 0}
+        - {x: 36, y: -2}
+        - {x: 62, y: -6}
+        - {x: 74, y: 18}
+        - {x: 63, y: 44}
+        - {x: -50, y: 44}
+        - {x: -76, y: 32}
+        - {x: -76, y: 2}
+        - {x: -39, y: 0}
+        - {x: -74, y: -29}
+        - {x: -76, y: -32}
+        - {x: -76, y: -44}
+        - {x: 76, y: -44}
+    - name: NeutronSlime_13
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 116
+        width: 152
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -28}
+        - {x: 69, y: -21}
+        - {x: 60, y: -18}
+        - {x: 36, y: -2}
+        - {x: 34, y: -2}
+        - {x: 34, y: 4}
+        - {x: 32, y: 6}
+        - {x: 34, y: 16}
+        - {x: 34, y: 0}
+        - {x: 36, y: -2}
+        - {x: 62, y: -6}
+        - {x: 74, y: 18}
+        - {x: 63, y: 44}
+        - {x: -50, y: 44}
+        - {x: -76, y: 32}
+        - {x: -76, y: 2}
+        - {x: -39, y: 0}
+        - {x: -74, y: -29}
+        - {x: -76, y: -32}
+        - {x: -76, y: -44}
+        - {x: 76, y: -44}
+    - name: NeutronSlime_14
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 116
+        width: 152
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -28}
+        - {x: 69, y: -21}
+        - {x: 60, y: -18}
+        - {x: 36, y: -2}
+        - {x: 34, y: -2}
+        - {x: 34, y: 4}
+        - {x: 32, y: 6}
+        - {x: 34, y: 16}
+        - {x: 34, y: 0}
+        - {x: 36, y: -2}
+        - {x: 62, y: -6}
+        - {x: 74, y: 18}
+        - {x: 63, y: 44}
+        - {x: -50, y: 44}
+        - {x: -76, y: 32}
+        - {x: -76, y: 2}
+        - {x: -39, y: 0}
+        - {x: -74, y: -29}
+        - {x: -76, y: -32}
+        - {x: -76, y: -44}
+        - {x: 76, y: -44}
+    - name: NeutronSlime_15
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 116
+        width: 152
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -28}
+        - {x: 69, y: -21}
+        - {x: 60, y: -18}
+        - {x: 36, y: -2}
+        - {x: 34, y: -2}
+        - {x: 34, y: 4}
+        - {x: 32, y: 6}
+        - {x: 34, y: 16}
+        - {x: 34, y: 0}
+        - {x: 36, y: -2}
+        - {x: 62, y: -6}
+        - {x: 74, y: 18}
+        - {x: 63, y: 44}
+        - {x: -50, y: 44}
+        - {x: -76, y: 32}
+        - {x: -76, y: 2}
+        - {x: -39, y: 0}
+        - {x: -74, y: -29}
+        - {x: -76, y: -32}
+        - {x: -76, y: -44}
+        - {x: 76, y: -44}
     outline: []
   spritePackingTag: 
   userData: 

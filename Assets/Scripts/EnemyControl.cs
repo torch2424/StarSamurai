@@ -20,7 +20,7 @@ public class EnemyControl : BaseCharacter {
 	int attackFrames;
 
 	//Our Enenemy Damage Multiplier
-	private int eDamage;
+	public int eDamage;
 
 	// Use this for initialization
 	protected override void Start ()
@@ -35,7 +35,7 @@ public class EnemyControl : BaseCharacter {
 		curHealth = maxHealth;
 
 		//Set the enemy damage
-		eDamage = 10;
+		eDamage = eDamage * 10;
 
 
 		//set dead to false;
@@ -59,7 +59,7 @@ public class EnemyControl : BaseCharacter {
 		if(!gameManager.getGameStatus() && !dead && !playerCollide)
 		{
 			//Check how far we are
-			if(Vector3.Distance(gameObject.transform.position, player.transform.position) < 1.75) {
+			if(Vector3.Distance(gameObject.transform.position, player.transform.position) < 2.25) {
 
 				//Move our enemy
 				enemyMove ();
@@ -110,11 +110,17 @@ public class EnemyControl : BaseCharacter {
 
 			towards = new Vector2 (player.transform.position.x + moveAmount, 0);
 			direction = 1;
+			animator.SetBool ("Running", true);
 
-		} else {
+		} else if (h > 0) {
 
 			towards = new Vector2 (player.transform.position.x - moveAmount, 0);
 			direction = -1;
+			animator.SetBool ("Running", true);
+		} else {
+			towards = new Vector2 (player.transform.position.x + moveAmount, 0);
+			direction = 0;
+			animator.SetBool ("Running", false);
 		}
 
 

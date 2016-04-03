@@ -138,7 +138,7 @@ public class StateManager : MonoBehaviour {
 
 			if (!deathPlayed) {
 				//Play the Death Sounds
-				deathSound.Play();
+				//deathSound.Play();
 				deathPlayed = true;
 			}
 
@@ -154,7 +154,7 @@ public class StateManager : MonoBehaviour {
 			if(numEnemies < maxEnemies) {
 
 				//Spawn the enemy
-				StartCoroutine("spawnEnemy");
+				//StartCoroutine("spawnEnemy");
 
 				if (totalFrames - spawnRateFrames > 0) {
 

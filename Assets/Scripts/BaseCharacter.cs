@@ -34,6 +34,9 @@ public class BaseCharacter : MonoBehaviour {
 	//Our last animation direction for idling
 	protected int lastDir;
 
+	//Boolean to reverseflip
+	public bool reverseFlip;
+
 	// Use this for initialization
 	protected virtual void Start () {
 
@@ -226,12 +229,14 @@ public class BaseCharacter : MonoBehaviour {
 		if (direction > 0) {
 
 			//Right
-			render.flipX = false;
+			if(reverseFlip) render.flipX = true;
+			else render.flipX = false;
 
 		} else if(direction < 0) {
 
 			//Left
-			render.flipX = true;
+			if(reverseFlip) render.flipX = false;
+			else render.flipX = true;
 		}
 	}
 }
