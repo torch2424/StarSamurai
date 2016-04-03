@@ -66,7 +66,7 @@ public class StateManager : MonoBehaviour {
 		hud = GameObject.Find ("PlayerHUD").GetComponent<UnityEngine.UI.Text> ();
 
 		//get our bg music
-		//bgFight = GameObject.Find ("BgSong").GetComponent<AudioSource> ();
+		bgFight = GameObject.Find ("BgSong").GetComponent<AudioSource> ();
 		//deathSound = GameObject.Find ("Death").GetComponent<AudioSource> ();
 		deathPlayed = false;
 
@@ -106,11 +106,11 @@ public class StateManager : MonoBehaviour {
 			//hud.text = ("Health: " + user.getHealth () + "\tScore: " + score);
 
 			//start the music! if it is not playing
-			//if(!bgFight.isPlaying)
-			//{
-				//bgFight.Play();
-				//bgFight.loop = true;
-			//}
+			if(!bgFight.isPlaying)
+			{
+				bgFight.Play();
+				bgFight.loop = true;
+			}
 		}
 		else
 		{
@@ -127,8 +127,8 @@ public class StateManager : MonoBehaviour {
 
 
 			//Show our game over
-			hud.text = ("GAMEOVER!!!" + "\n" + epitaph[epitaphIndex] + "\nEnemies Defeated:" + defeatedEnemies
-				+ "\nScore:" + score +"\nPress Start/Enter to restart...");
+			hud.text = (epitaph[epitaphIndex] + "\nEnemies Defeated: " + defeatedEnemies
+				+ "\nScore: " + score +"\nPress Start/Enter to restart...");
 
 			//stop the music! if it is playing
 			if(bgFight.isPlaying)

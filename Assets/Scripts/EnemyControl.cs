@@ -4,7 +4,6 @@ using System.Collections;
 public class EnemyControl : BaseCharacter {
 
 	//Our sounds
-	private AudioSource attack;
 	private AudioSource hurt;
 
 	//Our target to fight
@@ -29,8 +28,7 @@ public class EnemyControl : BaseCharacter {
 		base.Start ();
 
 		//Get our sounds
-		//attack = GameObject.Find ("eAttack").GetComponent<AudioSource> ();
-		//hurt = GameObject.Find ("Hurt").GetComponent<AudioSource> ();
+		hurt = GameObject.Find ("Hurt").GetComponent<AudioSource> ();
 
 		//Set our Health
 		maxHealth = maxHealth / 2;
@@ -78,8 +76,8 @@ public class EnemyControl : BaseCharacter {
 			//Destroy(gameObject);
 
 			//Move our enemy out of the way and play the death animation
-			animator.SetTrigger("DeathTrigger");
-			animator.SetBool("Death", true);
+			//animator.SetTrigger("DeathTrigger");
+			//animator.SetBool("Death", true);
 
 			//Set our sorting layer as a corpse so we step on top of it
 			render.sortingLayerName = "Permenance";
@@ -171,8 +169,10 @@ public class EnemyControl : BaseCharacter {
 
 				//Play the sound of hurt, only if the game is still on
 				if (!gameManager.getGameStatus ()) {
-					//attack.Play ();
-					//hurt.Play ();
+
+					if (hurt.isPlaying)
+						hurt.Stop ();
+					hurt.Play ();
 				}
 
 				//Shake the screen

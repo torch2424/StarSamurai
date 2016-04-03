@@ -5,6 +5,8 @@ public class PlayerControl : BaseCharacter {
 
 	//Our sounds
 	private AudioSource jump;
+	private AudioSource attack;
+	private AudioSource attackHit;
 
 	//Boolean to check if attacking
 	bool attacking;
@@ -29,7 +31,9 @@ public class PlayerControl : BaseCharacter {
 		base.Start();
 
 		//Get our sounds
-		//jump = GameObject.Find ("Jump").GetComponent<AudioSource> ();
+		jump = GameObject.Find ("Jump").GetComponent<AudioSource> ();
+		attack = GameObject.Find ("Attack").GetComponent<AudioSource> ();
+		attackHit = GameObject.Find ("AttackHit").GetComponent<AudioSource> ();
 
 		//Set our actions
 		attacking = false;
@@ -53,6 +57,7 @@ public class PlayerControl : BaseCharacter {
 			//No longer turning invisible, just looping death animation
 			//play our death animation
 			animator.SetTrigger ("Death");
+
 			//play the death sound
 			//if (!death.isPlaying) {
 			//death.Play ();
@@ -78,6 +83,7 @@ public class PlayerControl : BaseCharacter {
 				{
 					//Set hold punch to zero
 					holdAttack = 0;
+
 					//Attacking working great
 					StopCoroutine("Slash");
 					StartCoroutine ("Slash");
@@ -87,12 +93,21 @@ public class PlayerControl : BaseCharacter {
 				holdAttack++;
 			}
 
+			//Check for attack Key Up
+			if(Input.GetKeyUp(KeyCode.Backspace)) {
+
+				//Set hold punch to zero
+				holdAttack = 0;
+			}
+
 			//Jumping INput, cant jump if attacking
 			if(Input.GetKeyDown(KeyCode.Space) && !attacking && 
 				jumps < 2 &&
 				!gameManager.getGameStatus()) {
 
-				//jump.Play ();
+				if (jump.isPlaying)
+					jump.Stop ();
+				jump.Play ();
 
 				//Jump Coroutine
 				StopCoroutine ("Jump");
@@ -108,8 +123,11 @@ public class PlayerControl : BaseCharacter {
 		//Set shooting to true
 		attacking = true;
 
-
 		animator.SetTrigger ("Attack");
+
+		//Play the attack sound
+		if(attack.isPlaying) attack.Stop();
+		attack.Play ();
 
 		//Knock Forward
 
@@ -234,6 +252,10 @@ public class PlayerControl : BaseCharacter {
 
 					//Add slight impact pause
 					actionCamera.startImpact();
+
+					//Play the attack sound
+					if(attackHit.isPlaying) attackHit.Stop();
+					attackHit.Play ();
 				}
 
 			}
