@@ -1,0 +1,933 @@
+fileFormatVersion: 2
+guid: 7eb41ffe2aaf77a498a031719108eebf
+timeCreated: 1459668296
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: StarSamurai_0
+    21300002: StarSamurai_1
+    21300004: StarSamurai_2
+    21300006: StarSamurai_3
+    21300008: StarSamurai_4
+    21300010: StarSamurai_5
+    21300012: StarSamurai_6
+    21300014: StarSamurai_7
+    21300016: StarSamurai_8
+    21300018: StarSamurai_9
+    21300020: StarSamurai_10
+    21300022: StarSamurai_11
+    21300024: StarSamurai_12
+    21300026: StarSamurai_13
+    21300028: StarSamurai_14
+    21300030: StarSamurai_15
+    21300032: StarSamurai_16
+    21300034: StarSamurai_17
+    21300036: StarSamurai_18
+    21300038: StarSamurai_19
+    21300040: StarSamurai_20
+    21300042: StarSamurai_21
+    21300044: StarSamurai_22
+    21300046: StarSamurai_23
+    21300048: StarSamurai_24
+    21300050: StarSamurai_25
+    21300052: StarSamurai_26
+    21300054: StarSamurai_27
+    21300056: StarSamurai_28
+    21300058: StarSamurai_29
+    21300060: StarSamurai_30
+    21300062: StarSamurai_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: StarSamurai_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 52
+        width: 160
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 86}
+        - {x: -80, y: 86}
+        - {x: -80, y: -6}
+        - {x: -54, y: -86}
+        - {x: 80, y: -86}
+        - {x: 80, y: -35}
+        - {x: 71, y: 11}
+        - {x: 52, y: 35}
+        - {x: 37, y: 51}
+    - name: StarSamurai_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 52
+        width: 152
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 84}
+        - {x: -76, y: 84}
+        - {x: -76, y: -84}
+        - {x: 76, y: -84}
+        - {x: 76, y: 22}
+        - {x: 64, y: 40}
+    - name: StarSamurai_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 52
+        width: 160
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 86}
+        - {x: -80, y: 86}
+        - {x: -80, y: -6}
+        - {x: -54, y: -86}
+        - {x: 80, y: -86}
+        - {x: 80, y: -35}
+        - {x: 71, y: 11}
+        - {x: 52, y: 35}
+        - {x: 37, y: 51}
+    - name: StarSamurai_3
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 52
+        width: 108
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 71}
+        - {x: -54, y: 60}
+        - {x: -50, y: 60}
+        - {x: -48, y: 62}
+        - {x: -48, y: 64}
+        - {x: -46, y: 64}
+        - {x: -44, y: 66}
+        - {x: -44, y: 68}
+        - {x: -42, y: 68}
+        - {x: -40, y: 70}
+        - {x: -40, y: 72}
+        - {x: -38, y: 72}
+        - {x: -36, y: 74}
+        - {x: -36, y: 76}
+        - {x: -30, y: 76}
+        - {x: -28, y: 78}
+        - {x: -28, y: 80}
+        - {x: -24, y: 80}
+        - {x: -28, y: 79}
+        - {x: -28, y: 76}
+        - {x: -34, y: 76}
+        - {x: -36, y: 74}
+        - {x: -36, y: 72}
+        - {x: -38, y: 72}
+        - {x: -40, y: 70}
+        - {x: -40, y: 68}
+        - {x: -42, y: 68}
+        - {x: -44, y: 66}
+        - {x: -44, y: 64}
+        - {x: -46, y: 64}
+        - {x: -48, y: 62}
+        - {x: -48, y: 60}
+        - {x: -50, y: 60}
+        - {x: -52, y: 58}
+        - {x: -52, y: 54}
+        - {x: -50, y: 52}
+        - {x: -46, y: 52}
+        - {x: -44, y: 54}
+        - {x: -44, y: 56}
+        - {x: -42, y: 56}
+        - {x: -40, y: 58}
+        - {x: -40, y: 60}
+        - {x: -38, y: 60}
+        - {x: -35, y: 61}
+        - {x: -31, y: 67}
+        - {x: -26, y: 68}
+        - {x: -24, y: 70}
+        - {x: -20, y: 68}
+        - {x: -26, y: 68}
+        - {x: -29, y: 67}
+        - {x: -33, y: 61}
+        - {x: -38, y: 60}
+        - {x: -40, y: 58}
+        - {x: -40, y: 56}
+        - {x: -42, y: 56}
+        - {x: -44, y: 54}
+        - {x: -44, y: 52}
+        - {x: -46, y: 52}
+        - {x: -51, y: 49}
+        - {x: -54, y: 41}
+        - {x: -45, y: 38}
+        - {x: -35, y: 49}
+        - {x: -36, y: 52}
+        - {x: -30, y: 52}
+        - {x: -28, y: 54}
+        - {x: -28, y: 52}
+        - {x: -30, y: 52}
+        - {x: -32, y: 50}
+        - {x: -32, y: 46}
+        - {x: -30, y: 44}
+        - {x: -26, y: 44}
+        - {x: -24, y: 46}
+        - {x: -24, y: 48}
+        - {x: -20, y: 48}
+        - {x: -24, y: 47}
+        - {x: -24, y: 44}
+        - {x: -30, y: 44}
+        - {x: -32, y: 42}
+        - {x: -32, y: 38}
+        - {x: -30, y: 36}
+        - {x: -22, y: 36}
+        - {x: -20, y: 38}
+        - {x: -20, y: 36}
+        - {x: -22, y: 36}
+        - {x: -32, y: 34}
+        - {x: -53, y: 15}
+        - {x: -47, y: 7}
+        - {x: -54, y: -81}
+        - {x: -54, y: -102}
+        - {x: 54, y: -102}
+        - {x: 54, y: -8}
+        - {x: 40, y: 86}
+        - {x: 27, y: 102}
+        - {x: -8, y: 102}
+        - {x: -43, y: 91}
+    - name: StarSamurai_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 52
+        width: 144
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 88}
+        - {x: -6, y: 84}
+        - {x: -4, y: 82}
+        - {x: 18, y: 82}
+        - {x: 18, y: 80}
+        - {x: 20, y: 78}
+        - {x: 18, y: 78}
+        - {x: 18, y: 80}
+        - {x: 16, y: 82}
+        - {x: 0, y: 82}
+        - {x: -2, y: 80}
+        - {x: -24, y: 78}
+        - {x: -26, y: 76}
+        - {x: -26, y: 72}
+        - {x: -24, y: 70}
+        - {x: 0, y: 70}
+        - {x: 2, y: 72}
+        - {x: 16, y: 70}
+        - {x: 30, y: 70}
+        - {x: 30, y: 68}
+        - {x: 32, y: 66}
+        - {x: 30, y: 66}
+        - {x: 30, y: 68}
+        - {x: 28, y: 70}
+        - {x: 24, y: 70}
+        - {x: 22, y: 68}
+        - {x: 22, y: 64}
+        - {x: 24, y: 62}
+        - {x: 22, y: 62}
+        - {x: 22, y: 64}
+        - {x: 20, y: 66}
+        - {x: 8, y: 70}
+        - {x: -53, y: 70}
+        - {x: -70, y: 64}
+        - {x: -72, y: 57}
+        - {x: -72, y: 45}
+        - {x: 2, y: 44}
+        - {x: 2, y: 40}
+        - {x: 4, y: 38}
+        - {x: 6, y: 38}
+        - {x: 6, y: 36}
+        - {x: 8, y: 34}
+        - {x: 14, y: 34}
+        - {x: 14, y: 31}
+        - {x: 8, y: 34}
+        - {x: 6, y: 34}
+        - {x: 6, y: 36}
+        - {x: 4, y: 38}
+        - {x: 2, y: 38}
+        - {x: 2, y: 40}
+        - {x: 0, y: 42}
+        - {x: -33, y: 44}
+        - {x: -51, y: 24}
+        - {x: -65, y: 1}
+        - {x: -72, y: -60}
+        - {x: -72, y: -88}
+        - {x: 72, y: -88}
+        - {x: 72, y: 87}
+        - {x: 44, y: 88}
+    - name: StarSamurai_5
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 52
+        width: 180
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -60}
+        - {x: 18, y: -58}
+        - {x: 12, y: -58}
+        - {x: 12, y: -50}
+        - {x: 13, y: -54}
+        - {x: 18, y: -58}
+        - {x: 20, y: -58}
+        - {x: 20, y: -60}
+        - {x: 22, y: -62}
+        - {x: 29, y: -68}
+        - {x: 90, y: -68}
+        - {x: 90, y: 4}
+        - {x: 85, y: 39}
+        - {x: 43, y: 68}
+        - {x: 32, y: 68}
+        - {x: 31, y: 63}
+        - {x: 38, y: 50}
+        - {x: 48, y: 33}
+        - {x: 48, y: 28}
+        - {x: 50, y: 26}
+        - {x: 52, y: 26}
+        - {x: 52, y: 20}
+        - {x: 54, y: 18}
+        - {x: 56, y: 18}
+        - {x: 56, y: 8}
+        - {x: 58, y: 6}
+        - {x: 60, y: 6}
+        - {x: 60, y: -12}
+        - {x: 62, y: -14}
+        - {x: 60, y: -22}
+        - {x: 60, y: -4}
+        - {x: 58, y: -2}
+        - {x: 56, y: -2}
+        - {x: 56, y: 16}
+        - {x: 54, y: 18}
+        - {x: 52, y: 18}
+        - {x: 52, y: 24}
+        - {x: 50, y: 26}
+        - {x: 48, y: 26}
+        - {x: 48, y: 32}
+        - {x: 42, y: 38}
+        - {x: 41, y: 45}
+        - {x: 35, y: 51}
+        - {x: 30, y: 63}
+        - {x: 21, y: 68}
+        - {x: -43, y: 68}
+        - {x: -79, y: 51}
+        - {x: -88, y: 3}
+        - {x: -90, y: -44}
+        - {x: -90, y: -68}
+        - {x: -64, y: -68}
+        - {x: -57, y: -54}
+        - {x: -10, y: -68}
+        - {x: 20, y: -68}
+    - name: StarSamurai_6
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 52
+        width: 180
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -56}
+        - {x: 18, y: -54}
+        - {x: 12, y: -54}
+        - {x: 12, y: -46}
+        - {x: 13, y: -50}
+        - {x: 18, y: -54}
+        - {x: 20, y: -54}
+        - {x: 20, y: -56}
+        - {x: 22, y: -58}
+        - {x: 29, y: -64}
+        - {x: 87, y: -64}
+        - {x: 90, y: -63}
+        - {x: 90, y: -40}
+        - {x: 89, y: -35}
+        - {x: 47, y: -17}
+        - {x: 3, y: 61}
+        - {x: -3, y: 64}
+        - {x: -75, y: 64}
+        - {x: -90, y: 19}
+        - {x: -90, y: -64}
+        - {x: -64, y: -64}
+        - {x: -57, y: -50}
+        - {x: -10, y: -64}
+        - {x: 20, y: -64}
+    - name: StarSamurai_7
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 52
+        width: 144
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 80}
+        - {x: -72, y: 30}
+        - {x: -72, y: -80}
+        - {x: 56, y: -80}
+        - {x: 72, y: -64}
+        - {x: 72, y: 80}
+    - name: StarSamurai_8
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 52
+        width: 152
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 84}
+        - {x: -76, y: 84}
+        - {x: -76, y: -84}
+        - {x: 76, y: -84}
+        - {x: 76, y: 22}
+        - {x: 64, y: 40}
+    - name: StarSamurai_9
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 52
+        width: 160
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: 86}
+        - {x: -80, y: 5}
+        - {x: -37, y: -86}
+        - {x: 80, y: -86}
+        - {x: 80, y: 31}
+        - {x: -35, y: 86}
+    - name: StarSamurai_10
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 52
+        width: 144
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: 86}
+        - {x: -72, y: 79}
+        - {x: -72, y: 25}
+        - {x: -6, y: -86}
+        - {x: 72, y: -86}
+        - {x: 72, y: 52}
+        - {x: 1, y: 86}
+    - name: StarSamurai_11
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 56
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 84}
+        - {x: -68, y: -10}
+        - {x: 6, y: -84}
+        - {x: 62, y: -84}
+        - {x: 68, y: -63}
+        - {x: 68, y: 41}
+        - {x: -34, y: 84}
+    - name: StarSamurai_12
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 56
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 84}
+        - {x: -68, y: -10}
+        - {x: -65, y: -27}
+        - {x: 0, y: -84}
+        - {x: 68, y: -84}
+        - {x: 68, y: 84}
+    - name: StarSamurai_13
+      rect:
+        serializedVersion: 2
+        x: 3352
+        y: 68
+        width: 148
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -37}
+        - {x: 68, y: 5}
+        - {x: 50, y: 46}
+        - {x: 8, y: 48}
+        - {x: -9, y: 23}
+        - {x: -49, y: 82}
+        - {x: -74, y: 82}
+        - {x: -74, y: -23}
+        - {x: -54, y: -82}
+        - {x: 72, y: -82}
+        - {x: 74, y: -81}
+        - {x: 74, y: -44}
+        - {x: 62, y: -44}
+    - name: StarSamurai_14
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 64
+        width: 148
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -37}
+        - {x: 68, y: 5}
+        - {x: 50, y: 46}
+        - {x: 8, y: 48}
+        - {x: -9, y: 23}
+        - {x: -49, y: 82}
+        - {x: -74, y: 82}
+        - {x: -74, y: -23}
+        - {x: -54, y: -82}
+        - {x: 72, y: -82}
+        - {x: 74, y: -81}
+        - {x: 74, y: -44}
+        - {x: 62, y: -44}
+    - name: StarSamurai_15
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 56
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 84}
+        - {x: -68, y: -10}
+        - {x: 6, y: -84}
+        - {x: 62, y: -84}
+        - {x: 68, y: -63}
+        - {x: 68, y: 41}
+        - {x: -34, y: 84}
+    - name: StarSamurai_16
+      rect:
+        serializedVersion: 2
+        x: 4120
+        y: 56
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: 84}
+        - {x: -65, y: 84}
+        - {x: -68, y: 74}
+        - {x: -68, y: 9}
+        - {x: 5, y: -84}
+        - {x: 35, y: -84}
+        - {x: 62, y: -80}
+        - {x: 68, y: -60}
+        - {x: 68, y: 20}
+        - {x: 60, y: 83}
+    - name: StarSamurai_17
+      rect:
+        serializedVersion: 2
+        x: 4376
+        y: 68
+        width: 148
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -37}
+        - {x: 68, y: 5}
+        - {x: 50, y: 46}
+        - {x: 8, y: 48}
+        - {x: -9, y: 23}
+        - {x: -49, y: 82}
+        - {x: -68, y: 82}
+        - {x: -72, y: 74}
+        - {x: -74, y: 69}
+        - {x: -74, y: 15}
+        - {x: -63, y: -24}
+        - {x: -8, y: -82}
+        - {x: 59, y: -82}
+        - {x: 74, y: -77}
+        - {x: 74, y: -44}
+        - {x: 62, y: -44}
+    - name: StarSamurai_18
+      rect:
+        serializedVersion: 2
+        x: 4632
+        y: 64
+        width: 148
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -37}
+        - {x: 68, y: 5}
+        - {x: 50, y: 46}
+        - {x: 8, y: 48}
+        - {x: -9, y: 23}
+        - {x: -49, y: 82}
+        - {x: -68, y: 82}
+        - {x: -72, y: 74}
+        - {x: -74, y: 69}
+        - {x: -74, y: 15}
+        - {x: -63, y: -24}
+        - {x: -8, y: -82}
+        - {x: 59, y: -82}
+        - {x: 74, y: -77}
+        - {x: 74, y: -44}
+        - {x: 62, y: -44}
+    - name: StarSamurai_19
+      rect:
+        serializedVersion: 2
+        x: 4888
+        y: 56
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 84}
+        - {x: -68, y: -10}
+        - {x: -65, y: -27}
+        - {x: 0, y: -84}
+        - {x: 68, y: -84}
+        - {x: 68, y: 84}
+    - name: StarSamurai_20
+      rect:
+        serializedVersion: 2
+        x: 5144
+        y: 56
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 84}
+        - {x: -68, y: -10}
+        - {x: 6, y: -84}
+        - {x: 62, y: -84}
+        - {x: 68, y: -63}
+        - {x: 68, y: 41}
+        - {x: -34, y: 84}
+    - name: StarSamurai_21
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 68
+        width: 148
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -37}
+        - {x: 68, y: 5}
+        - {x: 50, y: 46}
+        - {x: 8, y: 48}
+        - {x: -9, y: 23}
+        - {x: -49, y: 82}
+        - {x: -74, y: 82}
+        - {x: -74, y: -23}
+        - {x: -54, y: -82}
+        - {x: 72, y: -82}
+        - {x: 74, y: -81}
+        - {x: 74, y: -44}
+        - {x: 62, y: -44}
+    - name: StarSamurai_22
+      rect:
+        serializedVersion: 2
+        x: 5656
+        y: 64
+        width: 148
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -37}
+        - {x: 68, y: 5}
+        - {x: 50, y: 46}
+        - {x: 8, y: 48}
+        - {x: -9, y: 23}
+        - {x: -49, y: 82}
+        - {x: -74, y: 82}
+        - {x: -74, y: -23}
+        - {x: -54, y: -82}
+        - {x: 72, y: -82}
+        - {x: 74, y: -81}
+        - {x: 74, y: -44}
+        - {x: 62, y: -44}
+    - name: StarSamurai_23
+      rect:
+        serializedVersion: 2
+        x: 5912
+        y: 56
+        width: 136
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 84}
+        - {x: -68, y: -10}
+        - {x: 6, y: -84}
+        - {x: 62, y: -84}
+        - {x: 68, y: -63}
+        - {x: 68, y: 41}
+        - {x: -34, y: 84}
+    - name: StarSamurai_24
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 52
+        width: 144
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66, y: 86}
+        - {x: -72, y: 79}
+        - {x: -72, y: 25}
+        - {x: -6, y: -86}
+        - {x: 72, y: -86}
+        - {x: 72, y: 52}
+        - {x: 1, y: 86}
+    - name: StarSamurai_25
+      rect:
+        serializedVersion: 2
+        x: 6424
+        y: 52
+        width: 144
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 86}
+        - {x: -72, y: 4}
+        - {x: -38, y: -86}
+        - {x: 72, y: -86}
+        - {x: 72, y: 52}
+        - {x: -1, y: 86}
+    - name: StarSamurai_26
+      rect:
+        serializedVersion: 2
+        x: 6680
+        y: 52
+        width: 144
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 82}
+        - {x: -72, y: 13}
+        - {x: -11, y: -82}
+        - {x: 72, y: -82}
+        - {x: 72, y: -15}
+        - {x: 69, y: 4}
+        - {x: 61, y: 35}
+        - {x: 3, y: 82}
+    - name: StarSamurai_27
+      rect:
+        serializedVersion: 2
+        x: 6940
+        y: 56
+        width: 136
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 88}
+        - {x: -68, y: 85}
+        - {x: -68, y: 7}
+        - {x: -18, y: -88}
+        - {x: 68, y: -88}
+        - {x: 68, y: 83}
+        - {x: 46, y: 88}
+    - name: StarSamurai_28
+      rect:
+        serializedVersion: 2
+        x: 7204
+        y: 76
+        width: 136
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 59}
+        - {x: -8, y: 38}
+        - {x: -30, y: 62}
+        - {x: -32, y: 64}
+        - {x: -34, y: 64}
+        - {x: -34, y: 68}
+        - {x: -33, y: 64}
+        - {x: -23, y: 64}
+        - {x: -28, y: 90}
+        - {x: -64, y: 90}
+        - {x: -68, y: 80}
+        - {x: -68, y: 11}
+        - {x: 2, y: -90}
+        - {x: 63, y: -90}
+        - {x: 68, y: -81}
+        - {x: 68, y: 28}
+        - {x: 50, y: 70}
+      - - {x: -22, y: 76}
+        - {x: -22, y: 82}
+        - {x: -23, y: 84}
+        - {x: -30, y: 84}
+        - {x: -30, y: 76}
+      - - {x: -14, y: 76}
+        - {x: -14, y: 82}
+        - {x: -15, y: 84}
+        - {x: -22, y: 84}
+        - {x: -22, y: 76}
+    - name: StarSamurai_29
+      rect:
+        serializedVersion: 2
+        x: 7464
+        y: 64
+        width: 140
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -70, y: 86}
+        - {x: -70, y: 17}
+        - {x: 5, y: -86}
+        - {x: 70, y: -86}
+        - {x: 70, y: 21}
+        - {x: 67, y: 37}
+        - {x: 47, y: 51}
+        - {x: -34, y: 86}
+    - name: StarSamurai_30
+      rect:
+        serializedVersion: 2
+        x: 7720
+        y: 52
+        width: 144
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 82}
+        - {x: -72, y: 13}
+        - {x: -11, y: -82}
+        - {x: 72, y: -82}
+        - {x: 72, y: -15}
+        - {x: 69, y: 4}
+        - {x: 61, y: 35}
+        - {x: 3, y: 82}
+    - name: StarSamurai_31
+      rect:
+        serializedVersion: 2
+        x: 7976
+        y: 52
+        width: 144
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 86}
+        - {x: -72, y: 4}
+        - {x: -38, y: -86}
+        - {x: 72, y: -86}
+        - {x: 72, y: 52}
+        - {x: -1, y: 86}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
