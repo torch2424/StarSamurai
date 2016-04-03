@@ -169,8 +169,6 @@ public class PlayerControl : BaseCharacter {
 		if (wallJumping)
 			wallForce = true;
 
-		Debug.Log (wallJumping);
-
 		//Force some camera Lerp
 		actionCamera.forceLerp(0, -0.0065f);
 
