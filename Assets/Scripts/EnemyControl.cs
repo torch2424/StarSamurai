@@ -89,6 +89,12 @@ public class EnemyControl : BaseCharacter {
 			//Set death boolean to true
 			dead = true;
 
+			//Check if it was the boss
+			if (gameObject.tag == "BossChar") {
+
+				GameObject.Find("StateManager").GetComponent<StateManager>().defeatedFinalBoss ();
+			}
+
 			//Set the death trigger
 			animator.SetTrigger("Death");
 

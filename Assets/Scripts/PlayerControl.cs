@@ -188,7 +188,8 @@ public class PlayerControl : BaseCharacter {
 
 		//Check if it is the floor
 		if (collision.gameObject.tag == "Floor" ||
-			collision.gameObject.tag == "EnemyChar") {
+			collision.gameObject.tag == "EnemyChar" ||
+			collision.gameObject.tag == "BossChar") {
 			
 			//Set Jumps to zero
 			jumps = 0;
@@ -216,7 +217,8 @@ public class PlayerControl : BaseCharacter {
 		}
 
 		//Check if it is the floor
-		if (collision.gameObject.tag == "EnemyChar") {
+		if (collision.gameObject.tag == "EnemyChar" ||
+			collision.gameObject.tag == "BossChar") {
 
 			//Set Jumps to zero
 			jumps = 0;
@@ -227,7 +229,8 @@ public class PlayerControl : BaseCharacter {
 		}
 
 		//Check if it is an enemy
-		if (collision.gameObject.tag == "EnemyChar") {
+		if (collision.gameObject.tag == "EnemyChar" ||
+			collision.gameObject.tag == "BossChar") {
 
 			if (attacking) {
 

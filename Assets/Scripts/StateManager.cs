@@ -7,6 +7,8 @@ public class StateManager : MonoBehaviour {
 
 	//Boolean to determine if the game is over
 	private bool gameOver;
+	private bool gameWin;
+	private bool creditsShow;
 
 	//Our previous time to be stored for the spawn rate
 	private float previousTime;
@@ -38,6 +40,9 @@ public class StateManager : MonoBehaviour {
 	//Our Hud
 	private UnityEngine.UI.Text hud;
 
+	//Our credits
+	private Canvas credits;
+
 	//Our score
 	private int score;
 
@@ -56,6 +61,8 @@ public class StateManager : MonoBehaviour {
 
 		//Scale our camera accordingly
 		gameOver = false;
+		gameWin = false;
+		creditsShow = false;
 
 		//Set our time to normal speed
 		Time.timeScale = 1;
@@ -65,6 +72,10 @@ public class StateManager : MonoBehaviour {
 
 		//Get our Hud
 		hud = GameObject.Find ("PlayerHUD").GetComponent<UnityEngine.UI.Text> ();
+
+		//Get our Hud
+		credits = GameObject.FindGameObjectWithTag ("Credits").GetComponent<Canvas>();
+		credits.enabled = false;
 
 		//get our bg music
 		bgFight = GameObject.Find ("BgSong").GetComponent<AudioSource> ();
@@ -80,7 +91,7 @@ public class StateManager : MonoBehaviour {
 		score = 0;
 
 		//Show our score and things
-		hud.text = ("Enemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
+		hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
 
 		//Spawn an enemies
 		totalFrames = 100;
@@ -95,21 +106,30 @@ public class StateManager : MonoBehaviour {
 			SceneManager.LoadScene ("GameMain");
 		}
 
+		if (gameWin) {
+
+			//Slow down the game Time
+			Time.timeScale = 0.275f;
+
+			//Fade in the credits
+			if (!creditsShow) {
+				creditsShow = true;
+				StartCoroutine ("creditsFade");
+			}
+		}
 		//Spawn enemies every frame
-		if (!gameOver) {
+		else if (!gameOver) {
 
 			//Get the score for the player
 			//Going to calculate by enemies defeated, level, and minutes passed
-			score = (int) (defeatedEnemies * 100) + defeatedEnemies;
+			score = (int)(defeatedEnemies * 100) + defeatedEnemies;
 
-
-			//Update our hud to player
-			//hud.text = ("Health: " + user.getHealth () + "\tScore: " + score);
+			//Show our score and things
+			hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
 
 			//start the music! if it is not playing
-			if(!bgFight.isPlaying)
-			{
-				bgFight.Play();
+			if (!bgFight.isPlaying) {
+				bgFight.Play ();
 				bgFight.loop = true;
 			}
 		}
@@ -218,7 +238,7 @@ public class StateManager : MonoBehaviour {
 		score = (int) Math.Floor(score + defeatedEnemies + Math.Abs(1000 * Math.Abs(UnityEngine.Random.insideUnitCircle.x)));
 
 		//Show our score and things
-		hud.text = ("Enemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
+		hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
 
 		//Remove the block if we have defeated all the enemies
 		if(defeatedEnemies >= 29) {
@@ -228,5 +248,47 @@ public class StateManager : MonoBehaviour {
 
 			//As well as play a special sound
 		}
+	}
+
+
+
+	//Function to win the game
+	public void defeatedFinalBoss() {
+		gameWin = true;
+	}
+
+	//Function to fade in some credits
+	public IEnumerator creditsFade() {
+
+		//Pause and continue the music
+		bgFight.Pause();
+
+		//wait a tiny bit
+		for(int i = 5; i > 0; i--) {
+			yield return new WaitForFixedUpdate();
+		}
+
+		//Nestedloop for awesome ness
+		for(int j = 15; j > 0; j--) {
+
+			//Wait some frames
+			for(int i = j / 3; i > 0; i--) {
+				yield return new WaitForFixedUpdate();
+			}
+
+			//Disable the credits
+			credits.enabled = false;
+			bgFight.Pause ();
+
+			//Wait some frames
+			for(int i = j / 3; i > 0; i--) {
+				yield return new WaitForFixedUpdate();
+			}
+
+			//Enable the credits
+			credits.enabled = true;
+			bgFight.Play ();
+		}
+
 	}
 }
