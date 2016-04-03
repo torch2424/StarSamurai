@@ -83,10 +83,14 @@ public class EnemyControl : BaseCharacter {
 			render.sortingLayerName = "Permenance";
 
 			//and remove box collider
-			GetComponent<BoxCollider2D>().isTrigger = true;
+			GetComponent<Rigidbody2D>().isKinematic = true;
+			GetComponent<BoxCollider2D>().enabled = false;
 
 			//Set death boolean to true
 			dead = true;
+
+			//Set the death trigger
+			animator.SetTrigger("Death");
 
 			//Start the death coroutine
 			StartCoroutine("deathStall");
@@ -212,9 +216,12 @@ public class EnemyControl : BaseCharacter {
 	//simply stall death before destroying
 	//Function for jumping
 	IEnumerator deathStall() {
-
+		
 		//Wait some frames
-		for(int i = 0; i < 100; i++) {
+		for(float i = 100.0f; i > 0; i--) {
+			
+			//slighlty change the opacity
+			render.color = new Color(render.color.r, render.color.g, render.color.b, (i / 100.0f));
 			yield return new WaitForFixedUpdate();
 		}
 
