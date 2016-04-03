@@ -18,6 +18,9 @@ public class PlayerControl : BaseCharacter {
 	//How long do they have to hold before attacking
 	public int holdDuration;
 
+	//Amount of damage sword deals
+	public int playerDamage;
+
 	// Use this for initialization
 	protected override void Start ()
 	{
@@ -108,6 +111,8 @@ public class PlayerControl : BaseCharacter {
 
 		animator.SetTrigger ("Attack");
 
+		//Knock Forward
+
 		//Let the frame finish
 		yield return new WaitForFixedUpdate();
 
@@ -170,7 +175,7 @@ public class PlayerControl : BaseCharacter {
 			jumping = false;
 			animator.SetBool ("Jump", false);
 			actionCamera.impactPause();
-			//actionCamera.startShake ();
+			actionCamera.startShake ();
 		}
 
 		//Check if it is spikes
@@ -193,9 +198,45 @@ public class PlayerControl : BaseCharacter {
 		}
 
 		//Check if it is spikes
-		if(collision.gameObject.tag == "SpikeWall") {
+		if (collision.gameObject.tag == "SpikeWall") {
 			//Kill the players
-			setHealth(0);
+			setHealth (0);
+		}
+
+		//Check if it is an enemy
+		if (collision.gameObject.tag == "EnemyChar") {
+
+			if (attacking) {
+
+				//Do some damage
+				//Check if the enemy is in the direction we are facing
+				//Get our x and y
+				float playerX = gameObject.transform.position.x;
+				float playerY = gameObject.transform.position.y;
+				float enemyX = collision.gameObject.transform.position.x;
+				float enemyY = collision.gameObject.transform.position.y;
+				//Our window for our punch range
+				float window = .15f;
+
+				//Deal damage if we are facing the right direction
+				if((direction == 1 && enemyX >= playerX) ||
+					(direction == -1 && enemyX <= playerX))
+				{
+					//Get the enemy and decrease it's health
+					EnemyControl e = (EnemyControl) collision.gameObject.GetComponent("EnemyControl");
+
+					//Do damage
+					int newHealth = e.getHealth() - playerDamage;
+					e.setHealth(newHealth);
+
+					//Shake the screen
+					actionCamera.startShake();
+
+					//Add slight impact pause
+					actionCamera.startImpact();
+				}
+
+			}
 		}
 	}
 }

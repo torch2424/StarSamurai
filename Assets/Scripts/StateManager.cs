@@ -1,18 +1,23 @@
 ﻿using UnityEngine;
 using System;
+using System.Collections;
 
 public class StateManager : MonoBehaviour {
 
 	//Boolean to determine if the game is over
 	private bool gameOver;
 
-	//Rate (seconds) at which monsters should spawn
-	public float spawnRate;
 	//Our previous time to be stored for the spawn rate
 	private float previousTime;
 
 	//Our player object
 	private PlayerControl user;
+
+	//Our number of frames on startup
+	//Rate (Frames) at which monsters should spawn
+	public float spawnRateFrames;
+	private int totalFrames;
+	private int updateFrames;
 
 	//Our enemy prefab
 	public GameObject[] enemies;
@@ -43,7 +48,7 @@ public class StateManager : MonoBehaviour {
 	private bool deathPlayed;
 
 	//Array pf things to say once you die
-	String[] epitaph = {"Awwee Nuts!"};
+	String[] epitaph = {"See you space samurai..."};
 
 	// Use this for initialization
 	void Start () {
@@ -77,7 +82,8 @@ public class StateManager : MonoBehaviour {
 		hud.text = ("Enemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
 
 		//Spawn an enemies
-		//invokeEnemies ();
+		totalFrames = 100;
+		updateFrames = totalFrames;
 	}
 
 	// Update is called once per frame
@@ -141,7 +147,44 @@ public class StateManager : MonoBehaviour {
 		}
 
 
+		//Spawn an enemy every 500 frames
+		if(updateFrames == 0) {
+
+			//Spawn an enemy 
+			if(numEnemies < maxEnemies) {
+
+				//Spawn the enemy
+				StartCoroutine("spawnEnemy");
+
+				if (totalFrames - spawnRateFrames > 0) {
+
+					totalFrames = (int)(totalFrames - spawnRateFrames);
+					updateFrames = totalFrames;
+				} else
+					updateFrames = 0;
+			}
+		}
+		else updateFrames--;
+
 	}
+
+	//Function to spawn and enemy
+	IEnumerator spawnEnemy() {
+		
+		Vector2 spawnPos = Vector2.zero;
+
+		spawnPos.x = 1.0f;
+
+
+		//Spawn our enemy
+		Instantiate(enemies[0], spawnPos, Quaternion.identity);
+
+		//increase our number of enemies
+		numEnemies++;
+
+		yield return null;
+	}
+
 
 
 	//Function to set gameover boolean

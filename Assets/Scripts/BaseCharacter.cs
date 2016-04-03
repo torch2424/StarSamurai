@@ -32,7 +32,7 @@ public class BaseCharacter : MonoBehaviour {
 	private AudioSource hurt;
 
 	//Our current Direction
-	private int direction;
+	protected int direction;
 
 	//Our last animation direction for idling
 	protected int lastDir;
@@ -75,10 +75,10 @@ public class BaseCharacter : MonoBehaviour {
 		if(canRegen && !gameManager.getGameStatus()) {
 
 			//increase health by 7 points
-			if (curHealth + 7 > maxHealth) {
+			if (curHealth + healthRegenRate > maxHealth) {
 				setHealth(maxHealth);
 			} else {
-				setHealth(curHealth + 7);
+				setHealth(curHealth + healthRegenRate);
 			}
 
 			//Stop regen
