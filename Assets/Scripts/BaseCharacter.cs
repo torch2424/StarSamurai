@@ -146,6 +146,7 @@ public class BaseCharacter : MonoBehaviour {
 			setFlip();
 
 			//Move to that position
+			animator.SetBool ("Running", true);
 			charBody.MovePosition (charBody.position + movement * superSpeed);
 		}
 
@@ -157,6 +158,8 @@ public class BaseCharacter : MonoBehaviour {
 
 			//tell the animator we are no longer moving
 			direction = 0;
+
+			animator.SetBool ("Running", false);
 		}
 	}
 

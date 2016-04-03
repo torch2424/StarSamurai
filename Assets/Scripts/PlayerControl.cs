@@ -69,8 +69,9 @@ public class PlayerControl : BaseCharacter {
 			if (Input.GetKey (KeyCode.Backspace) &&
 				!jumping &&
 				!gameManager.getGameStatus()) {
+
 				//Now since we are allowing holding space to punch we gotta count for it
-				if(!attacking && holdAttack % holdDuration == 0)
+				if(!attacking && (holdAttack % holdDuration == 0))
 				{
 					//Set hold punch to zero
 					holdAttack = 0;
@@ -105,8 +106,11 @@ public class PlayerControl : BaseCharacter {
 		attacking = true;
 
 
+		animator.SetTrigger ("Attack");
+
 		//Let the frame finish
-		yield return null;
+		yield return new WaitForFixedUpdate();
+
 		//set attacking to false
 		attacking = false;
 	}
