@@ -1,0 +1,1805 @@
+fileFormatVersion: 2
+guid: d60a4213b87d72741a590a6e25ba7b78
+timeCreated: 1459710339
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: New Piskel clone (4)_0
+    21300002: New Piskel clone (4)_1
+    21300004: New Piskel clone (4)_2
+    21300006: New Piskel clone (4)_3
+    21300008: New Piskel clone (4)_4
+    21300010: New Piskel clone (4)_5
+    21300012: New Piskel clone (4)_6
+    21300014: New Piskel clone (4)_7
+    21300016: New Piskel clone (4)_8
+    21300018: New Piskel clone (4)_9
+    21300020: New Piskel clone (4)_10
+    21300022: New Piskel clone (4)_11
+    21300024: New Piskel clone (4)_12
+    21300026: New Piskel clone (4)_13
+    21300028: New Piskel clone (4)_14
+    21300030: New Piskel clone (4)_15
+    21300032: New Piskel clone (4)_16
+    21300034: New Piskel clone (4)_17
+    21300036: New Piskel clone (4)_18
+    21300038: New Piskel clone (4)_19
+    21300040: New Piskel clone (4)_20
+    21300042: New Piskel clone (4)_21
+    21300044: New Piskel clone (4)_22
+    21300046: New Piskel clone (4)_23
+    21300048: New Piskel clone (4)_24
+    21300050: New Piskel clone (4)_25
+    21300052: New Piskel clone (4)_26
+    21300054: New Piskel clone (4)_27
+    21300056: New Piskel clone (4)_28
+    21300058: New Piskel clone (4)_29
+    21300060: New Piskel clone (4)_30
+    21300062: New Piskel clone (4)_31
+    21300064: New Piskel clone (4)_32
+    21300066: New Piskel clone (4)_33
+    21300068: New Piskel clone (4)_34
+    21300070: New Piskel clone (4)_35
+    21300072: New Piskel clone (4)_36
+    21300074: New Piskel clone (4)_37
+    21300076: New Piskel clone (4)_38
+    21300078: New Piskel clone (4)_39
+    21300080: New Piskel clone (4)_40
+    21300082: New Piskel clone (4)_41
+    21300084: New Piskel clone (4)_42
+    21300086: New Piskel clone (4)_43
+    21300088: New Piskel clone (4)_44
+    21300090: New Piskel clone (4)_45
+    21300092: New Piskel clone (4)_46
+    21300094: New Piskel clone (4)_47
+    21300096: New Piskel clone (4)_48
+    21300098: New Piskel clone (4)_49
+    21300100: New Piskel clone (4)_50
+    21300102: New Piskel clone (4)_51
+    21300104: New Piskel clone (4)_52
+    21300106: New Piskel clone (4)_53
+    21300108: New Piskel clone (4)_54
+    21300110: New Piskel clone (4)_55
+    21300112: New Piskel clone (4)_56
+    21300114: New Piskel clone (4)_57
+    21300116: New Piskel clone (4)_58
+    21300118: New Piskel clone (4)_59
+    21300120: New Piskel clone (4)_60
+    21300122: New Piskel clone (4)_61
+    21300124: New Piskel clone (4)_62
+    21300126: New Piskel clone (4)_63
+    21300128: New Piskel clone (4)_64
+    21300130: New Piskel clone (4)_65
+    21300132: New Piskel clone (4)_66
+    21300134: New Piskel clone (4)_67
+    21300136: New Piskel clone (4)_68
+    21300138: New Piskel clone (4)_69
+    21300140: New Piskel clone (4)_70
+    21300142: New Piskel clone (4)_71
+    21300144: New Piskel clone (4)_72
+    21300146: New Piskel clone (4)_73
+    21300148: New Piskel clone (4)_74
+    21300150: New Piskel clone (4)_75
+    21300152: New Piskel clone (4)_76
+    21300154: New Piskel clone (4)_77
+    21300156: New Piskel clone (4)_78
+    21300158: New Piskel clone (4)_79
+    21300160: New Piskel clone (4)_80
+    21300162: New Piskel clone (4)_81
+    21300164: New Piskel clone (4)_82
+    21300166: New Piskel clone (4)_83
+    21300168: New Piskel clone (4)_84
+    21300170: New Piskel clone (4)_85
+    21300172: New Piskel clone (4)_86
+    21300174: New Piskel clone (4)_87
+    21300176: New Piskel clone (4)_88
+    21300178: New Piskel clone (4)_89
+    21300180: New Piskel clone (4)_90
+    21300182: New Piskel clone (4)_91
+    21300184: New Piskel clone (4)_92
+    21300186: New Piskel clone (4)_93
+    21300188: New Piskel clone (4)_94
+    21300190: New Piskel clone (4)_95
+    21300192: New Piskel clone (4)_96
+    21300194: New Piskel clone (4)_97
+    21300196: New Piskel clone (4)_98
+    21300198: New Piskel clone (4)_99
+    21300200: New Piskel clone (4)_100
+    21300202: New Piskel clone (4)_101
+    21300204: New Piskel clone (4)_102
+    21300206: New Piskel clone (4)_103
+    21300208: New Piskel clone (4)_104
+    21300210: New Piskel clone (4)_105
+    21300212: New Piskel clone (4)_106
+    21300214: New Piskel clone (4)_107
+    21300216: New Piskel clone (4)_108
+    21300218: New Piskel clone (4)_109
+    21300220: New Piskel clone (4)_110
+    21300222: New Piskel clone (4)_111
+    21300224: New Piskel clone (4)_112
+    21300226: New Piskel clone (4)_113
+    21300228: New Piskel clone (4)_114
+    21300230: New Piskel clone (4)_115
+    21300232: New Piskel clone (4)_116
+    21300234: New Piskel clone (4)_117
+    21300236: New Piskel clone (4)_118
+    21300238: New Piskel clone (4)_119
+    21300240: New Piskel clone (4)_120
+    21300242: New Piskel clone (4)_121
+    21300244: New Piskel clone (4)_122
+    21300246: New Piskel clone (4)_123
+    21300248: New Piskel clone (4)_124
+    21300250: New Piskel clone (4)_125
+    21300252: New Piskel clone (4)_126
+    21300254: New Piskel clone (4)_127
+    21300256: New Piskel clone (4)_128
+    21300258: New Piskel clone (4)_129
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: New Piskel clone (4)_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.900002, y: 74.7}
+        - {x: -28.900002, y: 70.7}
+        - {x: -73.9, y: 11.699997}
+        - {x: -73.9, y: -27.300003}
+        - {x: -72.9, y: -28.300003}
+        - {x: -46.9, y: -28.300003}
+        - {x: -44.9, y: -26.300003}
+        - {x: -45.9, y: -28.300003}
+        - {x: -52.9, y: -57.300003}
+        - {x: -52.9, y: -74.3}
+        - {x: 75.1, y: -74.3}
+        - {x: 75.1, y: 36.699997}
+        - {x: 23.099998, y: 74.7}
+    - name: New Piskel clone (4)_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.300003, y: 74.7}
+        - {x: -74.3, y: 23.699997}
+        - {x: -74.3, y: -32.300003}
+        - {x: -67.3, y: -74.3}
+        - {x: 72.7, y: -74.3}
+        - {x: 74.7, y: -67.3}
+        - {x: 74.7, y: 30.699997}
+        - {x: 28.699997, y: 74.7}
+    - name: New Piskel clone (4)_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 74.7}
+        - {x: -74, y: 27.699997}
+        - {x: -74, y: -33.300003}
+        - {x: -67, y: -74.3}
+        - {x: 74, y: -74.3}
+        - {x: 74, y: 53.699997}
+        - {x: 32, y: 74.7}
+    - name: New Piskel clone (4)_3
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: -50.300003}
+        - {x: 74, y: -37.300003}
+        - {x: 74, y: 20.699997}
+        - {x: 72, y: 24.699997}
+        - {x: 59, y: 27.699997}
+        - {x: 29, y: 74.7}
+        - {x: -24, y: 74.7}
+        - {x: -74, y: 14.699997}
+        - {x: -74, y: -28.300003}
+        - {x: -47, y: -28.300003}
+        - {x: -45, y: -26.300003}
+        - {x: -47, y: -28.300003}
+        - {x: -53, y: -57.300003}
+        - {x: -53, y: -74.3}
+        - {x: -23, y: -74.3}
+        - {x: -20, y: -72.3}
+        - {x: 17, y: -74.3}
+        - {x: 67, y: -74.3}
+    - name: New Piskel clone (4)_4
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.299988, y: 74.7}
+        - {x: -44.700012, y: 74.7}
+        - {x: -73.70001, y: 13.699997}
+        - {x: -73.70001, y: -32.300003}
+        - {x: -45.700012, y: -28.300003}
+        - {x: -43.700012, y: -26.300003}
+        - {x: -45.700012, y: -28.300003}
+        - {x: -51.700012, y: -57.300003}
+        - {x: -51.700012, y: -74.3}
+        - {x: 68.29999, y: -74.3}
+        - {x: 75.29999, y: -43.300003}
+        - {x: 75.29999, y: 44.699997}
+    - name: New Piskel clone (4)_5
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.099976, y: 74.7}
+        - {x: -32.900024, y: 74.7}
+        - {x: -73.900024, y: 36.699997}
+        - {x: -73.900024, y: -27.300003}
+        - {x: -72.900024, y: -28.300003}
+        - {x: -46.900024, y: -28.300003}
+        - {x: -44.900024, y: -26.300003}
+        - {x: -45.900024, y: -28.300003}
+        - {x: -60.900024, y: -74.3}
+        - {x: 61.099976, y: -74.3}
+        - {x: 75.099976, y: -71.3}
+        - {x: 75.099976, y: 34.699997}
+    - name: New Piskel clone (4)_6
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.700073, y: 74.7}
+        - {x: -27.299927, y: 74.7}
+        - {x: -74.29993, y: 18.699997}
+        - {x: -74.29993, y: -28.300003}
+        - {x: -48.299927, y: -28.300003}
+        - {x: -46.299927, y: -26.300003}
+        - {x: -47.299927, y: -28.300003}
+        - {x: -54.299927, y: -57.300003}
+        - {x: -54.299927, y: -74.3}
+        - {x: 39.700073, y: -74.3}
+        - {x: 74.70007, y: -73.3}
+        - {x: 74.70007, y: 38.699997}
+    - name: New Piskel clone (4)_7
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 74.7}
+        - {x: -74, y: 12.699997}
+        - {x: -74, y: -28.300003}
+        - {x: -48, y: -28.300003}
+        - {x: -46, y: -26.300003}
+        - {x: -48, y: -29.300003}
+        - {x: -62, y: -74.3}
+        - {x: 74, y: -74.3}
+        - {x: 74, y: 31.699997}
+        - {x: 49, y: 74.7}
+    - name: New Piskel clone (4)_8
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 44
+        width: 238
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96.80005, y: 7.699997}
+        - {x: 94.80005, y: 15.699997}
+        - {x: 77.80005, y: 52.699997}
+        - {x: 30.800049, y: 74.7}
+        - {x: -78.19995, y: 74.7}
+        - {x: -95.19995, y: 61.699997}
+        - {x: -95.19995, y: -74.3}
+        - {x: 71.80005, y: -74.3}
+        - {x: 65.80005, y: -51.300003}
+        - {x: 63.80005, y: -49.300003}
+        - {x: 96.80005, y: -31.300003}
+    - name: New Piskel clone (4)_9
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 44
+        width: 245
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99.099976, y: 35.699997}
+        - {x: 90.099976, y: 36.699997}
+        - {x: 67.099976, y: 74.7}
+        - {x: -51.900024, y: 74.7}
+        - {x: -97.900024, y: 57.699997}
+        - {x: -97.900024, y: -31.300003}
+        - {x: -74.900024, y: -74.3}
+        - {x: 63.099976, y: -74.3}
+        - {x: 65.099976, y: -50.300003}
+        - {x: 99.099976, y: -18.300003}
+    - name: New Piskel clone (4)_10
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 44
+        width: 236
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.69995, y: 27.699997}
+        - {x: 46.69995, y: 74.7}
+        - {x: -25.300049, y: 74.7}
+        - {x: -94.30005, y: 22.699997}
+        - {x: -94.30005, y: -32.300003}
+        - {x: -83.30005, y: -74.3}
+        - {x: 64.69995, y: -74.3}
+        - {x: 66.69995, y: -50.300003}
+        - {x: 94.69995, y: -28.300003}
+    - name: New Piskel clone (4)_11
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 44
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.30005, y: 74.7}
+        - {x: -74.30005, y: 23.699997}
+        - {x: -74.30005, y: -28.300003}
+        - {x: -48.30005, y: -28.300003}
+        - {x: -46.30005, y: -26.300003}
+        - {x: -70.30005, y: -55.300003}
+        - {x: -54.30005, y: -74.3}
+        - {x: 74.69995, y: -74.3}
+        - {x: 74.69995, y: 53.699997}
+        - {x: 28.699951, y: 74.7}
+    - name: New Piskel clone (4)_12
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 44
+        width: 237
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 95, y: 2.699997}
+        - {x: 94, y: 4.699997}
+        - {x: 32, y: 74.7}
+        - {x: -30, y: 74.7}
+        - {x: -95, y: 28.699997}
+        - {x: -95, y: -74.3}
+        - {x: 72, y: -74.3}
+        - {x: 65, y: -51.300003}
+        - {x: 63, y: -49.300003}
+        - {x: 95, y: -25.300003}
+    - name: New Piskel clone (4)_13
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 44
+        width: 238
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96.80005, y: 7.699997}
+        - {x: 94.80005, y: 15.699997}
+        - {x: 77.80005, y: 52.699997}
+        - {x: 30.800049, y: 74.7}
+        - {x: -78.19995, y: 74.7}
+        - {x: -95.19995, y: 61.699997}
+        - {x: -95.19995, y: -74.3}
+        - {x: 71.80005, y: -74.3}
+        - {x: 65.80005, y: -51.300003}
+        - {x: 63.80005, y: -49.300003}
+        - {x: 96.80005, y: -31.300003}
+    - name: New Piskel clone (4)_14
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 44
+        width: 238
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.100098, y: 71.2}
+        - {x: -31.899902, y: 71.2}
+        - {x: -94.8999, y: 15.199997}
+        - {x: -94.8999, y: -33.800003}
+        - {x: -72.8999, y: -70.8}
+        - {x: 69.1001, y: -70.8}
+        - {x: 90.1001, y: -44.800003}
+        - {x: 96.1001, y: -26.800003}
+        - {x: 96.1001, y: 19.199997}
+    - name: New Piskel clone (4)_15
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 204
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_16
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 196
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_17
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 204
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_18
+      rect:
+        serializedVersion: 2
+        x: 4215
+        y: 196
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_19
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 204
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_20
+      rect:
+        serializedVersion: 2
+        x: 4471
+        y: 200
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_21
+      rect:
+        serializedVersion: 2
+        x: 4491
+        y: 196
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_22
+      rect:
+        serializedVersion: 2
+        x: 3887
+        y: 44
+        width: 149
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.399902, y: 61.2}
+        - {x: -59.399902, y: 41.2}
+        - {x: -59.399902, y: -56.8}
+        - {x: -55.399902, y: -60.8}
+        - {x: 60.600098, y: -60.8}
+        - {x: 60.600098, y: 44.2}
+        - {x: 25.600098, y: 61.2}
+    - name: New Piskel clone (4)_23
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 60
+        width: 109
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 53}
+        - {x: 5, y: 53}
+        - {x: 5, y: 46}
+        - {x: 7, y: 44}
+        - {x: 5, y: 46}
+        - {x: 4, y: 51}
+        - {x: 3, y: 53}
+        - {x: -15, y: 53}
+        - {x: -44, y: 33}
+        - {x: -44, y: -53}
+        - {x: 44, y: -53}
+        - {x: 44, y: 38}
+        - {x: 42, y: 49}
+      - - {x: 11, y: -35}
+        - {x: 11, y: -43}
+        - {x: 24, y: -43}
+        - {x: 26, y: -41}
+        - {x: 26, y: -37}
+        - {x: 25, y: -35}
+    - name: New Piskel clone (4)_24
+      rect:
+        serializedVersion: 2
+        x: 4204
+        y: 191
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_25
+      rect:
+        serializedVersion: 2
+        x: 4491
+        y: 187
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_26
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 184
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_27
+      rect:
+        serializedVersion: 2
+        x: 4504
+        y: 176
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_28
+      rect:
+        serializedVersion: 2
+        x: 4444
+        y: 171
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_29
+      rect:
+        serializedVersion: 2
+        x: 4455
+        y: 167
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_30
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 167
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_31
+      rect:
+        serializedVersion: 2
+        x: 4491
+        y: 167
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_32
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 171
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_33
+      rect:
+        serializedVersion: 2
+        x: 4711
+        y: 167
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_34
+      rect:
+        serializedVersion: 2
+        x: 4720
+        y: 167
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_35
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 167
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_36
+      rect:
+        serializedVersion: 2
+        x: 4460
+        y: 147
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_37
+      rect:
+        serializedVersion: 2
+        x: 4475
+        y: 160
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_38
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 160
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_39
+      rect:
+        serializedVersion: 2
+        x: 4507
+        y: 164
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_40
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 147
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_41
+      rect:
+        serializedVersion: 2
+        x: 4731
+        y: 160
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_42
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 160
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_43
+      rect:
+        serializedVersion: 2
+        x: 4144
+        y: 140
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_44
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 156
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_45
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 156
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_46
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 156
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_47
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 111
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_48
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 144
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_49
+      rect:
+        serializedVersion: 2
+        x: 4035
+        y: 115
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_50
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 144
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_51
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 147
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_52
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 147
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_53
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 140
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_54
+      rect:
+        serializedVersion: 2
+        x: 4504
+        y: 147
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_55
+      rect:
+        serializedVersion: 2
+        x: 4511
+        y: 151
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_56
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 147
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_57
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 147
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_58
+      rect:
+        serializedVersion: 2
+        x: 4735
+        y: 140
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_59
+      rect:
+        serializedVersion: 2
+        x: 4760
+        y: 147
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_60
+      rect:
+        serializedVersion: 2
+        x: 4155
+        y: 140
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_61
+      rect:
+        serializedVersion: 2
+        x: 4271
+        y: 127
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_62
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 140
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_63
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 144
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_64
+      rect:
+        serializedVersion: 2
+        x: 4535
+        y: 136
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_65
+      rect:
+        serializedVersion: 2
+        x: 4291
+        y: 124
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_66
+      rect:
+        serializedVersion: 2
+        x: 4420
+        y: 136
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_67
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 136
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_68
+      rect:
+        serializedVersion: 2
+        x: 4495
+        y: 136
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_69
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 136
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_70
+      rect:
+        serializedVersion: 2
+        x: 4675
+        y: 136
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_71
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 136
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_72
+      rect:
+        serializedVersion: 2
+        x: 4751
+        y: 136
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_73
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 127
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_74
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 127
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_75
+      rect:
+        serializedVersion: 2
+        x: 4144
+        y: 127
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_76
+      rect:
+        serializedVersion: 2
+        x: 4155
+        y: 127
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_77
+      rect:
+        serializedVersion: 2
+        x: 4264
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_78
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 127
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_79
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 127
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_80
+      rect:
+        serializedVersion: 2
+        x: 4471
+        y: 131
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_81
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 131
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_82
+      rect:
+        serializedVersion: 2
+        x: 4511
+        y: 131
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_83
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 127
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_84
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 131
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_85
+      rect:
+        serializedVersion: 2
+        x: 4695
+        y: 127
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_86
+      rect:
+        serializedVersion: 2
+        x: 4727
+        y: 131
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_87
+      rect:
+        serializedVersion: 2
+        x: 4744
+        y: 131
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_88
+      rect:
+        serializedVersion: 2
+        x: 4275
+        y: 115
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_89
+      rect:
+        serializedVersion: 2
+        x: 4287
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_90
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_91
+      rect:
+        serializedVersion: 2
+        x: 4471
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_92
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_93
+      rect:
+        serializedVersion: 2
+        x: 4511
+        y: 124
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_94
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 124
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_95
+      rect:
+        serializedVersion: 2
+        x: 4695
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_96
+      rect:
+        serializedVersion: 2
+        x: 4727
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_97
+      rect:
+        serializedVersion: 2
+        x: 4735
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_98
+      rect:
+        serializedVersion: 2
+        x: 4255
+        y: 84
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_99
+      rect:
+        serializedVersion: 2
+        x: 4267
+        y: 115
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_100
+      rect:
+        serializedVersion: 2
+        x: 4420
+        y: 115
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_101
+      rect:
+        serializedVersion: 2
+        x: 4435
+        y: 111
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_102
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 111
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_103
+      rect:
+        serializedVersion: 2
+        x: 4511
+        y: 111
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_104
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 115
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_105
+      rect:
+        serializedVersion: 2
+        x: 4691
+        y: 111
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_106
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 111
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_107
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 107
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_108
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 100
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_109
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 100
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_110
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 107
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_111
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 107
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_112
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 95
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_113
+      rect:
+        serializedVersion: 2
+        x: 4735
+        y: 107
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_114
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 107
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_115
+      rect:
+        serializedVersion: 2
+        x: 4271
+        y: 80
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_116
+      rect:
+        serializedVersion: 2
+        x: 4427
+        y: 87
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_117
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 91
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_118
+      rect:
+        serializedVersion: 2
+        x: 4471
+        y: 87
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_119
+      rect:
+        serializedVersion: 2
+        x: 4495
+        y: 91
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_120
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 84
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_121
+      rect:
+        serializedVersion: 2
+        x: 4527
+        y: 80
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_122
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 55
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_123
+      rect:
+        serializedVersion: 2
+        x: 4271
+        y: 67
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_124
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 75
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_125
+      rect:
+        serializedVersion: 2
+        x: 4451
+        y: 64
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_126
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 44
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_127
+      rect:
+        serializedVersion: 2
+        x: 4435
+        y: 60
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_128
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 64
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel clone (4)_129
+      rect:
+        serializedVersion: 2
+        x: 4175
+        y: 44
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -13,6 +13,7 @@ public class PlayerControl : BaseCharacter {
 	//Our Number of jumps we have done
 	int jumps;
 	bool jumping;
+	bool wallJumping;
 	public float jumpHeight;
 
 	//Counter for holding space to punch
@@ -39,6 +40,7 @@ public class PlayerControl : BaseCharacter {
 		attacking = false;
 		jumps = 0;
 		jumping = false;
+		wallJumping = false;
 		holdAttack = 0;
 	}
 
@@ -161,13 +163,32 @@ public class PlayerControl : BaseCharacter {
 		//Start jump animation
 		animator.SetBool ("Jump", true);
 
+		//Check if we need the walljump boolean
+		bool wallForce = false;
+		int wallDirection = direction;
+		if (wallJumping)
+			wallForce = true;
+
+		Debug.Log (wallJumping);
+
 		//Force some camera Lerp
 		actionCamera.forceLerp(0, -0.0065f);
 
 		//Add the jump force
 		for(int i = 45; i > -10; i--) {
 
-			charBody.AddForce( new Vector2(0, 100f * i * jumpHeight * Time.deltaTime));
+			float jumpY = 115f * i * jumpHeight * Time.deltaTime;
+
+			//Walljumping force
+			float jumpX = 0;
+			if (wallForce) {
+
+				if (wallDirection < 0) jumpX = 25f * i * jumpHeight * Time.deltaTime * -1;
+				else jumpX = 25f * i * jumpHeight * Time.deltaTime;
+			}
+
+
+			charBody.AddForce( new Vector2(jumpX, jumpY));
 
 			//Wait some frames
 			//Wait a frame
@@ -212,8 +233,26 @@ public class PlayerControl : BaseCharacter {
 	}
 
 	//Function to check if we can jump again for collisions
+	void OnCollisionExit2D(Collision2D collision)
+	{
+		//Check if it is tthe jumping wall
+		if (collision.gameObject.tag == "JumpWall") {
+
+			//Stop wall jumping
+			wallJumping = false;
+		}
+	}
+
+	//Function to check if we can jump again for collisions
 	void OnCollisionStay2D(Collision2D collision)
 	{
+
+		//Check if it is tthe jumping wall
+		if (collision.gameObject.tag == "JumpWall") {
+
+			//set wallJumping
+			wallJumping = true;
+		}
 
 		//Check if it is spikes
 		if (collision.gameObject.tag == "SpikeWall") {
@@ -222,15 +261,16 @@ public class PlayerControl : BaseCharacter {
 		}
 
 		//Check if it is the floor
-		if (collision.gameObject.tag == "EnemyChar" ||
+		if (collision.gameObject.tag == "Floor" ||
+			collision.gameObject.tag == "EnemyChar" ||
 			collision.gameObject.tag == "BossChar") {
 
 			//Set Jumps to zero
 			jumps = 0;
 			jumping = false;
 			animator.SetBool ("Jump", false);
-			actionCamera.impactPause();
-			actionCamera.startShake ();
+			//actionCamera.impactPause();
+			//actionCamera.startShake ();
 		}
 
 		//Check if it is an enemy

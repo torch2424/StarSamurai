@@ -1,0 +1,2121 @@
+fileFormatVersion: 2
+guid: 4e11c38f4853764499d2e9cbae6fede9
+timeCreated: 1459712739
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: New Piskel (11)_0
+    21300002: New Piskel (11)_1
+    21300004: New Piskel (11)_2
+    21300006: New Piskel (11)_3
+    21300008: New Piskel (11)_4
+    21300010: New Piskel (11)_5
+    21300012: New Piskel (11)_6
+    21300014: New Piskel (11)_7
+    21300016: New Piskel (11)_8
+    21300018: New Piskel (11)_9
+    21300020: New Piskel (11)_10
+    21300022: New Piskel (11)_11
+    21300024: New Piskel (11)_12
+    21300026: New Piskel (11)_13
+    21300028: New Piskel (11)_14
+    21300030: New Piskel (11)_15
+    21300032: New Piskel (11)_16
+    21300034: New Piskel (11)_17
+    21300036: New Piskel (11)_18
+    21300038: New Piskel (11)_19
+    21300040: New Piskel (11)_20
+    21300042: New Piskel (11)_21
+    21300044: New Piskel (11)_22
+    21300046: New Piskel (11)_23
+    21300048: New Piskel (11)_24
+    21300050: New Piskel (11)_25
+    21300052: New Piskel (11)_26
+    21300054: New Piskel (11)_27
+    21300056: New Piskel (11)_28
+    21300058: New Piskel (11)_29
+    21300060: New Piskel (11)_30
+    21300062: New Piskel (11)_31
+    21300064: New Piskel (11)_32
+    21300066: New Piskel (11)_33
+    21300068: New Piskel (11)_34
+    21300070: New Piskel (11)_35
+    21300072: New Piskel (11)_36
+    21300074: New Piskel (11)_37
+    21300076: New Piskel (11)_38
+    21300078: New Piskel (11)_39
+    21300080: New Piskel (11)_40
+    21300082: New Piskel (11)_41
+    21300084: New Piskel (11)_42
+    21300086: New Piskel (11)_43
+    21300088: New Piskel (11)_44
+    21300090: New Piskel (11)_45
+    21300092: New Piskel (11)_46
+    21300094: New Piskel (11)_47
+    21300096: New Piskel (11)_48
+    21300098: New Piskel (11)_49
+    21300100: New Piskel (11)_50
+    21300102: New Piskel (11)_51
+    21300104: New Piskel (11)_52
+    21300106: New Piskel (11)_53
+    21300108: New Piskel (11)_54
+    21300110: New Piskel (11)_55
+    21300112: New Piskel (11)_56
+    21300114: New Piskel (11)_57
+    21300116: New Piskel (11)_58
+    21300118: New Piskel (11)_59
+    21300120: New Piskel (11)_60
+    21300122: New Piskel (11)_61
+    21300124: New Piskel (11)_62
+    21300126: New Piskel (11)_63
+    21300128: New Piskel (11)_64
+    21300130: New Piskel (11)_65
+    21300132: New Piskel (11)_66
+    21300134: New Piskel (11)_67
+    21300136: New Piskel (11)_68
+    21300138: New Piskel (11)_69
+    21300140: New Piskel (11)_70
+    21300142: New Piskel (11)_71
+    21300144: New Piskel (11)_72
+    21300146: New Piskel (11)_73
+    21300148: New Piskel (11)_74
+    21300150: New Piskel (11)_75
+    21300152: New Piskel (11)_76
+    21300154: New Piskel (11)_77
+    21300156: New Piskel (11)_78
+    21300158: New Piskel (11)_79
+    21300160: New Piskel (11)_80
+    21300162: New Piskel (11)_81
+    21300164: New Piskel (11)_82
+    21300166: New Piskel (11)_83
+    21300168: New Piskel (11)_84
+    21300170: New Piskel (11)_85
+    21300172: New Piskel (11)_86
+    21300174: New Piskel (11)_87
+    21300176: New Piskel (11)_88
+    21300178: New Piskel (11)_89
+    21300180: New Piskel (11)_90
+    21300182: New Piskel (11)_91
+    21300184: New Piskel (11)_92
+    21300186: New Piskel (11)_93
+    21300188: New Piskel (11)_94
+    21300190: New Piskel (11)_95
+    21300192: New Piskel (11)_96
+    21300194: New Piskel (11)_97
+    21300196: New Piskel (11)_98
+    21300198: New Piskel (11)_99
+    21300200: New Piskel (11)_100
+    21300202: New Piskel (11)_101
+    21300204: New Piskel (11)_102
+    21300206: New Piskel (11)_103
+    21300208: New Piskel (11)_104
+    21300210: New Piskel (11)_105
+    21300212: New Piskel (11)_106
+    21300214: New Piskel (11)_107
+    21300216: New Piskel (11)_108
+    21300218: New Piskel (11)_109
+    21300220: New Piskel (11)_110
+    21300222: New Piskel (11)_111
+    21300224: New Piskel (11)_112
+    21300226: New Piskel (11)_113
+    21300228: New Piskel (11)_114
+    21300230: New Piskel (11)_115
+    21300232: New Piskel (11)_116
+    21300234: New Piskel (11)_117
+    21300236: New Piskel (11)_118
+    21300238: New Piskel (11)_119
+    21300240: New Piskel (11)_120
+    21300242: New Piskel (11)_121
+    21300244: New Piskel (11)_122
+    21300246: New Piskel (11)_123
+    21300248: New Piskel (11)_124
+    21300250: New Piskel (11)_125
+    21300252: New Piskel (11)_126
+    21300254: New Piskel (11)_127
+    21300256: New Piskel (11)_128
+    21300258: New Piskel (11)_129
+    21300260: New Piskel (11)_130
+    21300262: New Piskel (11)_131
+    21300264: New Piskel (11)_132
+    21300266: New Piskel (11)_133
+    21300268: New Piskel (11)_134
+    21300270: New Piskel (11)_135
+    21300272: New Piskel (11)_136
+    21300274: New Piskel (11)_137
+    21300276: New Piskel (11)_138
+    21300278: New Piskel (11)_139
+    21300280: New Piskel (11)_140
+    21300282: New Piskel (11)_141
+    21300284: New Piskel (11)_142
+    21300286: New Piskel (11)_143
+    21300288: New Piskel (11)_144
+    21300290: New Piskel (11)_145
+    21300292: New Piskel (11)_146
+    21300294: New Piskel (11)_147
+    21300296: New Piskel (11)_148
+    21300298: New Piskel (11)_149
+    21300300: New Piskel (11)_150
+    21300302: New Piskel (11)_151
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: New Piskel (11)_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.58, y: 59.16}
+        - {x: -58.58, y: 17.16}
+        - {x: -58.58, y: -56.84}
+        - {x: -57.58, y: -58.84}
+        - {x: 60.42, y: -58.84}
+        - {x: 60.42, y: 33.16}
+        - {x: 36.42, y: 59.16}
+    - name: New Piskel (11)_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 44
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.880005, y: 59.16}
+        - {x: -59.880005, y: 26.16}
+        - {x: -59.880005, y: -39.84}
+        - {x: -55.880005, y: -58.84}
+        - {x: 56.119995, y: -58.84}
+        - {x: 60.119995, y: -36.84}
+        - {x: 60.119995, y: 36.16}
+        - {x: 38.119995, y: 59.16}
+    - name: New Piskel (11)_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 44
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.04001, y: 59.16}
+        - {x: -59.04001, y: 27.16}
+        - {x: -59.04001, y: -28.84}
+        - {x: -51.04001, y: -58.84}
+        - {x: 60.95999, y: -58.84}
+        - {x: 60.95999, y: 42.16}
+        - {x: 20.959991, y: 59.16}
+    - name: New Piskel (11)_3
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 44
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.200012, y: 59.16}
+        - {x: -59.200012, y: 24.16}
+        - {x: -59.200012, y: -31.84}
+        - {x: -51.200012, y: -58.84}
+        - {x: 60.799988, y: -58.84}
+        - {x: 60.799988, y: 22.16}
+        - {x: 40.799988, y: 59.16}
+    - name: New Piskel (11)_4
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.77997, y: 25.16}
+        - {x: 38.77997, y: 59.16}
+        - {x: -34.22003, y: 59.16}
+        - {x: -59.22003, y: 29.16}
+        - {x: -59.22003, y: -23.84}
+        - {x: -43.22003, y: -58.84}
+        - {x: 59.77997, y: -58.84}
+    - name: New Piskel (11)_5
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.119995, y: 16.16}
+        - {x: 58.119995, y: 20.16}
+        - {x: 47.119995, y: 21.16}
+        - {x: 26.119995, y: 56.16}
+        - {x: 24.119995, y: 59.16}
+        - {x: -26.880005, y: 59.16}
+        - {x: -58.880005, y: 33.16}
+        - {x: -58.880005, y: -26.84}
+        - {x: -42.880005, y: -58.84}
+        - {x: -17.880005, y: -58.84}
+        - {x: -15.880005, y: -56.84}
+        - {x: 59.119995, y: -50.84}
+    - name: New Piskel (11)_6
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.54004, y: 59.16}
+        - {x: -58.54004, y: 26.16}
+        - {x: -58.54004, y: -28.84}
+        - {x: -41.54004, y: -58.84}
+        - {x: 56.45996, y: -58.84}
+        - {x: 60.45996, y: -53.84}
+        - {x: 60.45996, y: 59.16}
+    - name: New Piskel (11)_7
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 44
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.839966, y: 59.16}
+        - {x: -23.839966, y: 58.16}
+        - {x: -59.839966, y: 11.16}
+        - {x: -59.839966, y: -23.84}
+        - {x: -43.839966, y: -58.84}
+        - {x: 60.160034, y: -58.84}
+        - {x: 60.160034, y: 37.16}
+        - {x: 30.160034, y: 59.16}
+    - name: New Piskel (11)_8
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 44
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 59.16}
+        - {x: -42, y: 59.16}
+        - {x: -60, y: 19.16}
+        - {x: -60, y: -56.84}
+        - {x: -57, y: -58.84}
+        - {x: 56, y: -58.84}
+        - {x: 60, y: -43.84}
+        - {x: 60, y: 38.16}
+    - name: New Piskel (11)_9
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 44
+        width: 214
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.08008, y: 59.16}
+        - {x: -68.08008, y: 45.16}
+        - {x: -68.08008, y: -30.84}
+        - {x: -52.08008, y: -58.84}
+        - {x: 69.91992, y: -58.84}
+        - {x: 69.91992, y: 43.16}
+        - {x: 37.91992, y: 59.16}
+    - name: New Piskel (11)_10
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 44
+        width: 185
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.32007, y: 59.16}
+        - {x: -59.32007, y: 34.16}
+        - {x: -59.32007, y: -38.84}
+        - {x: -51.32007, y: -58.84}
+        - {x: 60.67993, y: -58.84}
+        - {x: 60.67993, y: 25.16}
+        - {x: 37.67993, y: 59.16}
+    - name: New Piskel (11)_11
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 44
+        width: 212
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.840088, y: 59.16}
+        - {x: -67.84009, y: 39.16}
+        - {x: -67.84009, y: -47.84}
+        - {x: -64.84009, y: -58.84}
+        - {x: 68.15991, y: -58.84}
+        - {x: 68.15991, y: 21.16}
+        - {x: 38.159912, y: 59.16}
+    - name: New Piskel (11)_12
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 47.16}
+        - {x: 26, y: 59.16}
+        - {x: -43, y: 59.16}
+        - {x: -59, y: 33.16}
+        - {x: -59, y: -28.84}
+        - {x: -51, y: -58.84}
+        - {x: 59, y: -58.84}
+        - {x: 59, y: 17.16}
+        - {x: 58, y: 20.16}
+    - name: New Piskel (11)_13
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 44
+        width: 185
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.160156, y: 59.16}
+        - {x: -59.160156, y: 34.16}
+        - {x: -59.160156, y: -49.84}
+        - {x: -56.160156, y: -58.84}
+        - {x: 60.839844, y: -58.84}
+        - {x: 60.839844, y: 26.16}
+        - {x: 41.839844, y: 59.16}
+    - name: New Piskel (11)_14
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 44
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.040039, y: 59.16}
+        - {x: -26.95996, y: 59.16}
+        - {x: -59.95996, y: 22.16}
+        - {x: -59.95996, y: -25.84}
+        - {x: -51.95996, y: -58.84}
+        - {x: 58.04004, y: -58.84}
+        - {x: 60.04004, y: -42.84}
+        - {x: 60.04004, y: 32.16}
+        - {x: 25.04004, y: 57.16}
+    - name: New Piskel (11)_15
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 44
+        width: 186
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.120117, y: 59.16}
+        - {x: -59.120117, y: 19.16}
+        - {x: -59.120117, y: -46.84}
+        - {x: -57.120117, y: -58.84}
+        - {x: 60.879883, y: -58.84}
+        - {x: 60.879883, y: 21.16}
+        - {x: 23.879883, y: 59.16}
+    - name: New Piskel (11)_16
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 44
+        width: 185
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.280029, y: 59.16}
+        - {x: -18.28003, y: 55.16}
+        - {x: -42.28003, y: 39.16}
+        - {x: -46.28003, y: 32.16}
+        - {x: -59.28003, y: 10.16}
+        - {x: -59.28003, y: -28.84}
+        - {x: -55.28003, y: -58.84}
+        - {x: 60.71997, y: -58.84}
+        - {x: 60.71997, y: 23.16}
+        - {x: 24.71997, y: 59.16}
+    - name: New Piskel (11)_17
+      rect:
+        serializedVersion: 2
+        x: 4380
+        y: 44
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.800049, y: 59.16}
+        - {x: -54.80005, y: 37.16}
+        - {x: -58.80005, y: 14.16}
+        - {x: -58.80005, y: -41.84}
+        - {x: -49.80005, y: -58.84}
+        - {x: 58.19995, y: -58.84}
+        - {x: 59.19995, y: -45.84}
+        - {x: 59.19995, y: 23.16}
+        - {x: 23.199951, y: 59.16}
+    - name: New Piskel (11)_18
+      rect:
+        serializedVersion: 2
+        x: 4623
+        y: 36
+        width: 202
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.28003, y: 61.54}
+        - {x: -64.28003, y: 29.54}
+        - {x: -64.28003, y: -29.46}
+        - {x: -51.28003, y: -61.46}
+        - {x: 65.71997, y: -61.46}
+        - {x: 65.71997, y: 32.54}
+        - {x: 31.71997, y: 61.54}
+    - name: New Piskel (11)_19
+      rect:
+        serializedVersion: 2
+        x: 4892
+        y: 36
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.120117, y: 61.54}
+        - {x: -55.120117, y: 55.54}
+        - {x: -46.120117, y: 39.54}
+        - {x: -46.120117, y: 22.54}
+        - {x: -47.120117, y: 36.54}
+        - {x: -49.120117, y: 38.54}
+        - {x: -53.120117, y: 41.54}
+        - {x: -60.120117, y: 35.54}
+        - {x: -60.120117, y: -42.46}
+        - {x: -45.120117, y: -61.46}
+        - {x: 61.879883, y: -61.46}
+        - {x: 61.879883, y: 24.54}
+        - {x: 38.879883, y: 61.54}
+      - - {x: -60.120117, y: -22.46}
+        - {x: -57.120117, y: -21.46}
+        - {x: -57.120117, y: -17.46}
+        - {x: -59.120117, y: -15.459999}
+        - {x: -60.120117, y: -15.459999}
+    - name: New Piskel (11)_20
+      rect:
+        serializedVersion: 2
+        x: 5147
+        y: 36
+        width: 189
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.920166, y: 61.54}
+        - {x: -46.920166, y: 39.54}
+        - {x: -46.920166, y: 22.54}
+        - {x: -47.920166, y: 36.54}
+        - {x: -49.920166, y: 38.54}
+        - {x: -53.920166, y: 41.54}
+        - {x: -60.920166, y: 33.54}
+        - {x: -60.920166, y: -55.46}
+        - {x: -54.920166, y: -61.46}
+        - {x: 61.079834, y: -61.46}
+        - {x: 61.079834, y: 31.54}
+        - {x: 46.079834, y: 61.54}
+      - - {x: -20.920166, y: -10.459999}
+        - {x: -21.920166, y: -14.459999}
+        - {x: -21.920166, y: -25.46}
+        - {x: -13.920166, y: -25.46}
+        - {x: -8.920166, y: -17.46}
+        - {x: -8.920166, y: -10.459999}
+      - - {x: -60.920166, y: -22.46}
+        - {x: -57.920166, y: -21.46}
+        - {x: -57.920166, y: -17.46}
+        - {x: -59.920166, y: -15.459999}
+        - {x: -60.920166, y: -15.459999}
+      - - {x: 11.079834, y: -5.459999}
+        - {x: 9.079834, y: -7.459999}
+        - {x: 9.079834, y: -10.459999}
+        - {x: 11.079834, y: -12.459999}
+        - {x: 14.079834, y: -12.459999}
+        - {x: 16.079834, y: -10.459999}
+        - {x: 16.079834, y: -7.459999}
+        - {x: 14.079834, y: -5.459999}
+      - - {x: 23.079834, y: -2.459999}
+        - {x: 19.079834, y: -6.459999}
+        - {x: 19.079834, y: -10.459999}
+        - {x: 21.079834, y: -12.459999}
+        - {x: 26.079834, y: -12.459999}
+        - {x: 29.079834, y: -9.459999}
+        - {x: 29.079834, y: -4.459999}
+        - {x: 28.079834, y: -2.459999}
+      - - {x: -3.920166, y: 10.540001}
+        - {x: -5.920166, y: 8.540001}
+        - {x: -5.920166, y: 2.540001}
+        - {x: -3.920166, y: 0.5400009}
+        - {x: -0.920166, y: 0.5400009}
+        - {x: 1.079834, y: 2.540001}
+        - {x: 1.079834, y: 8.540001}
+        - {x: -0.920166, y: 10.540001}
+    - name: New Piskel (11)_21
+      rect:
+        serializedVersion: 2
+        x: 5428
+        y: 147
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.4199219, y: -4.920006}
+        - {x: 2.4199219, y: -10.920006}
+        - {x: 3.4199219, y: -18.920006}
+        - {x: 25.419922, y: -21.920006}
+        - {x: 28.419922, y: -21.920006}
+        - {x: 28.419922, y: 26.079994}
+        - {x: 2.4199219, y: 26.079994}
+        - {x: -17.580078, y: 21.079994}
+        - {x: -26.580078, y: 8.079994}
+        - {x: -26.580078, y: -25.920006}
+        - {x: -18.580078, y: -25.920006}
+        - {x: 3.4199219, y: -13.920006}
+        - {x: 2.4199219, y: -8.920006}
+        - {x: 1.4199219, y: -6.920006}
+      - - {x: 25.419922, y: -17.920006}
+        - {x: 27.419922, y: -19.920006}
+        - {x: 28.419922, y: -19.920006}
+        - {x: 28.419922, y: -12.920006}
+        - {x: 25.419922, y: -13.920006}
+    - name: New Piskel (11)_22
+      rect:
+        serializedVersion: 2
+        x: 5511
+        y: 184
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_23
+      rect:
+        serializedVersion: 2
+        x: 5723
+        y: 211
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_24
+      rect:
+        serializedVersion: 2
+        x: 5772
+        y: 184
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_25
+      rect:
+        serializedVersion: 2
+        x: 6003
+        y: 215
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_26
+      rect:
+        serializedVersion: 2
+        x: 5687
+        y: 175
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_27
+      rect:
+        serializedVersion: 2
+        x: 5719
+        y: 203
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_28
+      rect:
+        serializedVersion: 2
+        x: 5736
+        y: 208
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_29
+      rect:
+        serializedVersion: 2
+        x: 5756
+        y: 203
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_30
+      rect:
+        serializedVersion: 2
+        x: 5975
+        y: 203
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_31
+      rect:
+        serializedVersion: 2
+        x: 5711
+        y: 192
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_32
+      rect:
+        serializedVersion: 2
+        x: 5744
+        y: 192
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_33
+      rect:
+        serializedVersion: 2
+        x: 5408
+        y: 139
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_34
+      rect:
+        serializedVersion: 2
+        x: 5519
+        y: 164
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_35
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 139
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_36
+      rect:
+        serializedVersion: 2
+        x: 5728
+        y: 184
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_37
+      rect:
+        serializedVersion: 2
+        x: 5752
+        y: 184
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_38
+      rect:
+        serializedVersion: 2
+        x: 5919
+        y: 164
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_39
+      rect:
+        serializedVersion: 2
+        x: 6056
+        y: 184
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_40
+      rect:
+        serializedVersion: 2
+        x: 5547
+        y: 100
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_41
+      rect:
+        serializedVersion: 2
+        x: 5711
+        y: 175
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_42
+      rect:
+        serializedVersion: 2
+        x: 5787
+        y: 175
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_43
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 172
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_44
+      rect:
+        serializedVersion: 2
+        x: 6044
+        y: 175
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_45
+      rect:
+        serializedVersion: 2
+        x: 5687
+        y: 164
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_46
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 156
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_47
+      rect:
+        serializedVersion: 2
+        x: 5736
+        y: 167
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_48
+      rect:
+        serializedVersion: 2
+        x: 5792
+        y: 167
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_49
+      rect:
+        serializedVersion: 2
+        x: 5811
+        y: 120
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_50
+      rect:
+        serializedVersion: 2
+        x: 5511
+        y: 159
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_51
+      rect:
+        serializedVersion: 2
+        x: 5683
+        y: 147
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_52
+      rect:
+        serializedVersion: 2
+        x: 5528
+        y: 151
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_53
+      rect:
+        serializedVersion: 2
+        x: 5539
+        y: 147
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_54
+      rect:
+        serializedVersion: 2
+        x: 5795
+        y: 147
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_55
+      rect:
+        serializedVersion: 2
+        x: 6052
+        y: 147
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_56
+      rect:
+        serializedVersion: 2
+        x: 4887
+        y: 131
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_57
+      rect:
+        serializedVersion: 2
+        x: 5144
+        y: 131
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_58
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 131
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_59
+      rect:
+        serializedVersion: 2
+        x: 5431
+        y: 136
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_60
+      rect:
+        serializedVersion: 2
+        x: 5456
+        y: 136
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_61
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 139
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_62
+      rect:
+        serializedVersion: 2
+        x: 5492
+        y: 136
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_63
+      rect:
+        serializedVersion: 2
+        x: 5539
+        y: 131
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_64
+      rect:
+        serializedVersion: 2
+        x: 5656
+        y: 131
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_65
+      rect:
+        serializedVersion: 2
+        x: 5687
+        y: 136
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_66
+      rect:
+        serializedVersion: 2
+        x: 4883
+        y: 128
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_67
+      rect:
+        serializedVersion: 2
+        x: 5139
+        y: 128
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_68
+      rect:
+        serializedVersion: 2
+        x: 5395
+        y: 128
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_69
+      rect:
+        serializedVersion: 2
+        x: 5419
+        y: 131
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_70
+      rect:
+        serializedVersion: 2
+        x: 5436
+        y: 128
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_71
+      rect:
+        serializedVersion: 2
+        x: 5444
+        y: 108
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_72
+      rect:
+        serializedVersion: 2
+        x: 5459
+        y: 128
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_73
+      rect:
+        serializedVersion: 2
+        x: 5652
+        y: 128
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_74
+      rect:
+        serializedVersion: 2
+        x: 4883
+        y: 111
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_75
+      rect:
+        serializedVersion: 2
+        x: 5139
+        y: 111
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_76
+      rect:
+        serializedVersion: 2
+        x: 5395
+        y: 111
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_77
+      rect:
+        serializedVersion: 2
+        x: 5403
+        y: 123
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_78
+      rect:
+        serializedVersion: 2
+        x: 5408
+        y: 100
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_79
+      rect:
+        serializedVersion: 2
+        x: 5428
+        y: 108
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_80
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_81
+      rect:
+        serializedVersion: 2
+        x: 5536
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_82
+      rect:
+        serializedVersion: 2
+        x: 5652
+        y: 111
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_83
+      rect:
+        serializedVersion: 2
+        x: 5659
+        y: 123
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_84
+      rect:
+        serializedVersion: 2
+        x: 5683
+        y: 111
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_85
+      rect:
+        serializedVersion: 2
+        x: 5703
+        y: 108
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_86
+      rect:
+        serializedVersion: 2
+        x: 5816
+        y: 116
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_87
+      rect:
+        serializedVersion: 2
+        x: 5916
+        y: 123
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_88
+      rect:
+        serializedVersion: 2
+        x: 6092
+        y: 120
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_89
+      rect:
+        serializedVersion: 2
+        x: 5459
+        y: 111
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_90
+      rect:
+        serializedVersion: 2
+        x: 5664
+        y: 100
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_91
+      rect:
+        serializedVersion: 2
+        x: 5828
+        y: 100
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_92
+      rect:
+        serializedVersion: 2
+        x: 5919
+        y: 116
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_93
+      rect:
+        serializedVersion: 2
+        x: 5923
+        y: 100
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_94
+      rect:
+        serializedVersion: 2
+        x: 6092
+        y: 108
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_95
+      rect:
+        serializedVersion: 2
+        x: 4883
+        y: 100
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_96
+      rect:
+        serializedVersion: 2
+        x: 5139
+        y: 100
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_97
+      rect:
+        serializedVersion: 2
+        x: 5395
+        y: 100
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_98
+      rect:
+        serializedVersion: 2
+        x: 5436
+        y: 95
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_99
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 103
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_100
+      rect:
+        serializedVersion: 2
+        x: 5487
+        y: 103
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_101
+      rect:
+        serializedVersion: 2
+        x: 5511
+        y: 100
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_102
+      rect:
+        serializedVersion: 2
+        x: 5539
+        y: 83
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_103
+      rect:
+        serializedVersion: 2
+        x: 5652
+        y: 100
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_104
+      rect:
+        serializedVersion: 2
+        x: 5767
+        y: 100
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_105
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 100
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_106
+      rect:
+        serializedVersion: 2
+        x: 5811
+        y: 103
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_107
+      rect:
+        serializedVersion: 2
+        x: 5908
+        y: 100
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_108
+      rect:
+        serializedVersion: 2
+        x: 5419
+        y: 87
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_109
+      rect:
+        serializedVersion: 2
+        x: 5428
+        y: 87
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_110
+      rect:
+        serializedVersion: 2
+        x: 5447
+        y: 95
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_111
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 95
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_112
+      rect:
+        serializedVersion: 2
+        x: 5483
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_113
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 92
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_114
+      rect:
+        serializedVersion: 2
+        x: 5508
+        y: 92
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_115
+      rect:
+        serializedVersion: 2
+        x: 5519
+        y: 95
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_116
+      rect:
+        serializedVersion: 2
+        x: 5528
+        y: 87
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_117
+      rect:
+        serializedVersion: 2
+        x: 5675
+        y: 87
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_118
+      rect:
+        serializedVersion: 2
+        x: 5683
+        y: 92
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_119
+      rect:
+        serializedVersion: 2
+        x: 5695
+        y: 95
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_120
+      rect:
+        serializedVersion: 2
+        x: 5744
+        y: 92
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_121
+      rect:
+        serializedVersion: 2
+        x: 5756
+        y: 92
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_122
+      rect:
+        serializedVersion: 2
+        x: 5764
+        y: 92
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_123
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 92
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_124
+      rect:
+        serializedVersion: 2
+        x: 5416
+        y: 75
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_125
+      rect:
+        serializedVersion: 2
+        x: 5428
+        y: 36
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.080078, y: 17.039999}
+        - {x: -20.080078, y: -15.960001}
+        - {x: -18.080078, y: -16.960001}
+        - {x: 1.9199219, y: -16.960001}
+        - {x: 21.919922, y: -11.960001}
+        - {x: 21.919922, y: 17.039999}
+    - name: New Piskel (11)_126
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 83
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_127
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 67
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_128
+      rect:
+        serializedVersion: 2
+        x: 5519
+        y: 44
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_129
+      rect:
+        serializedVersion: 2
+        x: 5672
+        y: 75
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_130
+      rect:
+        serializedVersion: 2
+        x: 5683
+        y: 36
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_131
+      rect:
+        serializedVersion: 2
+        x: 5759
+        y: 67
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_132
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 83
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_133
+      rect:
+        serializedVersion: 2
+        x: 5811
+        y: 75
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_134
+      rect:
+        serializedVersion: 2
+        x: 5716
+        y: 64
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_135
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 75
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_136
+      rect:
+        serializedVersion: 2
+        x: 5947
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_137
+      rect:
+        serializedVersion: 2
+        x: 5736
+        y: 64
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_138
+      rect:
+        serializedVersion: 2
+        x: 5783
+        y: 44
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_139
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_140
+      rect:
+        serializedVersion: 2
+        x: 5756
+        y: 56
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_141
+      rect:
+        serializedVersion: 2
+        x: 5944
+        y: 59
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_142
+      rect:
+        serializedVersion: 2
+        x: 6016
+        y: 56
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_143
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 47
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_144
+      rect:
+        serializedVersion: 2
+        x: 5511
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_145
+      rect:
+        serializedVersion: 2
+        x: 5731
+        y: 47
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_146
+      rect:
+        serializedVersion: 2
+        x: 5767
+        y: 47
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_147
+      rect:
+        serializedVersion: 2
+        x: 5775
+        y: 47
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_148
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 47
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_149
+      rect:
+        serializedVersion: 2
+        x: 6023
+        y: 47
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_150
+      rect:
+        serializedVersion: 2
+        x: 6031
+        y: 47
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: New Piskel (11)_151
+      rect:
+        serializedVersion: 2
+        x: 6056
+        y: 44
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

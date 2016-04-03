@@ -1,0 +1,402 @@
+fileFormatVersion: 2
+guid: e24176674bb9c8140ba851112694f36c
+timeCreated: 1459710306
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: New Piskel (12)_0
+    21300002: New Piskel (12)_1
+    21300004: New Piskel (12)_2
+    21300006: New Piskel (12)_3
+    21300008: New Piskel (12)_4
+    21300010: New Piskel (12)_5
+    21300012: New Piskel (12)_6
+    21300014: New Piskel (12)_7
+    21300016: New Piskel (12)_8
+    21300018: New Piskel (12)_9
+    21300020: New Piskel (12)_10
+    21300022: New Piskel (12)_11
+    21300024: New Piskel (12)_12
+    21300026: New Piskel (12)_13
+    21300028: New Piskel (12)_14
+    21300030: New Piskel (12)_15
+    21300032: New Piskel (12)_16
+    21300034: New Piskel (12)_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: New Piskel (12)_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 75
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.11111, y: 51.666664}
+        - {x: -54.11111, y: 4.666664}
+        - {x: -54.11111, y: -50.333336}
+        - {x: 55.88889, y: -50.333336}
+        - {x: 55.88889, y: 45.666664}
+        - {x: 37.88889, y: 51.666664}
+    - name: New Piskel (12)_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 75
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53.833344, y: 37.166664}
+        - {x: 49.833344, y: 48.166664}
+        - {x: -37.166656, y: 48.166664}
+        - {x: -47.166656, y: 45.166664}
+        - {x: -53.166656, y: 23.166664}
+        - {x: -53.166656, y: -46.833336}
+        - {x: 53.833344, y: -46.833336}
+    - name: New Piskel (12)_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 75
+        width: 121
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 51.666664}
+        - {x: -54, y: 35.666664}
+        - {x: -54, y: -44.333336}
+        - {x: -47, y: -47.333336}
+        - {x: -25, y: -50.333336}
+        - {x: 54, y: -50.333336}
+        - {x: 54, y: 50.666664}
+        - {x: 52, y: 51.666664}
+    - name: New Piskel (12)_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 75
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.944458, y: 51.666664}
+        - {x: -53.944458, y: 32.666664}
+        - {x: -53.944458, y: -50.333336}
+        - {x: 54.055542, y: -50.333336}
+        - {x: 55.055542, y: -49.333336}
+        - {x: 55.055542, y: 37.666664}
+        - {x: 51.055542, y: 51.666664}
+    - name: New Piskel (12)_4
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 75
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 51.666664}
+        - {x: -45.5, y: 51.666664}
+        - {x: -53.5, y: 1.6666641}
+        - {x: -53.5, y: -50.333336}
+        - {x: 50.5, y: -50.333336}
+        - {x: 53.5, y: -42.333336}
+        - {x: 53.5, y: 46.666664}
+    - name: New Piskel (12)_5
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 75
+        width: 122
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.333374, y: 48.166664}
+        - {x: -54.333374, y: 29.166664}
+        - {x: -54.333374, y: -46.833336}
+        - {x: 49.666626, y: -46.833336}
+        - {x: 55.666626, y: -37.833336}
+        - {x: 55.666626, y: 35.166664}
+        - {x: 45.666626, y: 48.166664}
+    - name: New Piskel (12)_6
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 75
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.611084, y: 51.666664}
+        - {x: -45.388916, y: 51.666664}
+        - {x: -53.388916, y: 29.666664}
+        - {x: -53.388916, y: -50.333336}
+        - {x: 50.611084, y: -50.333336}
+        - {x: 53.611084, y: -43.333336}
+        - {x: 53.611084, y: 46.666664}
+    - name: New Piskel (12)_7
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 80
+        width: 125
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.111084, y: 54.111115}
+        - {x: -36.888916, y: 54.111115}
+        - {x: -49.888916, y: 52.111115}
+        - {x: -55.888916, y: 29.111115}
+        - {x: -55.888916, y: -53.888885}
+        - {x: 56.111084, y: -53.888885}
+        - {x: 56.111084, y: 35.111115}
+        - {x: 53.111084, y: 39.111115}
+    - name: New Piskel (12)_8
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 80
+        width: 125
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.222168, y: 54.111115}
+        - {x: -55.222168, y: 27.111115}
+        - {x: -55.222168, y: -53.888885}
+        - {x: 56.777832, y: -53.888885}
+        - {x: 56.777832, y: 48.111115}
+        - {x: 51.777832, y: 54.111115}
+    - name: New Piskel (12)_9
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 80
+        width: 125
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.222168, y: 54.111115}
+        - {x: -39.777832, y: 54.111115}
+        - {x: -44.777832, y: 53.111115}
+        - {x: -55.777832, y: 17.111115}
+        - {x: -55.777832, y: -53.888885}
+        - {x: 56.222168, y: -53.888885}
+        - {x: 56.222168, y: 28.111115}
+        - {x: 47.222168, y: 47.111115}
+    - name: New Piskel (12)_10
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 75
+        width: 172
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 39.666664}
+        - {x: -54.5, y: 39.666664}
+        - {x: -76.5, y: 1.6666641}
+        - {x: -76.5, y: -38.333336}
+        - {x: 76.5, y: -38.333336}
+        - {x: 76.5, y: 8.666664}
+        - {x: 54.5, y: 28.666664}
+    - name: New Piskel (12)_11
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 75
+        width: 174
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.333252, y: 39.666664}
+        - {x: -77.33325, y: 8.666664}
+        - {x: -77.33325, y: -38.333336}
+        - {x: 78.66675, y: -38.333336}
+        - {x: 78.66675, y: 5.666664}
+        - {x: 29.666748, y: 39.666664}
+    - name: New Piskel (12)_12
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 75
+        width: 172
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.388916, y: 39.666664}
+        - {x: -49.388916, y: 38.666664}
+        - {x: -76.388916, y: 0.6666641}
+        - {x: -76.388916, y: -38.333336}
+        - {x: 76.611084, y: -38.333336}
+        - {x: 76.611084, y: 23.666664}
+        - {x: 46.611084, y: 39.666664}
+    - name: New Piskel (12)_13
+      rect:
+        serializedVersion: 2
+        x: 3384
+        y: 75
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 51.666664}
+        - {x: -33.5, y: 51.666664}
+        - {x: -42.5, y: 45.666664}
+        - {x: -53.5, y: 19.666664}
+        - {x: -53.5, y: -50.333336}
+        - {x: 50.5, y: -50.333336}
+        - {x: 53.5, y: -42.333336}
+        - {x: 53.5, y: 37.666664}
+    - name: New Piskel (12)_14
+      rect:
+        serializedVersion: 2
+        x: 3639
+        y: 75
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.333252, y: 51.666664}
+        - {x: -50.333252, y: 49.666664}
+        - {x: -54.333252, y: 27.666664}
+        - {x: -54.333252, y: -50.333336}
+        - {x: 55.666748, y: -50.333336}
+        - {x: 55.666748, y: 49.666664}
+        - {x: 49.666748, y: 51.666664}
+    - name: New Piskel (12)_15
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 75
+        width: 125
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.333252, y: 51.666664}
+        - {x: -55.333252, y: 41.666664}
+        - {x: -55.333252, y: -8.333336}
+        - {x: -42.333252, y: -8.333336}
+        - {x: -40.333252, y: -6.333336}
+        - {x: -42.333252, y: -9.333336}
+        - {x: -54.333252, y: -33.333336}
+        - {x: -52.333252, y: -50.333336}
+        - {x: 56.666748, y: -50.333336}
+        - {x: 56.666748, y: 43.666664}
+        - {x: 40.666748, y: 51.666664}
+    - name: New Piskel (12)_16
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 75
+        width: 145
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.666748, y: 51.666664}
+        - {x: -64.66675, y: 30.666664}
+        - {x: -64.66675, y: -27.333336}
+        - {x: -57.666748, y: -50.333336}
+        - {x: 65.33325, y: -50.333336}
+        - {x: 65.33325, y: 45.666664}
+        - {x: 49.333252, y: 51.666664}
+    - name: New Piskel (12)_17
+      rect:
+        serializedVersion: 2
+        x: 4372
+        y: 75
+        width: 156
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.277832, y: 51.666664}
+        - {x: -69.27783, y: 35.666664}
+        - {x: -69.27783, y: -50.333336}
+        - {x: 69.72217, y: -50.333336}
+        - {x: 69.72217, y: 51.666664}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -35,7 +35,7 @@ public class EnemyControl : BaseCharacter {
 		curHealth = maxHealth;
 
 		//Set the enemy damage
-		eDamage = eDamage * 10;
+		eDamage = eDamage * 6;
 
 
 		//set dead to false;
@@ -43,7 +43,7 @@ public class EnemyControl : BaseCharacter {
 		playerCollide = false;
 
 		//Set our attack frames
-		totalFrames = 25;
+		totalFrames = 19;
 		attackFrames = totalFrames;
 
 		//Go after our player!
@@ -168,7 +168,7 @@ public class EnemyControl : BaseCharacter {
 			else {
 
 				//Set the attack trigger of the player's animation controller in order to play the player's attack animation.
-				//animator.SetTrigger ("Attack");
+				animator.SetTrigger ("Attack");
 
 				//Only do damage if they are not dodging
 				//Get the player
