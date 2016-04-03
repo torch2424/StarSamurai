@@ -88,7 +88,8 @@ public class EnemyControl : BaseCharacter {
 			//Set death boolean to true
 			dead = true;
 
-			Destroy (gameObject);
+			//Start the death coroutine
+			StartCoroutine("deathStall");
 
 		}
 
@@ -206,5 +207,18 @@ public class EnemyControl : BaseCharacter {
 			//Set player collide to false
 			playerCollide = false;
 		}
+	}
+
+	//simply stall death before destroying
+	//Function for jumping
+	IEnumerator deathStall() {
+
+		//Wait some frames
+		for(int i = 0; i < 100; i++) {
+			yield return new WaitForFixedUpdate();
+		}
+
+		//Destroy the game object
+		Destroy(gameObject);
 	}
 }

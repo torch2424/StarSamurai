@@ -91,7 +91,7 @@ public class StateManager : MonoBehaviour {
 
 		//Check if we need to restart the game
 		if(Input.GetKey(KeyCode.Return)) {
-			Application.LoadLevel ("GameScene");
+			Application.LoadLevel ("GameMain");
 		}
 
 		//Spawn enemies every frame
@@ -214,9 +214,18 @@ public class StateManager : MonoBehaviour {
 		++defeatedEnemies;
 
 		//Increase our score
-		score = (int) Math.Floor(defeatedEnemies + (1000 * Math.Abs(UnityEngine.Random.insideUnitCircle.x)));
+		score = (int) Math.Floor(score + defeatedEnemies + (1000 * Math.Abs(UnityEngine.Random.insideUnitCircle.x)));
 
 		//Show our score and things
 		hud.text = ("Enemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
+
+		//Remove the block if we have defeated all the enemies
+		if(defeatedEnemies >= 29) {
+
+			//Destroy the block
+			Destroy (GameObject.Find ("KeyBlock"));
+
+			//As well as play a special sound
+		}
 	}
 }
