@@ -203,6 +203,7 @@ public class PlayerControl : BaseCharacter {
 	//Function to check if we can jump again for collisions
 	void OnCollisionEnter2D(Collision2D collision)
 	{
+
 		//Check if it is tthe jumping wall
 		if (collision.gameObject.tag == "JumpWall") {
 
@@ -284,13 +285,18 @@ public class PlayerControl : BaseCharacter {
 				float playerY = gameObject.transform.position.y;
 				float enemyX = collision.gameObject.transform.position.x;
 				float enemyY = collision.gameObject.transform.position.y;
-				//Our window for our punch range
-				float window = .15f;
+
+				//Our window for our Attack range (Fixes standing still no attack bug)
+				float window = .05f;
+
+				Debug.Log ((enemyX + window) + ", " + playerX);
 
 				//Deal damage if we are facing the right direction
-				if((direction == 1 && enemyX >= playerX) ||
-					(direction == -1 && enemyX <= playerX))
+				if((direction == 1 && (enemyX + window) >= playerX) ||
+					(direction == -1 && (enemyX - window) <= playerX))
 				{
+
+					Debug.Log ("suo");
 					//Get the enemy and decrease it's health
 					EnemyControl e = (EnemyControl) collision.gameObject.GetComponent("EnemyControl");
 

@@ -155,7 +155,7 @@ public class BaseCharacter : MonoBehaviour {
 			charBody.MovePosition (charBody.position);
 
 			//tell the animator we are no longer moving
-			direction = 0;
+			//direction = 0;
 
 			animator.SetBool ("Running", false);
 		}
