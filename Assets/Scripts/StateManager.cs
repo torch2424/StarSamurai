@@ -39,6 +39,7 @@ public class StateManager : MonoBehaviour {
 
 	//Our Hud
 	private UnityEngine.UI.Text hud;
+	private UnityEngine.UI.Image healthBar;
 
 	//Our credits
 	private Canvas credits;
@@ -61,9 +62,6 @@ public class StateManager : MonoBehaviour {
 	//Our select sound
 	public AudioSource select;
 
-	//Array pf things to say once you die
-	String[] epitaph = {"See you space samurai..."};
-
 	// Use this for initialization
 	void Start () {
 
@@ -79,7 +77,8 @@ public class StateManager : MonoBehaviour {
 		user = GameObject.Find ("Player").GetComponent<PlayerControl>();
 
 		//Get our Hud
-		hud = GameObject.Find ("PlayerHUD").GetComponent<UnityEngine.UI.Text> ();
+		hud = GameObject.FindWithTag("Health Text").GetComponent<UnityEngine.UI.Text> ();
+		healthBar = GameObject.FindWithTag ("Health Bar").GetComponent<UnityEngine.UI.Image> ();
 
 		//Get our Hud
 		credits = GameObject.FindGameObjectWithTag ("Credits").GetComponent<Canvas>();
@@ -99,7 +98,7 @@ public class StateManager : MonoBehaviour {
 		score = 0;
 
 		//Show our score and things
-		hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
+		hud.text = ("Health: " + user.getHealth());
 
 		//Spawn an enemies
 		totalFrames = 500;
@@ -133,21 +132,10 @@ public class StateManager : MonoBehaviour {
 		}
 		else if(gameOver)
 		{
-			//First get our epitaph index
-			int epitaphIndex = 0;
-			if(score / 1000 <= epitaph.Length - 1)
-			{
-				epitaphIndex = score / 1000;
-			}
-			else
-			{
-				epitaphIndex = epitaph.Length - 1;
-			}
-
-
+			
 			//Show our game over
-			hud.text = (epitaph[epitaphIndex] + "\nEnemies Defeated: " + defeatedEnemies
-				+ "\nScore: " + score +"\nPress Start/Enter to restart...");
+			hud.text = "Health: 0";
+			healthBar.fillAmount = 0.0f;
 
 			//stop the music! if it is playing
 			if(bgFight.isPlaying)
@@ -173,7 +161,8 @@ public class StateManager : MonoBehaviour {
 			score = (int)(defeatedEnemies * 100) + defeatedEnemies;
 
 			//Show our score and things
-			hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
+			hud.text = ("Health: " + user.getHealth());
+			healthBar.fillAmount = (user.getHealth () / 100.0f);
 
 			//start the music! if it is not playing
 			if (!bgFight.isPlaying) {
@@ -278,7 +267,8 @@ public class StateManager : MonoBehaviour {
 		score = (int) Math.Floor(score + defeatedEnemies + Math.Abs(1000 * Math.Abs(UnityEngine.Random.insideUnitCircle.x)));
 
 		//Show our score and things
-		hud.text = ("Health: " + user.getHealth() + "\nEnemies Defeated: " + defeatedEnemies + "\nHighest Score: " + score);
+		hud.text = ("Health: " + user.getHealth());
+		healthBar.fillAmount = (user.getHealth () / 100);
 
 		//Remove the block if we have defeated all the enemies
 		if(defeatedEnemies >= 19) {

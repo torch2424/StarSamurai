@@ -12,7 +12,10 @@ public class CameraFeel : MonoBehaviour {
 	private bool shaking;
 
 	//The speed the camera will lerp, e.g. 1.5f
+	[Tooltip("A Float value that will determine how fast the camera will lerp, and follow. 0.0 < lerpSpeed < 3.0")]
 	public float lerpSpeed;
+
+
 	private bool impacting;
 
 	//our postion
@@ -30,7 +33,7 @@ public class CameraFeel : MonoBehaviour {
 		impacting = false;
 
 		//off set the camera by just a little bit to add some lerp when we start
-		gameObject.transform.localPosition = new Vector3 (-.03f, -.03f, -10);
+		gameObject.transform.localPosition = new Vector3 (.05f, .05f, -10);
 
 		//Get our gammaneger
 		gameManager = GameObject.Find("StateManager").GetComponent<StateManager>();
@@ -40,7 +43,10 @@ public class CameraFeel : MonoBehaviour {
 	void Update () 
 	{
 		//translate back to ourself, 0,0, -10, with lerp
-		gameObject.transform.localPosition = Vector3.Lerp(gameObject.transform.localPosition, defaultPos, lerpSpeed * Time.deltaTime);
+		//Multiply the lerp to inscrease it's effect
+		Vector3 velocity = Vector3.zero;
+		Vector3 cameraLerp = Vector3.SmoothDamp(gameObject.transform.localPosition, defaultPos, ref velocity, 0.5f);
+		gameObject.transform.localPosition = cameraLerp;
 
 		//Now check if we need to shake the camera
 		if(shaking)

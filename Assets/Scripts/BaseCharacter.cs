@@ -104,7 +104,7 @@ public class BaseCharacter : MonoBehaviour {
 			//Find the greatest absolute value to get most promenint direction
 			/*
 			 *
-			 * 0		1
+			 * -1		1
 			 *
 			 * */
 
