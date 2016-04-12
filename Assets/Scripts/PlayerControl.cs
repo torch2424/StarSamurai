@@ -10,11 +10,19 @@ public class PlayerControl : BaseCharacter {
 
 	//Boolean to check if attacking
 	bool attacking;
+
+
 	//Our Number of jumps we have done
-	int jumps;
-	bool jumping;
-	bool wallJumping;
 	public float jumpHeight;
+	private int jumps;
+	private bool grounded;
+	public Transform groundCheck;
+	public LayerMask groundLayer;
+	private bool walled;
+	public Transform wallCheck;
+	public LayerMask wallLayer;
+	public float checkRadius;
+
 
 	//Counter for holding space to punch
 	private int holdAttack;
@@ -27,7 +35,6 @@ public class PlayerControl : BaseCharacter {
 	// Use this for initialization
 	protected override void Start ()
 	{
-
 		//Call our superclass start
 		base.Start();
 
@@ -39,9 +46,10 @@ public class PlayerControl : BaseCharacter {
 		//Set our actions
 		attacking = false;
 		jumps = 0;
-		jumping = false;
-		wallJumping = false;
 		holdAttack = 0;
+
+		//Set up our Jumping Ground Detection
+		grounded = false;
 	}
 
 	// Update is called once per frame
@@ -51,30 +59,16 @@ public class PlayerControl : BaseCharacter {
 		base.Update ();
 
 		//check if dead, allow movement if alive
-		if (curHealth <= 0) {
-			//make our player object invisible
-			//possible display some animation first
-			//Renderer r = (Renderer) gameObject.GetComponent("SpriteRenderer");
-			//r.enabled = false;
-			//No longer turning invisible, just looping death animation
-			//play our death animation
-			animator.SetTrigger ("Death");
+		if (curHealth > 0) {
 
-			//play the death sound
-			//if (!death.isPlaying) {
-			//death.Play ();
-			//}
+			//Check ground/wall status
+			//Following: UNity 2d Character Controllers
+			grounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+			walled = Physics2D.OverlapCircle(wallCheck.position, checkRadius,wallLayer);
 
-			//Set our gameover text
-			gameManager.setGameStatus (true);
-
-			//set health to 0
-			curHealth = 0;
-
-		} else {
 
 			//Call moving
-			if(!gameManager.getGameStatus()) base.Move(Input.GetAxis("Horizontal"), true, attacking);
+			if(!gameManager.getGameStatus()) Move(Input.GetAxis("Horizontal"), true, attacking);
 
 			//Attacks with our player (Check for a level up here as well), only attack if not jumping
 			if (Input.GetKey (KeyCode.Backspace) &&
@@ -115,11 +109,104 @@ public class PlayerControl : BaseCharacter {
 				StopCoroutine ("Jump");
 				StartCoroutine ("Jump");
 			}
+		} 
+		else {
 
+			//We is ded
+
+			//make our player object invisible
+			//possible display some animation first
+			//Renderer r = (Renderer) gameObject.GetComponent("SpriteRenderer");
+			//r.enabled = false;
+			//No longer turning invisible, just looping death animation
+			//play our death animation
+			animator.SetTrigger ("Death");
+
+			//play the death sound
+			//if (!death.isPlaying) {
+			//death.Play ();
+			//}
+
+			//Set our gameover text
+			gameManager.setGameStatus (true);
+
+			//set health to 0
+			curHealth = 0;
 		}
 	}
 
-	//Function for shooting
+	//Function to move our Character
+	public void Move (float inputDirection, bool playerLerp, bool inAction)
+	{
+		//Get our input
+		float h = inputDirection;
+
+		//Force some camera Lerp
+		if(playerLerp) actionCamera.addLerp(h / 20, 0);
+
+		//Also check to make sure we stay that direction when not moving, so check that we are
+		if (h != 0) {
+
+			//animate to the direction we are going to move
+			//Find the greatest absolute value to get most promenint direction
+			/*
+			 *
+			 * -1		1
+			 *
+			 * */
+
+			if (h > 0) {
+				direction = 1;
+			} else {
+				direction = -1;
+			}
+
+			//Create a vector to where we are moving
+			Vector2 movement = new Vector2 (h, 0);
+
+			//When attacking start a slow movemnt coroutine
+			if (!inAction) {
+
+				//Attacking working great
+				StopCoroutine ("slowMoving");
+				StartCoroutine ("slowMoving");
+			}
+
+
+			//Get our speed according to our current level
+			float levelSpeed = moveSpeed;
+
+
+			//Get our actual speed
+			float superSpeed = moveSpeed / moveDec;
+
+			//Can't go above .5 though
+			if (superSpeed > (.032f * moveSpeed)) {
+				superSpeed = (.032f * moveSpeed);
+			}
+
+			//Flip our sprite
+			setFlip();
+
+			//Move to that position
+			animator.SetBool ("Running", true);
+			charBody.MovePosition (charBody.position + movement * superSpeed);
+		}
+
+		//then we are not moving
+		else {
+
+			//Set our position to our current position, so we dont drift away
+			charBody.MovePosition (charBody.position);
+
+			//tell the animator we are no longer moving
+			//direction = 0;
+
+			animator.SetBool ("Running", false);
+		}
+	}
+
+	//Function for attacking
 	IEnumerator Slash() {
 
 		//Set shooting to true
@@ -153,8 +240,7 @@ public class PlayerControl : BaseCharacter {
 		animator.SetBool ("Jump", false);
 		yield return new WaitForFixedUpdate();
 
-		//Set our booleans
-		jumping = true;
+		//Increase our jumps
 		jumps++;
 
 		//Reset our y velocity
@@ -169,8 +255,7 @@ public class PlayerControl : BaseCharacter {
 		//Check if we need the walljump boolean
 		bool wallForce = false;
 		int wallDirection = direction;
-		if (wallJumping)
-			wallForce = true;
+		//if (wallJumping) wallForce = true;
 
 		//Add the jump force
 		//Needs to be intervals of 30, gives best accleration
@@ -199,12 +284,6 @@ public class PlayerControl : BaseCharacter {
 		}
 	}
 
-	//Function for if jumping
-	public bool isJumping()
-	{
-		return jumping;
-	}
-
 	//Function to check if we can jump again for collisions
 	void OnCollisionEnter2D(Collision2D collision)
 	{
@@ -214,10 +293,6 @@ public class PlayerControl : BaseCharacter {
 
 			//Reset Jumps
 			jumps = 1;
-
-			//set wallJumping
-			wallJumping = true;
-
 		}
 
 		//Check if it is the floor
@@ -228,7 +303,6 @@ public class PlayerControl : BaseCharacter {
 			//Set Jumps to zero
 			StopCoroutine ("Jump");
 			jumps = 0;
-			jumping = false;
 			animator.SetBool ("Jump", false);
 			//Reset our drag
 			charBody.drag = 0.0f;
@@ -250,7 +324,7 @@ public class PlayerControl : BaseCharacter {
 		if (collision.gameObject.tag == "JumpWall") {
 
 			//Stop wall jumping
-			wallJumping = false;
+			//wallJumping = false;
 		}
 	}
 
@@ -262,7 +336,7 @@ public class PlayerControl : BaseCharacter {
 		if (collision.gameObject.tag == "JumpWall") {
 
 			//set wallJumping
-			wallJumping = true;
+			//wallJumping = true;
 		}
 
 		//Check if it is spikes
@@ -278,7 +352,6 @@ public class PlayerControl : BaseCharacter {
 
 			//Set Jumps to zero
 			jumps = 0;
-			jumping = false;
 			animator.SetBool ("Jump", false);
 			//Reset our drag
 			charBody.drag = 0.0f;

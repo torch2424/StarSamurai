@@ -41,7 +41,7 @@ public class BaseCharacter : MonoBehaviour {
 	private bool canRegen;
 
 	//Game jucin', slow when attacking
-	private int moveDec;
+	protected int moveDec;
 
 	//Our sprite renderer to change our sprite color
 	protected SpriteRenderer render;
@@ -100,79 +100,6 @@ public class BaseCharacter : MonoBehaviour {
 			StopCoroutine("noRegen");
 			StartCoroutine("noRegen");
 
-		}
-	}
-
-
-
-	//Function to move our Character
-	public void Move (float inputDirection, bool playerLerp, bool inAction)
-	{
-		//Get our input
-		float h = inputDirection;
-
-		//Force some camera Lerp
-		if(playerLerp) actionCamera.addLerp(h / 20, 0);
-
-		//Also check to make sure we stay that direction when not moving, so check that we are
-		if (h != 0) {
-
-			//animate to the direction we are going to move
-			//Find the greatest absolute value to get most promenint direction
-			/*
-			 *
-			 * -1		1
-			 *
-			 * */
-
-			if (h > 0) {
-				direction = 1;
-			} else {
-				direction = -1;
-			}
-
-			//Create a vector to where we are moving
-			Vector2 movement = new Vector2 (h, 0);
-
-			//When attacking start a slow movemnt coroutine
-			if (!inAction) {
-
-				//Attacking working great
-				StopCoroutine ("slowMoving");
-				StartCoroutine ("slowMoving");
-			}
-
-
-			//Get our speed according to our current level
-			float levelSpeed = moveSpeed;
-
-
-			//Get our actual speed
-			float superSpeed = moveSpeed / moveDec;
-
-			//Can't go above .5 though
-			if (superSpeed > (.032f * moveSpeed)) {
-				superSpeed = (.032f * moveSpeed);
-			}
-
-			//Flip our sprite
-			setFlip();
-
-			//Move to that position
-			animator.SetBool ("Running", true);
-			charBody.MovePosition (charBody.position + movement * superSpeed);
-		}
-
-		//then we are not moving
-		else {
-
-			//Set our position to our current position, so we dont drift away
-			charBody.MovePosition (charBody.position);
-
-			//tell the animator we are no longer moving
-			//direction = 0;
-
-			animator.SetBool ("Running", false);
 		}
 	}
 
