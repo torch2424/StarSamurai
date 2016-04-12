@@ -3,39 +3,58 @@ using System.Collections;
 
 public class BaseCharacter : MonoBehaviour {
 
-	//Our player sprite
-	public Rigidbody2D charBody;
+	/*
+	 * PUBLIC INSPECTOR VARIABLES
+	*/
+
+	//Our game manager
+	[Tooltip("The Game Object that manages the game state")]
+	public StateManager gameManager;
 
 	//Our player movepseed
+	[Tooltip("The Speed of which the player will move")]
 	public float moveSpeed;
 
-	//Our player stats
+	//Our Player Health
+	[Tooltip("The Maximum Health Of the player")]
 	public int maxHealth;
-	protected int curHealth;
+
 	//Player health regen rate
+	[Tooltip("The rate of health regeneration, suggested to be 1/20 of maxHealth")]
 	public int healthRegenRate;
+
+	//Boolean to reverseflip
+	[Tooltip("Flip the direction of the player sprite. False == Right Facing Sprite, True == Left Facing Sprite")]
+	public bool reverseFlip;
+
+	/*
+	 * PRIVATE VARIABLES
+	*/
+
+	//Our player sprite
+	protected Rigidbody2D charBody;
+
+	//Our player stats
+	protected int curHealth;
+
+	//If A Player can regenerate
 	private bool canRegen;
 
 	//Game jucin', slow when attacking
 	private int moveDec;
 
-	protected SpriteRenderer render; //Our sprite renderer to change our sprite color
-	protected Animator animator;   //Used to store a reference to the Player's animator component.
-
-	//Our game manager
-	public StateManager gameManager;
+	//Our sprite renderer to change our sprite color
+	protected SpriteRenderer render;
+	//Used to store a reference to the Player's animator component.
+	protected Animator animator;
 
 	//our camera Script
-	protected CameraFeel actionCamera;
+	protected ActionCamera actionCamera;
 
 	//Our current Direction
 	protected int direction;
 
-	//Our last animation direction for idling
-	protected int lastDir;
 
-	//Boolean to reverseflip
-	public bool reverseFlip;
 
 	// Use this for initialization
 	protected virtual void Start () {
@@ -48,22 +67,20 @@ public class BaseCharacter : MonoBehaviour {
 		charBody = GetComponent<Rigidbody2D>();
 
 		//Set our default values
-		//maxHealth = 25; Max Health set by inspector
 		moveDec = 1;
-		lastDir = 1;
 
 		//Set our health
 		curHealth = maxHealth;
 		canRegen = true;
 
-		//Default looking idle
+		//Default looking idle/right
 		direction = 1;
 
-		//Get our gammaneger
+		//Get our gamemaneger
 		gameManager = GameObject.Find("StateManager").GetComponent<StateManager>();
 
 		//Get our camera script
-		actionCamera = Camera.main.GetComponent<CameraFeel>();
+		actionCamera = Camera.main.GetComponent<ActionCamera>();
 	}
 
 	// Update is called once per frame
@@ -72,7 +89,7 @@ public class BaseCharacter : MonoBehaviour {
 		//Check if we can Regen
 		if(canRegen && !gameManager.getGameStatus()) {
 
-			//increase health by 7 points
+			//increase health by regen Rate
 			if (curHealth + healthRegenRate > maxHealth) {
 				setHealth(maxHealth);
 			} else {
@@ -89,13 +106,13 @@ public class BaseCharacter : MonoBehaviour {
 
 
 	//Function to move our Character
-	public void Move (float inputDirection, bool inAction)
+	public void Move (float inputDirection, bool playerLerp, bool inAction)
 	{
 		//Get our input
 		float h = inputDirection;
 
 		//Force some camera Lerp
-		actionCamera.forceLerp(h / 200, 0);
+		if(playerLerp) actionCamera.addLerp(h / 20, 0);
 
 		//Also check to make sure we stay that direction when not moving, so check that we are
 		if (h != 0) {
@@ -110,10 +127,8 @@ public class BaseCharacter : MonoBehaviour {
 
 			if (h > 0) {
 				direction = 1;
-				lastDir = 1;
 			} else {
 				direction = -1;
-				lastDir = -1;
 			}
 
 			//Create a vector to where we are moving
@@ -215,11 +230,6 @@ public class BaseCharacter : MonoBehaviour {
 	//Function to return our current direction
 	public int getDirection() {
 		return direction;
-	}
-
-	//Function to return our last non idle direction
-	public int getLastDirection() {
-		return lastDir;
 	}
 
 	//function to flip the sprite

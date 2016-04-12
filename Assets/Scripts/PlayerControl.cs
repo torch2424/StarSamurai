@@ -74,7 +74,7 @@ public class PlayerControl : BaseCharacter {
 		} else {
 
 			//Call moving
-			if(!gameManager.getGameStatus()) base.Move(Input.GetAxis("Horizontal"), attacking);
+			if(!gameManager.getGameStatus()) base.Move(Input.GetAxis("Horizontal"), true, attacking);
 
 			//Attacks with our player (Check for a level up here as well), only attack if not jumping
 			if (Input.GetKey (KeyCode.Backspace) &&
@@ -134,9 +134,9 @@ public class PlayerControl : BaseCharacter {
 		//Knock Forward
 		float knockMove = 0.0025f;
 		//Get our directions
-		if (lastDir == 1)
+		if (direction == 1)
 			gameObject.transform.position = new Vector3 (gameObject.transform.position.x + knockMove, gameObject.transform.position.y, 0);
-		else if (lastDir == -1)
+		else if (direction == -1)
 			gameObject.transform.position = new Vector3 (gameObject.transform.position.x - knockMove, gameObject.transform.position.y, 0);
 
 		//Let the frame finish
@@ -160,6 +160,9 @@ public class PlayerControl : BaseCharacter {
 		//Reset our y velocity
 		charBody.velocity = new Vector2 (charBody.velocity.x, 0);
 
+		//Increase our drag
+		charBody.drag = 100000.0f;
+
 		//Start jump animation
 		animator.SetBool ("Jump", true);
 
@@ -169,24 +172,26 @@ public class PlayerControl : BaseCharacter {
 		if (wallJumping)
 			wallForce = true;
 
-		//Force some camera Lerp
-		actionCamera.forceLerp(0, -0.0065f);
-
 		//Add the jump force
-		for(int i = 45; i > -10; i--) {
+		//Needs to be intervals of 30, gives best accleration
+		for(int i = 30; i > 0; i--) {
 
-			float jumpY = 115f * i * jumpHeight * Time.deltaTime;
+			float jumpY = 420.0f * i * jumpHeight * Time.deltaTime;
 
 			//Walljumping force
 			float jumpX = 0;
 			if (wallForce) {
 
-				if (wallDirection < 0) jumpX = 25f * i * jumpHeight * Time.deltaTime * -1;
-				else jumpX = 25f * i * jumpHeight * Time.deltaTime;
+				if (wallDirection < 0) jumpX = 400f * i * jumpHeight * Time.deltaTime;
+				else jumpX = 25f * i * jumpHeight * Time.deltaTime * -1;
 			}
 
-
+			//Add the Force
 			charBody.AddForce( new Vector2(jumpX, jumpY));
+
+			//Force some camera Lerp
+			actionCamera.addLerp(0, i / -380.0f);
+
 
 			//Wait some frames
 			//Wait a frame
@@ -209,6 +214,10 @@ public class PlayerControl : BaseCharacter {
 
 			//Reset Jumps
 			jumps = 1;
+
+			//set wallJumping
+			wallJumping = true;
+
 		}
 
 		//Check if it is the floor
@@ -217,9 +226,12 @@ public class PlayerControl : BaseCharacter {
 			collision.gameObject.tag == "BossChar") {
 			
 			//Set Jumps to zero
+			StopCoroutine ("Jump");
 			jumps = 0;
 			jumping = false;
 			animator.SetBool ("Jump", false);
+			//Reset our drag
+			charBody.drag = 0.0f;
 			actionCamera.impactPause();
 			actionCamera.startShake ();
 		}
@@ -268,6 +280,8 @@ public class PlayerControl : BaseCharacter {
 			jumps = 0;
 			jumping = false;
 			animator.SetBool ("Jump", false);
+			//Reset our drag
+			charBody.drag = 0.0f;
 			//actionCamera.impactPause();
 			//actionCamera.startShake ();
 		}
