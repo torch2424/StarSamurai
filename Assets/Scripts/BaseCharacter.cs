@@ -130,6 +130,12 @@ public class BaseCharacter : MonoBehaviour {
 	//Get/set funtion for health
 	public void setHealth(int newHealth)
 	{
+		if (newHealth < curHealth) {
+		
+			//Give some knockBack
+			charBody.AddForce(new Vector2(225 * direction * -1, 0));
+		}
+
 		curHealth = newHealth;
 		if (curHealth > 0)
 		{
@@ -145,13 +151,13 @@ public class BaseCharacter : MonoBehaviour {
 	//Function to indicate health
 	public void editDamage()
 	{
+		//Now set the color
 		//Create our red color indicator
 		float curFloat = curHealth * 1.0f;
 		float maxFloat = maxHealth * 1.0f;
 		float healthPercent = curFloat / maxFloat;
 		Color damage = new Color (1.0f, healthPercent, healthPercent);
 		render.material.color = damage;
-
 	}
 
 	//Function to return our current direction

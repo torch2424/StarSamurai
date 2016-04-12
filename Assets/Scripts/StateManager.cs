@@ -40,6 +40,7 @@ public class StateManager : MonoBehaviour {
 	//Our Hud
 	private UnityEngine.UI.Text hud;
 	private UnityEngine.UI.Image healthBar;
+	public UnityEngine.UI.Text gameOverText;
 
 	//Our credits
 	private Canvas credits;
@@ -108,18 +109,28 @@ public class StateManager : MonoBehaviour {
 		maxSlowmo = 60;
 		currentSlowmo = maxSlowmo;
 		slowmoRate = 0.025f;
+
+		//Hide Our gameover text
+		gameOverText.enabled = false;
 	}
 
 	// Update is called once per frame
 	void Update () {
 
 		//Check if we need to restart the game
-		if(Input.GetKey(KeyCode.Return)) {
+		if(Input.GetAxis("Submit") != 0) {
 
 			StartCoroutine ("resetScene");
 		}
 
+		//Check if we need to quite the Game
+		if(Input.GetAxis("Cancel") != 0) Application.Quit();
+
 		if (gameWin) {
+
+			//Finalize our hud
+			hud.text = ("Health: " + user.getHealth());
+			healthBar.fillAmount = (user.getHealth () / 100.0f);
 
 			//Slow down the game Time
 			Time.timeScale = 0.275f;
@@ -151,6 +162,9 @@ public class StateManager : MonoBehaviour {
 
 			//Slow down the game Time
 			Time.timeScale = 0.45f;
+
+			//Show the Game Over Text
+			gameOverText.enabled = true;
 		}
 		else {
 
@@ -317,7 +331,7 @@ public class StateManager : MonoBehaviour {
 		}
 
 		//Nestedloop for awesome ness
-		for(int j = 15; j > 0; j--) {
+		for(int j = 17; j > 0; j--) {
 
 			//Wait some frames
 			for(int i = j / 3; i > 0; i--) {
@@ -332,6 +346,24 @@ public class StateManager : MonoBehaviour {
 			for(int i = j / 3; i > 0; i--) {
 				yield return new WaitForFixedUpdate();
 			}
+
+			//Enable the credits
+			credits.enabled = true;
+			bgFight.Play ();
+		}
+
+		//Once More Super Fast Flashing
+		for(int j = 3; j > 0; j--) {
+
+			//Wait some frames
+			yield return new WaitForFixedUpdate();
+
+			//Disable the credits
+			credits.enabled = false;
+			bgFight.Pause ();
+
+			//Wait some frames
+			yield return new WaitForFixedUpdate();
 
 			//Enable the credits
 			credits.enabled = true;

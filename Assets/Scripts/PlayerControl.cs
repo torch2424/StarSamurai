@@ -15,13 +15,16 @@ public class PlayerControl : BaseCharacter {
 	//Our Number of jumps we have done
 	public float jumpHeight;
 	private int jumps;
+	private bool jumpReady;
+	private float acceleratedGravity;
 	private bool grounded;
 	public Transform groundCheck;
 	public LayerMask groundLayer;
 	private bool walled;
 	public Transform wallCheck;
 	public LayerMask wallLayer;
-	public float checkRadius;
+	public float groundCheckRadius;
+	public float wallCheckRadius;
 
 
 	//Counter for holding space to punch
@@ -50,6 +53,8 @@ public class PlayerControl : BaseCharacter {
 
 		//Set up our Jumping Ground Detection
 		grounded = false;
+		acceleratedGravity = 0.0f;
+		jumpReady = true;
 	}
 
 	// Update is called once per frame
@@ -62,16 +67,30 @@ public class PlayerControl : BaseCharacter {
 		if (curHealth > 0) {
 
 			//Check ground/wall status
-			//Following: UNity 2d Character Controllers
-			grounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
-			walled = Physics2D.OverlapCircle(wallCheck.position, checkRadius,wallLayer);
+			//Following: Unity 2d Character Controllers
+			grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+			walled = Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
 
+			//If walled, make Jumps = 1
+			if(walled) jumps = 1;
+			//Recalculate our ground State
+			if (grounded) {
+				jumps = 0;
+				acceleratedGravity = 0;
+				charBody.drag = 0.5f;
+			}
+
+			if (!grounded) {
+				
+				charBody.AddForce (new Vector2 (0, acceleratedGravity * -7));
+				acceleratedGravity = acceleratedGravity + 0.15f;
+			}
 
 			//Call moving
 			if(!gameManager.getGameStatus()) Move(Input.GetAxis("Horizontal"), true, attacking);
 
 			//Attacks with our player (Check for a level up here as well), only attack if not jumping
-			if (Input.GetKey (KeyCode.Backspace) &&
+			if (Input.GetAxis("Attack") != 0 &&
 				!gameManager.getGameStatus()) {
 
 				//Now since we are allowing holding space to punch we gotta count for it
@@ -90,16 +109,19 @@ public class PlayerControl : BaseCharacter {
 			}
 
 			//Check for attack Key Up
-			if(Input.GetKeyUp(KeyCode.Backspace)) {
+			if(Input.GetAxis("Attack") == 0) {
 
 				//Set hold punch to zero
 				holdAttack = 0;
 			}
 
 			//Jumping INput, cant jump if attacking
-			if(Input.GetKeyDown(KeyCode.Space) && !attacking && 
+			if(Input.GetAxis("Jump") != 0 && !attacking && 
+				jumpReady &&
 				jumps < 2 &&
 				!gameManager.getGameStatus()) {
+
+				jumpReady = false;
 
 				if (jump.isPlaying)
 					jump.Stop ();
@@ -109,6 +131,9 @@ public class PlayerControl : BaseCharacter {
 				StopCoroutine ("Jump");
 				StartCoroutine ("Jump");
 			}
+
+			//Force to let go of axis
+			if(Input.GetAxis("Jump") == 0) jumpReady = true;
 		} 
 		else {
 
@@ -243,32 +268,49 @@ public class PlayerControl : BaseCharacter {
 		//Increase our jumps
 		jumps++;
 
+		//Reset our gravity acceleration
+		acceleratedGravity = 0.0f;
+
 		//Reset our y velocity
+		//And Decrease our X
 		charBody.velocity = new Vector2 (charBody.velocity.x, 0);
 
 		//Increase our drag
-		charBody.drag = 100000.0f;
+		charBody.drag = 25000000.0f;
 
 		//Start jump animation
 		animator.SetBool ("Jump", true);
 
 		//Check if we need the walljump boolean
 		bool wallForce = false;
-		int wallDirection = direction;
-		//if (wallJumping) wallForce = true;
+		int wallDirection = direction * -1;
+		if (walled) wallForce = true;
 
 		//Add the jump force
 		//Needs to be intervals of 30, gives best accleration
-		for(int i = 30; i > 0; i--) {
+		for(int i = 35; i > 0; i--) {
 
-			float jumpY = 420.0f * i * jumpHeight * Time.deltaTime;
+			//Check Here to make sure we didn't get smacked back down
+			if (i < 33 && (grounded)) {
+				StopCoroutine ("Jump");
+			}
+
+			if (i < 20 && (walled)) {
+				StopCoroutine ("Jump");
+			}
+
+			float jumpY = 395.0f * i * jumpHeight * Time.deltaTime;
 
 			//Walljumping force
 			float jumpX = 0;
 			if (wallForce) {
 
-				if (wallDirection < 0) jumpX = 400f * i * jumpHeight * Time.deltaTime;
-				else jumpX = 25f * i * jumpHeight * Time.deltaTime * -1;
+				//Create our jumpX force
+				jumpX = 345f * i * jumpHeight * Time.deltaTime * wallDirection;
+
+				//Halve our jump force if we are facing the other way
+				if (wallDirection != (direction * -1))
+					jumpX = jumpX / 2;
 			}
 
 			//Add the Force
@@ -287,12 +329,11 @@ public class PlayerControl : BaseCharacter {
 	//Function to check if we can jump again for collisions
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-
-		//Check if it is tthe jumping wall
-		if (collision.gameObject.tag == "JumpWall") {
-
-			//Reset Jumps
-			jumps = 1;
+		
+		//Check if it is spikes
+		if(collision.gameObject.tag == "SpikeWall") {
+			//Kill the players
+			setHealth(0);
 		}
 
 		//Check if it is the floor
@@ -302,42 +343,31 @@ public class PlayerControl : BaseCharacter {
 			
 			//Set Jumps to zero
 			StopCoroutine ("Jump");
-			jumps = 0;
 			animator.SetBool ("Jump", false);
+			acceleratedGravity = 0;
+			jumps = 0;
+
 			//Reset our drag
-			charBody.drag = 0.0f;
+			charBody.drag = 0.5f;
 			actionCamera.impactPause();
 			actionCamera.startShake ();
 		}
 
-		//Check if it is spikes
-		if(collision.gameObject.tag == "SpikeWall") {
-			//Kill the players
-			setHealth(0);
-		}
-	}
+		//Check if it is an enemy
+		if (collision.gameObject.tag == "EnemyChar" ||
+			collision.gameObject.tag == "BossChar") {
 
-	//Function to check if we can jump again for collisions
-	void OnCollisionExit2D(Collision2D collision)
-	{
-		//Check if it is tthe jumping wall
-		if (collision.gameObject.tag == "JumpWall") {
+			if (attacking) {
 
-			//Stop wall jumping
-			//wallJumping = false;
+				//Attack the enemy
+				attackEnemy (collision);
+			}
 		}
 	}
 
 	//Function to check if we can jump again for collisions
 	void OnCollisionStay2D(Collision2D collision)
 	{
-
-		//Check if it is tthe jumping wall
-		if (collision.gameObject.tag == "JumpWall") {
-
-			//set wallJumping
-			//wallJumping = true;
-		}
 
 		//Check if it is spikes
 		if (collision.gameObject.tag == "SpikeWall") {
@@ -351,12 +381,10 @@ public class PlayerControl : BaseCharacter {
 			collision.gameObject.tag == "BossChar") {
 
 			//Set Jumps to zero
+			acceleratedGravity = 0;
 			jumps = 0;
-			animator.SetBool ("Jump", false);
 			//Reset our drag
-			charBody.drag = 0.0f;
-			//actionCamera.impactPause();
-			//actionCamera.startShake ();
+			charBody.drag = 0.5f;
 		}
 
 		//Check if it is an enemy
@@ -365,41 +393,46 @@ public class PlayerControl : BaseCharacter {
 
 			if (attacking) {
 
-				//Do some damage
-				//Check if the enemy is in the direction we are facing
-				//Get our x and y
-				float playerX = gameObject.transform.position.x;
-				float playerY = gameObject.transform.position.y;
-				float enemyX = collision.gameObject.transform.position.x;
-				float enemyY = collision.gameObject.transform.position.y;
-
-				//Our window for our Attack range (Fixes standing still no attack bug)
-				float window = .05f;
-
-				//Deal damage if we are facing the right direction
-				if((direction == 1 && (enemyX + window) >= playerX) ||
-					(direction == -1 && (enemyX - window) <= playerX))
-				{
-					
-					//Get the enemy and decrease it's health
-					EnemyControl e = (EnemyControl) collision.gameObject.GetComponent("EnemyControl");
-
-					//Do damage
-					int newHealth = e.getHealth() - playerDamage;
-					e.setHealth(newHealth);
-
-					//Shake the screen
-					actionCamera.startShake();
-
-					//Add slight impact pause
-					actionCamera.startImpact();
-
-					//Play the attack sound
-					if(attackHit.isPlaying) attackHit.Stop();
-					attackHit.Play ();
-				}
-
+				//Attack the enemy
+				attackEnemy (collision);
 			}
+		}
+	}
+
+	public void attackEnemy(Collision2D collision) {
+
+		//Do some damage
+		//Check if the enemy is in the direction we are facing
+		//Get our x and y
+		float playerX = gameObject.transform.position.x;
+		float playerY = gameObject.transform.position.y;
+		float enemyX = collision.gameObject.transform.position.x;
+		float enemyY = collision.gameObject.transform.position.y;
+
+		//Our window for our Attack range (Fixes standing still no attack bug)
+		float window = .05f;
+
+		//Deal damage if we are facing the right direction
+		if((direction == 1 && (enemyX + window) >= playerX) ||
+			(direction == -1 && (enemyX - window) <= playerX))
+		{
+
+			//Get the enemy and decrease it's health
+			EnemyControl e = (EnemyControl) collision.gameObject.GetComponent("EnemyControl");
+
+			//Do damage
+			int newHealth = e.getHealth() - playerDamage;
+			e.setHealth(newHealth);
+
+			//Shake the screen
+			actionCamera.startShake();
+
+			//Add slight impact pause
+			actionCamera.startImpact();
+
+			//Play the attack sound
+			if(attackHit.isPlaying) attackHit.Stop();
+			attackHit.Play ();
 		}
 	}
 }
